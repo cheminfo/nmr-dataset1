@@ -23,4 +23,4 @@ In this folder we will find the corresponding jcamps as well as a file `structur
 
 In order to export property the data from topspin the following settings should be used:
 
-Select 'save data set ain a JCAMP-DX file'. The most space-saving option (type of archive file) is JCAMP DIFF/DUP. To only store the FID, change the content of the field 'Included these data types' to FID. 
+Select 'save data set in a JCAMP-DX file'. The most space-saving option ('type of archive file') is JCAMP DIFF/DUP. To only store the FID, change the content of the field 'Included these data types' to FID. 
