@@ -1,0 +1,115 @@
+
+  CDK     0205200837
+
+  8  7  0  0  0  0  0  0  0  0999 V2000
+   -0.8121   -1.5961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0621   -0.2970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5621   -0.2970    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4380   -2.8951    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8121    1.0020    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9345   -2.7928    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5621   -2.8951    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6879   -1.5961    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  2  0  0  0  0 
+  2  5  1  0  0  0  0 
+  3  1  1  0  0  0  0 
+  1  7  2  0  0  0  0 
+  1  8  1  0  0  0  0 
+  8  4  1  0  0  0  0 
+  4  6  1  0  0  0  0 
+M  END
+> <B_PI>
+166.300 144.497 123.200 60.583 17.442 14.264 -1000.000 -1000.000
+
+> <B_USERCOMMENT>
+1 invalid corr.
+
+> <B_FRAGMENT_ID>
+0
+
+> <B_PRCI>
+0.5
+
+> <B_VERIFIED>
+YES
+
+> <NMREDATA_VERSION>
+1.0
+
+> <NMREDATA_LEVEL>
+3
+
+> <NMREDATA_CERTIFICATION>
+Software=CMC-se
+
+
+> <NMREDATA_SOLVENT>
+CDCl3
+
+> <NMREDATA_SMILES>
+C(C=CC)(=O)OCC
+
+> <NMR_ASSIGNMENT>
+c1, 166.988, 1
+c2, 144.279, 2
+c3, 122.488, 3
+c4, 59.868, 4
+c5, 18.000, 5
+c6, 14.270, 6
+h1,  7.004, H2
+h2,  5.871, H3
+h3,  4.199, H4
+h4,  1.903, H5
+h5,  1.296, H6
+
+
+> <NMREDATA_1D_1H>
+Larmor=600.200
+Spectrum_Location=file:Displayer_623-70-1/1/pdata/1
+Pulseprogram=zg30
+7.00413
+5.87052
+4.19901
+1.90286
+1.29556
+
+
+> <NMREDATA_2D_13C_1J_1H>
+Larmor=600.200
+CorType=HSQC
+Spectrum_Location=file:Displayer_623-70-1/2/pdata/1
+Pulseprogram=hsqcedetgp
+c2/h1, E=1.53756e+08, w2=118.03, w1=643.80
+c3/h2, E=2.87710e+08, w2=76.37, w1=643.80
+c5/h4, E=5.57782e+08, w2=173.57, w1=429.20
+c6/h5, E=5.31128e+08, w2=222.17, w1=429.20
+c4/h3, E=-5.82155e+08, w2=97.20, w1=429.20
+
+
+> <NMREDATA_2D_13C_NJ_1H>
+Larmor=600.200
+CorType=HMBC
+Spectrum_Location=file:Displayer_623-70-1/3/pdata/1
+Pulseprogram=hmbcgplpndqf
+c1/h1, E=1.44759e+09, w2=76.37, w1=643.80
+c1/h3, E=3.16816e+09, w2=90.26, w1=572.26
+c1/h4, E=5.97730e+08, w2=69.43, w1=429.20
+c2/h4, E=1.37487e+10, w2=69.43, w1=572.26
+c3/h4, E=1.28267e+10, w2=55.54, w1=786.86
+c4/h5, E=1.18813e+10, w2=76.37, w1=500.73
+c6/h3, E=2.70155e+09, w2=62.49, w1=572.26
+c5/h1, E=9.64284e+08, w2=97.20, w1=715.33
+
+
+> <NMREDATA_2D_1H_NJ_1H>
+Larmor=600.200
+CorType=COSY
+Spectrum_Location=file:Displayer_623-70-1/5/pdata/1
+Pulseprogram=cosygpqf
+h2/h1, E=3.14826e+08, w2=69.43, w1=133.43
+h4/h1, E=1.14792e+09, w2=97.20, w1=133.43
+h4/h2, E=3.36700e+08, w2=62.49, w1=106.74
+h5/h3, E=2.58330e+09, w2=62.49, w1=146.77
+
+
+$$$$
