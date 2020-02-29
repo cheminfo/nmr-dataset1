@@ -1,0 +1,2121 @@
+##TITLE=1H BBI
+##JCAMPDX= 6.0         $$ Bruker NMR JCAMP-DX V2.0
+##DATA TYPE= NMR FID
+##DATA CLASS= NTUPLES
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nes
+##LONG DATE= 2004/11/20 15:26:15+0000
+$$ 1.90.2.2 TopSpin 3.5.b.101 pl 8
+$$ 2020-02-24 18:49:15.590 +0100  nes@nmr-nesnotebook
+$$ Compression mode = diff/dup
+##.OBSERVE FREQUENCY= 500.132139317
+##.OBSERVE NUCLEUS= ^1H
+##.DELAY= (6, 6)
+##.ACQUISITION MODE= SIMULTANEOUS (DQD)
+##.ACQUISITION SCHEME= undefined
+##.AVERAGES= 4
+##.DIGITISER RES= 18
+##SPECTROMETER/DATA SYSTEM= spect
+##.PULSE SEQUENCE= zg30
+##.SOLVENT NAME= CDCl3
+##.SHIFT REFERENCE= INTERNAL, CDCl3, 1, 15.51074
+##AUDIT TRAIL= $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+$$ ##TITLE= Audit trail, XWIN-NMR		Version 3.5
+$$ ##JCAMPDX= 5.01
+$$ ##ORIGIN= Bruker BioSpin GmbH
+$$ ##OWNER= ocmess
+$$ $$ /u/data/ocmess/nmr/Anne27B3/11/audita.txt
+$$ ##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, WHAT)
+(   1,<2004-11-20 16:26:15.65 +0100>,<ocmess>,<r115>,
+      <created by zg, POWCHK disabled, PULCHK disabled
+       configuration hash MD5:
+       4A AC 18 CF C4 74 26 06 B7 7E 25 24 5E 9D 5D 8E
+       data hash MD5: 16K
+       BA 3C AA 84 26 61 E9 38 D6 4A 8C 0D 4A D2 DB F8>)
+$$ ##END=
+$$ 
+$$ $$ hash MD5
+$$ $$ 93 A8 0A 8A C3 14 01 27 1A 82 77 7D FF 1B 6E B5
+##$RELAX= 
+##$BRUKER FILE EXP=format.temp
+$$ EDIT_PAR COMMAND FILE
+$$ 
+$$ DI_MODE         LONG
+$$ ED_ENTRY        ACQU
+$$ ORDER           FILE
+$$ 
+$$ 
+$$ HEADER		"F2 - Acquisition Parameters"
+$$ T_NAME		Date_
+$$ 		TYPE	R64
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 50000000
+$$ 		REL	"Date_=itodate(DATE)"
+$$ 		INV_REL	"DATE=datetoi(Date_,DATE)"
+$$ 		FORMAT	"%14.0f"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		Time
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1000000
+$$ 		REL	"Time=itotime(DATE)"
+$$ 		INV_REL	"DATE=timetoi(Time,DATE)"
+$$ 		FORMAT	"%14.2f"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		INSTRUM
+$$ 		TEXT	" "
+$$ END
+$$ NAME		PROBHD
+$$ 		FORMAT	"%14.14s"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		PULPROG
+$$ 		TEXT	" "
+$$ END
+$$ NAME		TD
+$$ 		TEXT	" "
+$$ END
+$$ NAME		SOLVENT
+$$ 		TEXT	" "
+$$ END
+$$ NAME		NS
+$$ 		TEXT	" "
+$$ END
+$$ NAME		DS
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		SWH
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1e8
+$$ 		REL	"SWH=SW*SFO1"
+$$ 		INV_REL "SW=SWH/SFO1"
+$$ 		UNIT	"Hz"
+$$ 		FORMAT	"%14.3f Hz"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME          FIDRES
+$$                 TYPE    R32
+$$                 CLASS   ACQU
+$$                 SUBRANGE 0.0 100000
+$$                 REL     "FIDRES=SW*SFO1/TD"
+$$                 INV_REL "TD = nextpow(SW*SFO1/FIDRES)"
+$$ 		UNIT	"Hz"
+$$ 		FORMAT	"%14.6f Hz"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME          AQ
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1000
+$$ 		REL	"AQ=aqcalc(SW,SFO1,TD,DIGTYP)"
+$$ 		INV_REL	"TD=tdcalc(SW,SFO1,1.0e6*AQ,DIGTYP)"
+$$ 		UNIT	"sec"
+$$ 		FORMAT	"%14.7f sec"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		RG
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME          DW
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1000000
+$$ 		REL	"DW=1/(2*SW*SFO1)"
+$$ 		INV_REL	"SW=1000000/(2*(0.005+DW)*SFO1)"
+$$ 		UNIT	"usec"
+$$ 		FORMAT	"%14.3lf usec"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		DE
+$$ 		FORMAT	"%14.2f usec"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		TE
+$$ 		FORMAT	"%14.1f K"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		D1
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1000000
+$$ 		REL	"D1=D[1]"
+$$ 		INV_REL	"D[1]=D1"
+$$ 		UNIT	"sec"
+$$ 		FORMAT	"%14.8f sec"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		MCREST 
+$$ 		TYPE	R32
+$$ 		SUBRANGE 0.0 1e8
+$$ 		CLASS	ACQU
+$$ 		REL	"MCREST = 30m - 30m"
+$$ 		INV_REL	"D[0]=MCREST "
+$$ 		UNIT	"sec"
+$$ 		TEXT	" "
+$$ 		FORMAT	"%14.8f sec"
+$$ 		NONEDIT
+$$ END
+$$ T_NAME		MCWRK 
+$$ 		TYPE	R32
+$$ 		SUBRANGE 0.0 1e8
+$$ 		CLASS	ACQU
+$$ 		REL	"MCWRK = 0.500000*30m"
+$$ 		INV_REL	"D[0]=MCWRK "
+$$ 		UNIT	"sec"
+$$ 		TEXT	" "
+$$ 		FORMAT	"%14.8f sec"
+$$ 		NONEDIT
+$$ END
+$$ HEADER		"======== CHANNEL f1 ========"
+$$ NAME		NUC1
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		P1
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE 0.0 1.0e10
+$$ 		REL	"P1=P[1]"
+$$ 		INV_REL	"P[1]=P1"
+$$ 		UNIT	"usec"
+$$ 		FORMAT	"%14.2f usec"
+$$ 		TEXT	" "
+$$ END
+$$ T_NAME		PL1
+$$ 		TYPE	R32
+$$ 		CLASS	ACQU
+$$ 		SUBRANGE -6.0 120
+$$ 		REL	"PL1=PL[1]"
+$$ 		INV_REL	"PL[1]=PL1"
+$$ 		UNIT	"dB"
+$$ 		FORMAT	"%14.2f dB"
+$$ 		TEXT	" "
+$$ END
+$$ NAME		SFO1
+$$ 		FORMAT	"%14.7f MHz"
+$$ 		TEXT	" "
+$$ END
+##$RELAX= 
+##$BRUKER FILE EXP=scon
+$$ ##TITLE= Parameter file, XWIN-NMR		Version 3.5
+$$ ##JCAMPDX= 5.0
+$$ ##DATATYPE= Parameter Values
+$$ ##ORIGIN= Bruker BioSpin GmbH
+$$ ##OWNER= ocmess
+$$ $$ Sat Nov 20 16:25:59 2004 "MET (UT+1h)  ocmess@r115
+$$ $$ /u/data/ocmess/nmr/Anne27B3/11/scon
+$$ ##$BLKPA= (0..15)
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+$$ ##$BLKTR= (0..15)
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+$$ ##$DE1= 2
+$$ ##$DE2= 2
+$$ ##$DEADC= 4
+$$ ##$DEPA= 2
+$$ ##$DERX= 3
+$$ ##$PHASP4= (0..15)
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 
+$$ ##$PHASPR= (0..15)
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+$$ ##$SHAPPR= (0..15)
+1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 1.6 
+$$ ##END=
+##$RELAX= 
+##$BRUKER FILE EXP=pulseprogram
+$$ # 1 "/u/exp/stan/nmr/lists/pp/zg30"
+$$ ;zg30
+$$ ;avance-version (02/05/31)
+$$ ;1D sequence
+$$ ;using 30 degree flip angle
+$$ 
+$$ 
+$$ # 1 "/u/exp/stan/nmr/lists/pp/Avance.incl" 1
+$$ ;Avance.incl
+$$ ;
+$$ ;avance-version (03/02/17)
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ 
+$$ ;$Id: Avance1.incl,v 1.7.2.3 2003/02/25 14:48:47 ber Exp $
+$$ # 7 "/u/exp/stan/nmr/lists/pp/zg30" 2
+$$ 
+$$ 
+$$ 
+$$ # 1 "mc_line 10 file /u/exp/stan/nmr/lists/pp/zg30 expanding definition part of mc command before ze"
+$$ define delay MCWRK
+$$ define delay MCREST
+$$ "MCWRK = 0.500000*30m"
+$$ "MCREST = 30m - 30m"
+$$ # 10 "/u/exp/stan/nmr/lists/pp/zg30"
+$$ 1 ze
+$$ # 1 "mc_line 10 file /u/exp/stan/nmr/lists/pp/zg30 expanding definition of mc command after ze"
+$$ # 11 "/u/exp/stan/nmr/lists/pp/zg30"
+$$ # 1 "mc_line 11 file /u/exp/stan/nmr/lists/pp/zg30 expanding start label for mc command"
+$$ 2 MCWRK  * 2
+$$ LBLF0, MCREST
+$$ # 12 "/u/exp/stan/nmr/lists/pp/zg30"
+$$   d1
+$$   p1*0.33 ph1
+$$   go=2 ph31
+$$ # 1 "mc_line 15 file /u/exp/stan/nmr/lists/pp/zg30 expanding mc command in line"
+$$   MCWRK wr #0
+$$   MCWRK zd 
+$$   lo to LBLF0 times td0
+$$ 
+$$ # 16 "/u/exp/stan/nmr/lists/pp/zg30"
+$$ exit
+$$ 
+$$ 
+$$ ph1=0 2 2 0 1 3 3 1
+$$ ph31=0 2 2 0 1 3 3 1
+$$ 
+$$ 
+$$ ;pl1 : f1 channel - power level for pulse (default)
+$$ ;p1 : f1 channel -  90 degree high power pulse
+$$ ;d1 : relaxation delay; 1-5 * T1
+$$ ;NS: 1 * n, total number of scans: NS * TD0
+$$ 
+$$ 
+$$ 
+$$ ;$Id: zg30,v 1.7 2002/06/12 09:05:20 ber Exp $
+##$RELAX= 
+##$BRUKER FILE EXP=uxnmr.par
+$$ ##TITLE= Parameter file, XWIN-NMR		Version 3.5
+$$ ##JCAMPDX= 5.0
+$$ ##DATATYPE= Parameter Values
+$$ ##ORIGIN= Bruker BioSpin GmbH
+$$ ##OWNER= nes
+$$ $$ Thu Oct 21 09:21:20 2004 MDT (UT+2h)  nes@r115
+$$ $$ /u/conf/instr/spect/uxnmr.par
+$$ ##$ACB= 1
+$$ ##$ACBTAT= (0..15)
+0 88 72 72 72 88 88 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTBA= (0..15)
+0 30 60 80 70 150 180 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTCTL= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTDI= (0..15)
+0 70 71 71 71 74 75 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTDM= (0..15)
+0 10 25 0 0 10 10 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTFHI= (0..15)
+0 325 600 600 600 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTFL= (0..15)
+0 249 249 26 123 249 249 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTFLO= (0..15)
+0 6 470 470 470 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTOUT= (0..15)
+0 1 1 1 2 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTPO= (0..15)
+0 300000 100000 1000 10000 300000 300000 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTPW= (0..15)
+0 200 5000 0 0 200 200 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTSB= (0..15)
+0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$ACBTY= <04>
+$$ ##$AQSBDHW= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSBDID= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSBDNO= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSBDTY= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSBUAD= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSECL= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$AQSECLS= (0..31)
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+$$ ##$ATT19F= (0..1)
+-1 -1 
+$$ ##$ATT1H= (0..1)
+-1 -1 
+$$ ##$ATT3H= (0..1)
+-1 -1 
+$$ ##$ATTX= (0..1)
+-1 -1 
+$$ ##$ATTY= (0..1)
+-1 -1 
+$$ ##$ATTZ= (0..1)
+-1 -1 
+$$ ##$BACSTY= <no>
+$$ ##$BARPTY= <no>
+$$ ##$BFREQ= 500.13
+$$ ##$BIRDS= no
+$$ ##$BMPC= 0
+$$ ##$BMPCTY= <no>
+$$ ##$BPSUTY= <no>
+$$ ##$BSMS= 1
+$$ ##$BSMSTY= <02>
+$$ ##$CFASMOD= (0..7)
+2 2 2 2 0 0 0 0 
+$$ ##$CFASMUL= (0..7)
+1 1 1 1 0 0 0 0 
+$$ ##$CNFTXDR= (0..7)
+3 3 4 4 0 0 0 0 
+$$ ##$COMDIG2= 0
+$$ ##$CPDBTY= <no>
+$$ ##$CRCOTY= <no>
+$$ ##$DIGI140= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIB12= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIB16= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIFA= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIHA= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIHAF= (0..7)
+1 0 0 0 0 0 0 0 
+$$ ##$DIGIHRD= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIIA= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGIO16= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGISA= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGISAF= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGISL= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGITYI= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$DIGITYP= (0..7)
+2 0 0 0 0 0 0 0 
+$$ ##$DIGITZ= 0
+$$ ##$FCUMEM= (0..7)
+258048 258048 258048 258048 0 0 0 0 
+$$ ##$FCUPAL= (0..7)
+3 3 3 3 0 0 0 0 
+$$ ##$FQMIX= 0
+$$ ##$FUNCMOD= <>
+$$ ##$GCUTYPE= 1
+$$ ##$HFAC= 3
+$$ ##$HPCU= 0
+$$ ##$HPCUTY= <no>
+$$ ##$HPTXLP= (0..3)
+-1 -1 -1 -1 
+$$ ##$HPTXPI= (0..3)
+0 0 0 0 
+$$ ##$HPTXPO= (0..3)
+0 0 0 0 
+$$ ##$HPTXTY= (0..3)
+0 0 0 0 
+$$ ##$IF451= 0
+$$ ##$IFREQ= 1
+$$ ##$INTFPR= 0
+$$ ##$LOCKTY= <03>
+$$ ##$LOCSWID= 0
+$$ ##$M2FAC= 0
+$$ ##$MASTY= <07>
+$$ ##$MEMPRM= 0
+$$ ##$MHFAC= 0
+$$ ##$MXFAC= 0
+$$ ##$NAMPD1= <2H>
+$$ ##$NAMPD10= <>
+$$ ##$NAMPD11= <>
+$$ ##$NAMPD12= <>
+$$ ##$NAMPD13= <>
+$$ ##$NAMPD14= <>
+$$ ##$NAMPD15= <>
+$$ ##$NAMPD16= <>
+$$ ##$NAMPD2= <1H>
+$$ ##$NAMPD3= <X-BB19F_2HS>
+$$ ##$NAMPD4= <19F-Sel.>
+$$ ##$NAMPD5= <>
+$$ ##$NAMPD6= <>
+$$ ##$NAMPD7= <>
+$$ ##$NAMPD8= <>
+$$ ##$NAMPD9= <>
+$$ ##$NFCU= 4
+$$ ##$NMRCH= 0
+$$ ##$NMRMEM= 0
+$$ ##$NRCU= 1
+$$ ##$NROUT= 2
+$$ ##$PAMPF1= (0..15)
+75 99 0 27 2 43 0 246 16 12 158 200 16 12 100 242 
+$$ ##$PAMPF2= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF3= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF4= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF5= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF6= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF7= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PAMPF8= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$PH4= 0
+$$ ##$PHF4TY= <no>
+$$ ##$POWCHK= no
+$$ ##$PRAMD1= (0..7)
+0 1048576 0 0 0 1048576 0 0 
+$$ ##$PRAMD10= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD11= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD12= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD13= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD14= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD15= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD16= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD2= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD3= (0..7)
+2 0 0 0 2 0 0 0 
+$$ ##$PRAMD4= (0..7)
+2147483644 2146435071 2147483647 134217727 2147483644 2146435071 2147483647 
+134217727 
+$$ ##$PRAMD5= (0..7)
+4 0 0 0 4 0 0 0 
+$$ ##$PRAMD6= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD7= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD8= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMD9= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PRAMLED= (0..1)
+15 15 
+$$ ##$PRAMP1= <tty01>
+$$ ##$PRAMP2= <no>
+$$ ##$PRAMP3= <no>
+$$ ##$PRAMP4= <no>
+$$ ##$PRAMP5= <no>
+$$ ##$PRAMP6= <no>
+$$ ##$PRAMP7= <no>
+$$ ##$PRAMP8= <no>
+$$ ##$PRAMPTP= 0
+$$ ##$PREPTY= <06>
+$$ ##$PRESHLD= 1
+$$ ##$PTS160= -1
+$$ ##$PTSA2X= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$PTSF2X= (0..7)
+500 500 500 309 0 0 0 0 
+$$ ##$PTSFMX= (0..7)
+1000 1000 1000 620 0 0 0 0 
+$$ ##$PULCHK= no
+$$ ##$RCUCDS= (0..7)
+4194304 0 0 0 0 0 0 0 
+$$ ##$RCUCFS= (0..7)
+4096 0 0 0 0 0 0 0 
+$$ ##$RCUCSS= (0..7)
+262144 0 0 0 0 0 0 0 
+$$ ##$RCUI2C1= (0..7)
+78 66 0 0 0 0 0 0 
+$$ ##$RCUI2C2= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C3= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C4= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C5= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C6= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C7= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RCUI2C8= (0..7)
+0 0 0 0 0 0 0 0 
+$$ ##$RDCU= 0
+$$ ##$RGTYPE= (0..7)
+5 0 0 0 0 0 0 0 
+$$ ##$RG_max= (0..7)
+46341 0 0 0 0 0 0 0 
+$$ ##$RG_min= (0..7)
+1 0 0 0 0 0 0 0 
+$$ ##$ROUTER= 2
+$$ ##$RX22TY= <10>
+$$ ##$SCMTY= <no>
+$$ ##$SPECTR= 5
+$$ ##$SY2FLAG= 0
+$$ ##$TFXNUM= 0
+$$ ##$TRIPLO2= 0
+$$ ##$VTUTY= <05>
+$$ ##$WBREFAM= (0..15)
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+$$ ##$WBREFPH= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+$$ ##$XFAC= 2
+$$ ##END=
+##$RELAX= 
+##$BRUKER FILE PROC=integrals.txt
+$$    Current data set:
+$$    NAME =	Displayer_1047626-52-7	EXPNO =	1	PROCNO = 1
+$$    DU   =	D:/SciPrograms/Bruker/TopSpin3.5.b.91pl7/data/nes/nmr
+$$ 
+$$    Number   Integrated Region     Integral
+$$      1      7.833      7.734         1.00000
+$$      2      7.272      7.194         0.99821
+$$      3      3.210      2.812         1.02673
+$$      4      2.791      2.677         1.08263
+$$      5      2.130      1.967         1.13543
+$$      6      1.907      1.763         2.19435
+$$      7      1.581      1.483         1.13310
+$$      8      1.383      1.316         1.12685
+$$      9      1.293      1.207         1.11733
+$$     10      1.122      1.037         3.32487
+$$     11      1.030      0.937         3.27501
+$$     12      0.788      0.682         3.25802
+##$RELAX= 
+##$BRUKER FILE PROC=intrng
+$$ A 1.0 #regions in PPM
+$$ # low field   high field  bias        slope
+$$   7.832927694882613  7.733507035110758  -0.0  -0.0  # for region 1
+$$   7.271911114741429  7.193794882063543  -0.0  -0.0  # for region 2
+$$   3.209867015491334  2.812184376403912  -0.0  -0.0  # for region 3
+$$   2.790879949309943  2.677256338142108  -0.0  -0.0  # for region 4
+$$   2.130442709396903  1.9671087683431405  -0.0  -0.0  # for region 5
+$$   1.9072678972956258  1.762529052560059  -0.0  -0.0  # for region 6
+$$   1.5808356091686027  1.483316529382228  -0.0  -0.0  # for region 7
+$$   1.3827178997078622  1.3159943188013952  -0.0  -0.0  # for region 8
+$$   1.2934109529561295  1.2071835560923876  -0.0  -0.0  # for region 9
+$$   1.122033160282369  1.0368154519064927  -0.0  -0.0  # for region 10
+$$   1.029713976208503  0.9373947921346373  -0.0  -0.0  # for region 11
+$$   0.7882638024768541  0.681741667007009  -0.0  -0.0  # for region 12
+##$RELAX= 
+##$BRUKER FILE PROC=mol2ppm.txt
+$$ # 2020-02-24 18:05:01 +0100 nes@nmr-nesnotebook
+$$ # TOPSPIN Molecule to PPM ranges correlations
+$$ # D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr\Displayer_1047626-52-7\1\pdata\1
+$$ # Start [PPM]     End [PPM]     Atom Numbers
+##$RELAX= 
+##$BRUKER FILE PROC=multiplet.txt
+$$ # 2020-02-24 18:05:01 +0100 nes@nmr-nesnotebook
+$$ # TOPSPIN Multiplet Table
+$$ # D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr\Displayer_1047626-52-7\1\pdata\1
+$$ 
+$$ 1D TopSPIN Multiplet Table
+$$ 
+$$ ----------------------------------------------------------------------
+$$ Number    Shift [ppm]    J [Hz]    M         Connection     Identifier
+$$ ----------------------------------------------------------------------
+$$      1         7.7659    3.3009    2             J(1,0)               
+$$      2         7.2425    3.2508    2             J(2,0)               
+$$ ----------------------------------------------------------------------
+$$ 
+$$ 
+$$ 
+$$ 1D TopSPIN Multiplet Lines Table
+$$ 
+$$ --------------------------
+$$ Number      Position [ppm]
+$$ --------------------------
+$$      1              7.7692
+$$      2              7.7626
+$$      3              7.2458
+$$      4              7.2393
+$$ --------------------------
+##$RELAX= 
+##$BRUKER FILE PROC=peaklist.xml
+$$ <?xml version="1.0" encoding="UTF-8"?>
+$$ <PeakList modified="2020-02-24T18:07:02">
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=7.786875ppm, F2=7.753662ppm, MI=2.04cm, MAXI=3.88cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="7.7693" intensity="3.67" type="0"/>
+$$     <Peak1D F1="7.7627" intensity="3.54" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=7.261893ppm, F2=7.226537ppm, MI=3.05cm, MAXI=5.09cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="7.2459" intensity="4.14" type="0"/>
+$$     <Peak1D F1="7.2393" intensity="3.84" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=2.763495ppm, F2=2.700019ppm, MI=0.75cm, MAXI=1.40cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="2.7416" intensity="1.08" type="0"/>
+$$     <Peak1D F1="2.7214" intensity="1.08" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=2.076301ppm, F2=1.989827ppm, MI=0.32cm, MAXI=1.25cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="2.0568" intensity="0.42" type="0"/>
+$$     <Peak1D F1="2.0523" intensity="0.45" type="0"/>
+$$     <Peak1D F1="2.0460" intensity="0.51" type="0"/>
+$$     <Peak1D F1="2.0396" intensity="0.69" type="0"/>
+$$     <Peak1D F1="2.0275" intensity="0.86" type="0"/>
+$$     <Peak1D F1="2.0140" intensity="0.68" type="0"/>
+$$     <Peak1D F1="2.0081" intensity="0.53" type="0"/>
+$$     <Peak1D F1="2.0019" intensity="0.51" type="0"/>
+$$     <Peak1D F1="1.9975" intensity="0.45" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.855516ppm, F2=1.836197ppm, MI=2.07cm, MAXI=2.80cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.8460" intensity="2.10" type="0"/>
+$$     <Peak1D F1="1.8375" intensity="2.32" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.830677ppm, F2=1.763522ppm, MI=0.35cm, MAXI=1.24cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.8230" intensity="0.56" type="0"/>
+$$     <Peak1D F1="1.8178" intensity="0.53" type="0"/>
+$$     <Peak1D F1="1.8109" intensity="1.08" type="0"/>
+$$     <Peak1D F1="1.8046" intensity="1.09" type="0"/>
+$$     <Peak1D F1="1.7978" intensity="0.61" type="0"/>
+$$     <Peak1D F1="1.7929" intensity="0.53" type="0"/>
+$$     <Peak1D F1="1.7862" intensity="0.64" type="0"/>
+$$     <Peak1D F1="1.7797" intensity="0.42" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.584768ppm, F2=1.483973ppm, MI=0.22cm, MAXI=2.01cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.5667" intensity="0.54" type="0"/>
+$$     <Peak1D F1="1.5579" intensity="0.69" type="0"/>
+$$     <Peak1D F1="1.5473" intensity="0.60" type="0"/>
+$$     <Peak1D F1="1.5414" intensity="1.08" type="0"/>
+$$     <Peak1D F1="1.5326" intensity="1.30" type="0"/>
+$$     <Peak1D F1="1.5221" intensity="0.95" type="0"/>
+$$     <Peak1D F1="1.5161" intensity="0.57" type="0"/>
+$$     <Peak1D F1="1.5073" intensity="0.67" type="0"/>
+$$     <Peak1D F1="1.4968" intensity="0.46" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.370473ppm, F2=1.351463ppm, MI=1.52cm, MAXI=2.89cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.3525" intensity="2.20" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.351463ppm, F2=1.351155ppm, MI=1.74cm, MAXI=2.42cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.351155ppm, F2=1.350847ppm, MI=1.59cm, MAXI=2.45cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.350847ppm, F2=1.349232ppm, MI=1.95cm, MAXI=2.27cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.3500" intensity="2.13" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.348924ppm, F2=1.348847ppm, MI=1.74cm, MAXI=2.42cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.348847ppm, F2=1.329843ppm, MI=1.52cm, MAXI=2.89cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.3314" intensity="2.11" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.329843ppm, F2=1.327227ppm, MI=1.61cm, MAXI=2.47cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.3289" intensity="2.01" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.327227ppm, F2=1.324734ppm, MI=1.52cm, MAXI=2.89cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.289159ppm, F2=1.192599ppm, MI=0.61cm, MAXI=2.60cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.2760" intensity="1.05" type="0"/>
+$$     <Peak1D F1="1.2681" intensity="0.99" type="0"/>
+$$     <Peak1D F1="1.2502" intensity="1.77" type="0"/>
+$$     <Peak1D F1="1.2423" intensity="1.64" type="0"/>
+$$     <Peak1D F1="1.2245" intensity="0.81" type="0"/>
+$$     <Peak1D F1="1.2166" intensity="0.75" type="0"/>
+$$   </PeakList1D>
+$$   <PeakList1D>
+$$     <PeakList1DHeader creator="nes" date="2020-02-24T18:07:02" expNo="1" name="Displayer_1047626-52-7" owner="" procNo="1" source="D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr">
+$$       <PeakPickDetails>F1=1.092651ppm, F2=0.693706ppm, MI=11.72cm, MAXI=20.00cm, PC=1.000
+$$       </PeakPickDetails>
+$$     </PeakList1DHeader>
+$$     <Peak1D F1="1.0639" intensity="17.20" type="0"/>
+$$     <Peak1D F1="0.7322" intensity="17.58" type="0"/>
+$$   </PeakList1D>
+$$ </PeakList>
+##$RELAX= 
+##$BRUKER FILE PROC=peakrng
+$$ P    #regions in PPM
+$$ # 2020-02-24 18:07:04 +0100  nes@nmr-nesnotebook
+$$ # low field   high field   mi   maxi
+$$   7.786874681074958  7.753661539204661  2.044  3.880  # for region 1
+$$   7.261892761189607  7.226536835972839  3.046  5.090  # for region 2
+$$   2.763494953766826  2.7000192041629942  0.752  1.401  # for region 3
+$$   2.076300968925342  1.9898267593201215  0.325  1.254  # for region 4
+$$   1.8555157529120134  1.8361970465108473  2.065  2.803  # for region 5
+$$   1.830677416110514  1.76352191290646  0.354  1.239  # for region 6
+$$   1.5847677848907908  1.4839728268993404  0.221  2.006  # for region 7
+$$   1.3704726221022447  1.3514629234456448  1.519  2.891  # for region 8
+$$   1.3514629234456448  1.3511551607531438  1.737  2.421  # for region 9
+$$   1.3511551607531438  1.3508473980606426  1.585  2.451  # for region 10
+$$   1.3508473980606426  1.3492316439250116  1.954  2.265  # for region 11
+$$   1.3489238812325104  1.3488469405593853  1.737  2.421  # for region 12
+$$   1.3488469405593853  1.3298425942974395  1.519  2.891  # for region 13
+$$   1.3298425942974395  1.32722661141118  1.614  2.473  # for region 14
+$$   1.32722661141118  1.3247337336019225  1.519  2.891  # for region 15
+$$   1.2891590425461164  1.192599166823214  0.605  2.596  # for region 16
+$$   1.0926512252854732  0.693706475588219  11.724  20.000  # for region 17
+##$RELAX= 
+$$ Bruker specific parameters
+$$ --------------------------
+##$DATPATH= <D:\SciPrograms\Bruker\TopSpin3.5.b.91pl7\data\nes\nmr>
+##$EXPNO= 1
+##$NAME= <Displayer_1047626-52-7>
+##$PROCNO= 1
+##$ACQT0= 0
+##$AMP= (0..31)
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+100 100 100 100 100 100 100 100 100 100 100 100 100 100
+##$AMPCOIL= (0..19)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$ANAVPT= 1
+##$AQSEQ= 0
+##$AQ_mod= 3
+##$AUNM= <au_zg>
+##$AUTOPOS= <>
+##$BF1= 500.13
+##$BF2= 500.13
+##$BF3= 500.13
+##$BF4= 500.13
+##$BF5= 500.13
+##$BF6= 500.13
+##$BF7= 500.13
+##$BF8= 500.13
+##$BWFAC= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$BYTORDA= 1
+##$CAGPARS= (0..11)
+0 0 0 0 0 0 0 0 0 0 0 0
+##$CHEMSTR= <none>
+##$CNST= (0..63)
+1 1 145 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$CPDPRG= (0..8)
+<> <mlev> <mlev> <mlev> <mlev> <mlev> <mlev> <mlev> <mlev>
+##$D= (0..63)
+0 1.2 0 0 0 0 0 0 0 0.25 0 0 0 0 0 0 0.0002 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$DATE= 1100964375
+##$DE= 6
+##$DECBNUC= <off>
+##$DECIM= 32
+##$DECNUC= <off>
+##$DECSTAT= 4
+##$DIGMOD= 1
+##$DIGTYP= 8
+##$DQDMODE= 0
+##$DR= 18
+##$DS= 0
+##$DSPFIRM= 0
+##$DSPFVS= 12
+##$DTYPA= 0
+##$EXP= <>
+##$FCUCHAN= (0..9)
+0 1 0 0 0 0 0 0 0 0
+##$FL1= 90
+##$FL2= 90
+##$FL3= 90
+##$FL4= 90
+##$FN_INDIRECT= (0..7)
+0 0 0 0 0 0 0 0
+##$FOV= 20
+##$FQ1LIST= <freqlist>
+##$FQ2LIST= <freqlist>
+##$FQ3LIST= <freqlist>
+##$FQ4LIST= <freqlist>
+##$FQ5LIST= <freqlist>
+##$FQ6LIST= <freqlist>
+##$FQ7LIST= <freqlist>
+##$FQ8LIST= <freqlist>
+##$FRQLO3= 0
+##$FRQLO3N= 0
+##$FS= (0..7)
+83 83 83 83 83 83 83 83
+##$FTLPGN= 0
+##$FW= 125000
+##$FnILOOP= 0
+##$FnMODE= 0
+##$FnTYPE= 0
+##$GPNAM= (0..31)
+<sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100>
+<sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100>
+<sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100>
+<sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100> <sine.100>
+<sine.100> <sine.100> <sine.100> <sine.100>
+##$GPX= (0..31)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$GPY= (0..31)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$GPZ= (0..31)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$GRDPROG= <>
+##$GRPDLY= -1
+##$HDDUTY= 20
+##$HDRATE= 20
+##$HGAIN= (0..3)
+0 0 0 0
+##$HL1= 1
+##$HL2= 35
+##$HL3= 16
+##$HL4= 17
+##$HOLDER= 0
+##$HPMOD= (0..7)
+0 0 0 0 0 0 0 0
+##$HPPRGN= 0
+##$IN= (0..63)
+0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+0.001 0.001 0.001 0.001
+##$INF= (0..7)
+0 0 0 0 0 0 0 0
+##$INP= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$INSTRUM= <spect>
+##$INTEGFAC= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$L= (0..31)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$LFILTER= 100
+##$LGAIN= -15
+##$LINPSTP= 0
+##$LOCKED= yes
+##$LOCKFLD= 2398
+##$LOCKGN= 113.800003051758
+##$LOCKPOW= -31
+##$LOCKPPM= 7.24000024795532
+##$LOCNUC= <2H>
+##$LOCPHAS= 53.7
+##$LOCSHFT= yes
+##$LOCSW= 0
+##$LTIME= 0.200000002980232
+##$MASR= 0
+##$MASRLST= <masrlst>
+##$MULEXPNO= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$NBL= 1
+##$NC= -2
+##$NLOGCH= 1
+##$NOVFLW= 0
+##$NS= 4
+##$NUC1= <1H>
+##$NUC2= <off>
+##$NUC3= <off>
+##$NUC4= <off>
+##$NUC5= <off>
+##$NUC6= <off>
+##$NUC7= <off>
+##$NUC8= <off>
+##$NUCLEUS= <off>
+##$NUSLIST= <>
+##$NusAMOUNT= 0
+##$NusFPNZ= no
+##$NusJSP= 0
+##$NusSEED= 0
+##$NusSPTYPE= 0
+##$NusT2= 0
+##$NusTD= 0
+##$O1= 2139.31700000103
+##$O2= 0
+##$O3= 0
+##$O4= 0
+##$O5= 0
+##$O6= 0
+##$O7= 0
+##$O8= 0
+##$OVERFLW= 0
+##$P= (0..63)
+9.1 9.1 18.2 0 0 19.8 30 60 0 0 0 0 0 0 0 200000 1000 2500 0 600 26 0 0
+0 0 0 0 9.1 1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+##$PACOIL= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$PAPS= 2
+##$PARMODE= 0
+##$PCPD= (0..9)
+100 100 100 100 100 100 100 100 100 100
+##$PEXSEL= (0..9)
+1 1 1 1 1 1 1 1 1 1
+##$PHCOR= (0..31)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$PHLIST= <>
+##$PHP= 1
+##$PH_ref= 0
+##$PL= (0..63)
+120 5 120 120 120 120 120 120 120 120 15 120 120 120 120 120 120 120 5
+120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120
+120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120
+120 120 120 120 120 120 120 120 120
+##$PLSTEP= 0.1
+##$PLSTRT= -6
+##$PLW= (0..63)
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+##$PLWMAX= (0..7)
+0 0 0 0 0 0 0 0
+##$PQPHASE= 0
+##$PQSCALE= 1
+##$PR= 1
+##$PRECHAN= (0..15)
+-1 3 4 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+##$PRGAIN= 0
+##$PROBHD= <5 mm BBI 1H-BB-D Z-GRD LTB Z5542/0003
+>
+##$PROBINPUTS= (0..15)
+<> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <>
+##$PULPROG= <zg30>
+##$PW= 0
+##$PYNM= <acqu.py>
+##$ProjAngle= 0
+##$QNP= 1
+##$RD= 0
+##$RECCHAN= (0..15)
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+##$RECPH= 0
+##$RECPRE= (0..15)
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+##$RECPRFX= (0..15)
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+##$RECSEL= (0..15)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$RG= 114
+##$RO= 0
+##$RSEL= (0..15)
+0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$S= (0..7)
+83 4 83 83 83 83 83 83
+##$SELREC= (0..9)
+0 0 0 0 0 0 0 0 0 0
+##$SFO1= 500.132139317
+##$SFO2= 500.13
+##$SFO3= 500.13
+##$SFO4= 500.13
+##$SFO5= 500.13
+##$SFO6= 500.13
+##$SFO7= 500.13
+##$SFO8= 500.13
+##$SOLVENT= <CDCl3>
+##$SOLVOLD= <off>
+##$SP= (0..63)
+1 120 120 0 0 0 120 0 0 0 0 0 0 0 0 0 150 150 150 150 150 150 150 150 150
+150 150 150 150 150 150 150 120 120 120 120 120 120 120 120 120 120 120
+120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120 120
+120 120 120
+##$SPECTR= 0
+##$SPINCNT= 0
+##$SPNAM= (0..63)
+<gauss> <Gaus1.1000> <Gaus1.1000> <> <gauss> <gauss> <Gaus1.1000> <> <gauss>
+<gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss>
+<gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss> <gauss>
+<gauss> <gauss> <gauss> <gauss> <gauss> <> <> <> <> <> <> <> <> <> <> <>
+<> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <>
+##$SPOAL= (0..63)
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+##$SPOFFS= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$SPPEX= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$SPW= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$SUBNAM= (0..9)
+<""> <""> <""> <""> <""> <""> <""> <""> <""> <"">
+##$SW= 8.99042977689517
+##$SWIBOX= (0..19)
+0 0 4 4 0 5 6 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$SW_h= 4496.40287769784
+##$SWfinal= 0
+##$SigLockShift= 0
+##$TD= 16384
+##$TD0= 1
+##$TD_INDIRECT= (0..7)
+0 0 0 0 0 0 0 0
+##$TDav= 0
+##$TE= 298
+##$TE1= 300
+##$TE2= 300
+##$TE3= 300
+##$TE4= 300
+##$TEG= 300
+##$TE_MAGNET= 300
+##$TE_PIDX= 0
+##$TE_STAB= (0..9)
+0 0 0 0 0 0 0 0 0 0
+##$TL= (0..7)
+0 120 120 120 120 120 120 120
+##$TOTROT= (0..63)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$TUBE_TYPE= <>
+##$USERA1= <user>
+##$USERA2= <user>
+##$USERA3= <user>
+##$USERA4= <user>
+##$USERA5= <user>
+##$V9= 5
+##$VALIDCODE= 0
+##$VALIST= <valist>
+##$VCLIST= <CCCCCCCCCCCCCCC>
+##$VDLIST= <DDDDDDDDDDDDDDD>
+##$VPLIST= <PPPPPPPPPPPPPPP>
+##$VTLIST= <TTTTTTTTTTTTTTT>
+##$WBST= 1024
+##$WBSW= 4
+##$XGAIN= (0..3)
+0 0 0 0
+##$XL= 0
+##$YL= 0
+##$YMAX_a= 100115
+##$YMIN_a= -101302
+##$ZGOPTNS= <>
+##$ZL1= 120
+##$ZL2= 120
+##$ZL3= 120
+##$ZL4= 120
+##$ABSF1= 10
+##$ABSF2= 0
+##$ABSG= 5
+##$ABSL= 3
+##$ALPHA= 0
+##$AQORDER= 0
+##$ASSFAC= 0
+##$ASSFACI= 0
+##$ASSFACX= 0
+##$ASSWID= 0
+##$AUNMP= <>
+##$AXLEFT= 0
+##$AXNAME= <>
+##$AXNUC= <off>
+##$AXRIGHT= 0
+##$AXTYPE= 0
+##$AXUNIT= <>
+##$AZFE= 0.1
+##$AZFW= 0.1
+##$BCFW= 1
+##$BC_mod= 2
+##$BYTORDP= 0
+##$COROFFS= 0
+##$CY= -3
+##$DATMOD= 1
+##$DC= 2
+##$DFILT= <>
+##$DTYPP= 0
+##$ERETIC= no
+##$F1P= 0
+##$F2P= 0
+##$FCOR= 0.5
+##$FTSIZE= 16384
+##$FT_mod= 0
+##$GAMMA= 1
+##$GB= 0
+##$INTBC= 1
+##$INTSCL= 1
+##$ISEN= 128
+##$LB= 0.1
+##$LEV0= 0
+##$LPBIN= 0
+##$MAXI= 10000
+##$MC2= 0
+##$MEAN= 0
+##$ME_mod= 0
+##$MI= 0
+##$MddCEXP= no
+##$MddCT_SP= no
+##$MddF180= no
+##$MddLAMBDA= 0
+##$MddMEMORY= 0
+##$MddMERGE= 0
+##$MddNCOMP= 0
+##$MddNITER= 0
+##$MddNOISE= 0
+##$MddPHASE= 0
+##$MddSEED= 0
+##$MddSRSIZE= 0
+##$Mdd_CsALG= 0
+##$Mdd_CsLAMBDA= 0
+##$Mdd_CsNITER= 0
+##$Mdd_CsNORM= 0
+##$Mdd_CsVE= yes
+##$Mdd_CsZF= 0
+##$Mdd_LrLAMBDA= 0
+##$Mdd_LrNITER= 0
+##$Mdd_LrRANK= 0
+##$Mdd_LrZF= 0
+##$Mdd_mod= 0
+##$NCOEF= 0
+##$NC_proc= 0
+##$NLEV= 6
+##$NOISF1= 0
+##$NOISF2= 0
+##$NSP= 1
+##$NTH_PI= 0
+##$NZP= 0
+##$OFFSET= 15.51074
+##$PC= 1
+##$PHC0= 38.20201
+##$PHC1= -0.7999992
+##$PH_mod= 0
+##$PKNL= yes
+##$PPARMOD= 0
+##$PPDIAG= 0
+##$PPIPTYP= 0
+##$PPMPNUM= 2147483647
+##$PPRESOL= 1
+##$PSCAL= 0
+##$PSIGN= 0
+##$PYNMP= <proc.py>
+##$RDF1= 0
+##$RDF2= 0
+##$RDFWHM= 0
+##$RDINT= 0
+##$RDPOS= 0
+##$REVERSE= no
+##$SF= 500.13
+##$SI= 32768
+##$SIGF1= 0
+##$SIGF2= 0
+##$SINO= 400
+##$SIOLD= 32768
+##$SPECTYP= <PROTON>
+##$SREF_mod= 1
+##$SREGLST= <1H.CDCl3>
+##$SSB= 0
+##$STSI= 0
+##$STSR= 0
+##$SW_p= 8012.82051282052
+##$SYMM= 0
+##$S_DEV= 0
+##$TDeff= 0
+##$TDoff= 0
+##$TI= <>
+##$TILT= no
+##$TM1= 0
+##$TM2= 0
+##$TOPLEV= 0
+##$USERP1= <user>
+##$USERP2= <user>
+##$USERP3= <user>
+##$USERP4= <user>
+##$USERP5= <user>
+##$WDW= 1
+##$XDIM= 64
+##$YMAX_p= 0
+##$YMIN_p= 0
+##$CURPLOT= <hplj3p>
+##$CURPRIN= <$hplj3p>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+$$ End of Bruker specific parameters
+$$ ---------------------------------
+##NTUPLES= NMR FID
+##VAR_NAME=  TIME,          FID/REAL,        FID/IMAG
+##SYMBOL=    X,             R,               I
+##VAR_TYPE=  INDEPENDENT,   DEPENDENT,       DEPENDENT
+##VAR_FORM=  AFFN,          ASDF,            ASDF
+##VAR_DIM=   8192,          8192,            8192
+##UNITS=     SECONDS,       ARBITRARY UNITS, ARBITRARY UNITS
+##FACTOR=    0.0002224,     1,               1
+##FIRST=     0,             0,               0
+##LAST=      1.8216784,     -6,              -36
+##MIN=       0,             -101302,         -101302
+##MAX=       1.8216784,     100115,          100115
+$$ Real data points
+##PAGE= N=1
+##DATA TABLE= (X++(R..R)), XYDATA
+0@@@@@@@@@@@@@@@@@bHhHhHa2A6a6A8b4B4c2C4d0D8e1E8f6G4h4I5a06A18a32A46
+43a62A79a99B20b41B68b94C24c57C92d32D76e24E79f43G13g94H91a003A137a303
+64A510a780B141b652C425d706G173a3433E3104M2214a01302D6961h62m7830D4850
+79c2794B3419J6858f0349C040K2030a5618b06A6055a4791D148Q070b8391B8209
+93h847k4915E4727b5205g5B5123e2987C2142a3536D356N4826h3964B2903J0983
+106C3886f9950E4448A2050a7228i8l8403D3227a059j7514B2799a4303A0029b9226
+120A3316K6280e1212A8576C537a0235C2231d8197B0710K109d7452C5011A2311
+133b4082f326D862J354g027C0016b4042Q498B7146c8540D1957D344d2316E2222
+147e1504E072M3159e3890D7941b7923j093G3067f5716A8426K0248f3898D4897
+160a1765o047D9503e3632F9M9259c6055c279C2611c1206a0264C6182b7278A5472
+174B0746f0084C9534E366c4530E4235c9848A806K4716e5659E9450h782l5025E8329
+188d2404A525L5154d1697B4538b307j9205B9916a0771j3A2549c091q161A4935
+202G839b2235A0619c625k68A8959a7444I505a649j4564A9501a0296A2843b267
+216b4124B8888a3601d606A6839a2142G500a6957A4335m691b8746B9738a8004c020
+230B7813d2288C3665A688d5165E2626a3843j0722C3407a9579d149A4978h568B177
+244H150a5911c42B2597b4891I512N324c1446B9271a8133d216D0198e9591C6155
+258A6811f2110F7572c1484J0556F1563f8951C3382n558f8810E4710c839l1534
+270c5373C7589a3664O799I903f891A562O077h166K330B2062b2995A192K3606c2730
+285B4107f385j1678D0846d5451A8625P454e3473D7079a6813l676D6314d7718B2062
+299A8538d2525C1356f569M02G102h558A7167b1815I549m4a9742B2282a9681F344
+314A6139c2199B7066c257j5748B1464a0976D246E02f352F903d950E182f800I158
+329b374j3823B5364a6680C230R129b8441C3389b1222a0054D6457e2394A9363K668
+342B2031d7363D6689a8463r30D4570d3981A1978J7278d0134A7526H286b0659A7044
+356a662j0106A7869a3733L618C4050b6278d293C1038d0681B4194I468c7629D9582
+370c2342a5765E4751e1101A6930O801d6943C5997f552j2148C1638b1710d011A5473
+384g535a413D053A587i720D939n44a502b39q423A4500a1113c575B4538b7470I794
+400G699b3155C2374a8191h970B6518b7816A1521l748i501F342a2825A5587a0506
+414A294J6706c4772B8478b978k6441D8437b9771a0510C3484c2098A5748F712a7116
+428A4029a1310D459J660f860C586b885e10j067I517g617a731A1880b5554B6265
+443h35l0727D8885c7289g431E2271e9296C0425j4341e5150E4892a8912m87D1216
+457c8495A3406k162b3004B6191a4611f847A6723a3559D726L937a1791a228A2897
+471a5269E433J3628c4963B1088I725c7264D4243a7663m951D3198c7176A0815J0782
+484B1597c3646B3092h808L808A5839a7644A5866i569L178A8082a6431A0288i83
+498i714A1766h869F553c77l898D370i376A3189e235j006A4415a5611C966M853
+512H819h546B960a02E1f193A0334f23j3418B1736a8570a016B5767c2848A9825
+527C496b7362C5717b2256a562B5762c7498B3443E169b5268B9453a6694f418B1378
+541b0392G172N497b1063F709P138b1116A0781J089b8843B3132i59k1690C5848
+555b6597a690B8505d0037C0031D53c1374D2233b9831a59C0726c9634B3618C201
+569b5418B8737a2288N746A4904a2069D48P789c870k415A1177f337j210A8798a5707
+584B862P346a9013A8328g940K747A7187b2714A5005H68a4693B1646a7791D951
+598G670a5706A8025a2229A722O134a5565A8550a2653F94J2250b3412B1835f629
+612a2728B5916b3690E904P291b0813A5654b733o330A1382e286b266E616a269n858
+626g127A0179c931m427B0469b0812C859J6253c3689B6341h22k5720C8584b8900
+640A707K6773d1349B7902A347b7484C5264b1396b954B2110b5790A2897F025a6818
+654A4142a999q703A3459b587j0248A8576h148l905B5991b1678A525K0260c2503
+668B1482C621b4881B9955a8455a608A9422b5891A7694f91j2768A7153a2916F007
+682B614a0512A2448g145a86C450c141C790f051F280c000N39H129a1410H579C54
+698i336A1962g547G42K959e057D606d283E225e192C48Q785a7167A5766c183j1510
+713a4693B6602b2771C515J5490b9465B2268d125j0705B6421b4537G736P257b6833
+727A9134d10j3658A6258h293b783A0312h720a369A0976a0488g56A4012a9067A0814
+742H230b6573B9250a0140r430C7589b9961B997K1477c5298B4907a754j8689B9727
+756b1696A703J5558b2871A3217B118a0990I389c283a059B334a199j33C150a682
+771c569H905i381C288L942a6843A7854e585q289B5232a8626a83A5932a8632A1199
+786a792l441H880i566G878d598d64G289a3649A4500f026k140A8322a7664F943
+801G403a6877A6392f461j01A3318i717I44L400c128C9M85O86b587B887c723C223
+818B037a0789A5697i737L301B2362b5605A1709M88c0352B9574i441o647C0458
+832b6202G867N271b6062B4281g580o446B4362a5801c157A5421a2028d75I361h391
+847G4R061a2828F955n99a7988A8639f065n849B3650b1563F152P823b5808B1736
+862e122p218B0824a8445H388l400a6483A9517a0469d819A4721a2635B989R41c524
+877B64c7C512f437E310A93g108A0682g863c46G998i402E045a71j866B361c091
+894D405d952C720A01f586A2392a1614B059Q587a7350A3823c078n581A6486a7042
+909H346j972a8338A9339h542J813A6969a6739F470R10a5503A1713I24a1428A0672
+924g2j0203A1483b658o665A6215a2141a871A7290b2672A2621n840b2732B4778
+938a1798L349B4081b5096A0320l4b2846A9759e479l416A5354a2381C504K187i775
+953F300A313e787C568q93f521D501A680h229A1079f950L239A4653a7221G755k28
+968G527a8100A7160f304o28A5045a3983E927B830g533G952g276F258b153l389
+982e542A2574a3014E455k22a2905A3558g231b595A0452a1821F644D51e081F224
+997e454C704e01k665D767c245G15a10A682b341e08F476a1291I389A249a5401B2086
+1014a3445f464B3797b5719A0873o24b4098B2807h568o08A9937a8382G022o11a4564
+1029A3911e542L26A1633i032d30H530g933h42I425i768A059R038a5157I932C592
+1045a7040B0014h836j94B0704a8230D986M385a6533A3789d575m03A0172a0091
+1059F794a212m641A0898h992B65P657g972I00L850c072K10E572a835k556G242
+1075d767c77D791f385D641e95k531D063b499A351a908B276C19e318I064g880C93
+1092A0211a6323A1149C574a6303A6292e250q98A0448i020E706f65n455A0356g512
+1107i48G786g407A264L689f047A073M790h665C896J983a3099A1565a285r972A7766
+1123a3995A192J2926b2574A7243C97a8667B3995a3196d107A5636a6757A0123A51
+1137a0156A4371i054a963I441g815F13M051c874a402F188e752a308I857a1909
+1152D298K792a3228A0591c021j436I472a1327H551e88q465A4209a1087B009N062
+1166G071a1890A1311e849b733A0476a2170F514A740f770F885d894C146a019j415
+1180b434F426h628F300I04i475A2360e717K42A0980f172L082F684a880l164F533
+1196h74o243A0767f827c040A2344a4356F755q69a4670A4104e451K29A1890a2289
+1211G343A061i457A3484a0007I4J0454a4654H595C818a3323A2011f90j0228A2304
+1226b497o936A3102e546j055A3775a0864A83J0416a4123H372B187a0452A1887
+1240f881i22G346a0006G789a464m310I713g596G45N152g648C668j584d801B575
+1256A950d008A648J498e933C796A586f024F387b708Q18D529d646C295a645d89
+1272C415f114F488b882m96H568i279D749k287h132I725f750G45N029a0021I741
+1288d181j21A0966a1323D759j71a0574I096b048l053G163c217P64D399i41l531
+1303d472F262a716m232A0447g653g41I492a3053I126B3i747A4982a2306B423P313
+1318I736a7283A5059c497p142A8367a4526A682R695a5799I564A655i572I152b290
+1333d078D822e08l363C610A113e766F079a809j861F781f257B882j355e698G796
+1349f496A605L496a0181I898c521k196A1758a0247B410L623i370F612i94k137
+1363c131C820b509A651b013A938G51e096F944c371l0G827f057a55E370e482A120
+1380C541d489I25K988e509B217J529g439E601D30f080G617d848g0D690g430F905
+1397b381j931I044h590B962K027a0444I140a002p311A0874d288q69I302e314b628
+1413G854f887D85O346i440E228k044i670I830d029j69A0078a0479E062j523a0681
+1429A1912e847J658A1297a0722C849L46h454G403b502p71E679c017a377B228I68
+1445c333A333J359d628C245e75j379C831d205B610b11j960D323e912D713D82f872
+1462I371e788a123F577g952E423a293j219E513g082E714a056l661H215g927D188
+1478B284i228A1782f007J202A1512h993I31M517f316C236A030c402A730M28c586
+1494C49L732e028B469H77c592E736f157B594J671i998A0072c461k811A2758a1498
+1510B963M383a3149A1071b185o066A2892h176a780H347g425B130J98c951C050
+1525b30k373B683F2b621B452h25K32B350d496D053G48f687H047c115q78H091f935
+1543A487K938f908D748a84k928C497a995D23A67f9E73b042C064a293q32C767b155
+1561g34B342a844A44J650b261e4C282c807B11L658d438A838H87b236B886c282
+1578B504B22c898F580e806G01N703a0405G289A408i480A0948d728L58I520g309
+1594D01M945e861A934N44c890A617N53d083B210m96d506D171a689J33D555f285
+1611D998B86g136A0500g269a309I922a2583G085C017a1048A1579d701N15H982
+1626g366A870R66d229B880a022B8K7g9I44b010B099i95M44A492a692A860b052
+1644A002L68c931D830b855J400E359f228C325A209d663E333c741H16J558d332
+1660D537c184E12K560f007F116b224j338G207f323A875J547f418E236i32k256
+1675c188D486b779g2A963b455A167M6b465A173L61c314B756Ec664E664c995a247
+1693F643g662C519o13g720H016b990j107H349f758A069L328f346D502e69l025
+1708c594E162b967i20C651c622A078J148d145C108H83d857E148a411k026F311
+1724e150B31M897f998D115A402e262E120b468f89C055c462B193e06k85A763b415
+1741B172e73r92B616a796C83M10a402G96B17c78k14A555h34o09B990b252G9J796
+1759A875b726B165g49a63A007b300C624c366B54M477g363E127H54f801H738e064
+1776a895G454h099C659j010f290E435a753m38C613b279D47R6g18F51e75A15N72
+1793F87f01m54B629a935M53E248e819A206M399i130F240A574h612I524d177R48
+1809c229G974g529B758n5e827E269b037O11B943b962B160f61l55B342b424H99
+1826A081a936A012k01a827E36J793c446A007K008e097B933j363d407D007a268
+1842a492B531a986A318i82A09J386c032C132a090q36C934c750A412N97d103C487
+1859a018r12C603b824B32K005b709H63L81a601F33A48g66A471a456i8B634c753
+1877A665N81e106D699h17l440F576d290h16D960e682C205E64c760E155c593d20
+1894D132e049B287k56d359B908F66c147B700a77k140C133a917Q25D077d324A140
+1911C163e330C919a72l243D997c810D75K445d276C414a420K98C609d521B700A156
+1928d248D005a134m01B339a490C02j15h7b9j49G61a229I65G3a301A673i61b09
+1947E46c45D47a054A487i73L26B465c386B341G18d127E216b681R04E020d942B116
+1965A475c922D250b509e32C096c898B563c0k402C485b423b70B787c060F47J519
+1981B166b913H92J164c412A997p37d126D314a106k331E767c987d11D342e383C203
+1998F63c788D606b810b00B671c716B880e11j638C519b532d8B385b712A063J46
+2014A209b242A198k72b172A619D50b367B626h36r30C091b206A14J562b265A888
+2031i38M33A796b221A749d93o22B587b829A224Q8b864B541i24J76A993b354A329
+2049E79a857A720d96j16I93g75A03N80i84A80Q84a707I44L1b557B466f14j183
+2067a797C387c090I39J220d337C949h65j987D691c739G67K001d713C712b26l183
+2083c409D231b005R16B711b328E75Q01b132A180j78b290A526G38b229B147h31
+2100i58B430b838A622n17c622C829a511l17C955c671A177O06c558C252h84p46
+2116a630B667a954D83J71a096A183i08I8N76h70D97a4k47B66c3l05E13B2a087
+2136A445c82p77A945a376IJ030a504A488a045f6A427b372B138f12r84C223c142
+2154H90J409d107C038Fb873C510a699Q29B419a984B78R51a332E04m2i77H09i5
+2173h19A534a390c6A966b973A924G83c474C947a768R9D207d168A467O50d353C780
+2191h70j487C748b638A90J750b401A378I2a057A267g36b08I16i50g3A344a339
+2209c4A555b043H67M2b029A910f21k29A707a637A074b11q63B277b281H34O35b955
+2228B349d50j048B375a857D26N87a719A333c58j24G47f95E99c13J04H09i59B73
+2247G38a071D55L41a564H94N9b560B162D46c198C541i31j354C712b479a20B294
+2265b846A927Da700B366a728B80R58b066A678c05j047B085a255d94A747a727D56
+2283A321b253A585F46b717B910e67j889C634b045i27B963b860A093k02b302B240
+2300a068e03A639a824A094E2a051A501a097A38N92i84G24a64l35G07c89O9H62
+2319c61m27A379f38k20A719a336A03R72a567A292d14j84A344a489A065b08p34
+2336i42A980b189A012J41b736B777i83m89B943b563F34R88b630A677I0a302A358
+2354f10e8D97f19C27n2f34C32R9i13H22Aa091A803a457a64B201c010A637o51c108
+2375C222a295j78C151b860I39M94b701B403f72m82B151a847E55L51a768A364C6
+2393a150A268b51m70I39d06J7I10i17A27Q01a320G17B63h80I48g92C58J83a373
+2413A529e70k70A871a669C04R75a942A123C50a207A069c45N0E28c88A80h3eC08
+2433f31D26j62i73I86a59q64A715a147M85B419b246A66K097b846A355m16b406
+2451B087e48n43A649a081B34L0f21I79a070B53O75a423H65C90a283A175a20j216
+2469a336A631c64j086B179a161K75B511b480E58J378c144B119C29b316B635a418
+2486c71A622a800A247d41J1A430a985A382E07b113B073f25l58A576i91c1G34e59
+2505a09D78g3m44F36b76N0F34i67G35A67a061A206e60a52C82f27I46a128D85L85
+2525H70b211B192c70j564B888a705d65A884a755I38fo44A132a232H12A86a267
+2543A754h96K31A646a281a9A034a198D92N5a346A041C56a766A625F9a856B081
+2561g15m40B041a350f1A164a166G95c49i8H05a493A287I4a663B199i64j74B369
+2580a769b75A970a982D67O64a708A016B28a195A190c63o6G30e37C65b37j0G59
+2599i61E19k7a205A193b79p81A455f77J30A181f08K43G94c22j21F03i7m00E06
+2619H5d02E6M59c71j40A244h73K25A906a809F5J718b408A229n38a925A796f68
+2638e59A211a199G89b56m4A085a596A235A93a888B379a039j62B458a608d93A923
+2656a422d07A618a094M61A812a193d97A737a569B64P62a306H66a53k2D45h30A231
+2675a086a16A797b597A535n78c025B842e19j574B957a498g34A826a312d6F79b84
+2693b95A83K42h51E03J8a112G03B91i84F86B97i30D72J77a233E61K87a695A091
+2713E71a768A536a55r86A412f24b10E09c86C67d69D38F5h92A303g45J62A661a588
+2733B33J127a973A027l41a810A428a6j190A415e62N6I46f91B23m1d44F23e30A03
+2753E00h67G12I2h90A017d01k29A145g66b22A144i96A04Q78a331E95P2a371A022
+2773Bh75A178h00E7N94a226A056c79k93A441a352C79L98a529A343c49m23A402
+2792a136B49L96i90G56b66Q8C97d57D67c42a18E62f47B64N8d44A51J10a82j27
+2812c09G13c85m8A026i42B52M49a188I78b70k87A056a010E61G2f88A203a247E70
+2832G03a811A891f28o70B373a720a98A719a831E71J65a090E84A18c24A04L6c7
+2851b28C25f4k43C07ck97A94K43g61C32M43a455I69l99a928A850b41j338B172
+2871a088M08A742a358A16O51h29C72e4D5e3k05G79h13H4Q29a341F58O8a620A102
+2892D16a483A246I2a171A110i2p13G81i8m23E13C7d14A91M6d57A06L65e99E4N76
+2913F30g79A23O69a091C15N98a424F45J14a594A078C26a336A223b93l26I06f80
+2932B69G1d35G49g83D12j9a115A265e82r6A514a345B38Q58a552H73D14a155I40
+2952d5o08F03E3d52C36A16d34C72d0j92C76d46B99E9d36F92f23A43L72a056A048
+2974c28m55A485a305A69R39a534A010A4h78A061g31A31K51g16G26d45f1E61g72
+2994D81G1e41E57b71f2B48b65H9O4a23j5C13a15r0E20d06D2K95d16C87b78E3L19
+3017C72g86G51i1o70A223h61a56A031a258F12k75a026I43c46L0F89f78B79j15
+3036A64d57E68d20I9L43h05F57A59h87I99a59p20A148d60k21A110e85J66I80f89
+3057a24G08f44A14L03e05A66Ja49b0KB80d41A26M87i30D85J34a388I65D04a497
+3079A377d8j151A367d67j04I76f07a15C00a43e6m5D00d99b8H01a057C83L40a298
+3100H10l73a294H79B79i90F80C14h73E27j48i22D86k02g81E31I3c88B74b5A4c13
+3122C56G1f91I93e27p6A513a322F1J292a695G52j08a363A048g4n37F45b96E7j8
+3142C9hB40e00C68G4e37E77g3l73E92i9l71F49i3m99G82b86k87I71f24b20H28
+3165h14B44N8e69E26c64F9L02e88E58b05n6F22g20C10J7h60G98a66m41H40d39
+3187b23F30d29g4B84a78Gc9A42B0b56D11g6l60E35f0l90E36a38j94D39b21g1A66
+3211b61C97a87m1F43e08a01E69e82B24P1d32C38a57L1C84f18C81j38h77H90h9
+3233h82A033c66j07G51d52a4A87b25B85c49A79N8f86E60B8f28F69b15r4E79c61
+3255h0C75d27A69R8d81C21A22e89F04b7o09G84b50j62F26b94a39A43B6kc55E78
+3278b41l05A067f39K67A157i81F9P58i72C73j15e30C62a26L4A77a70A20D6h1b7
+3300E1M4b40A53R7d15A17L34e39b9G62g15a56A040a011C9J006a127B84L64h48
+3321D73H7c29B85c04B48b2l22E00c34a8C22d23C39a14j81E76e11h2F55g87A39
+3343E86h29B15K78g57C47n0e49C61C6b74B03a32A08B8b54C15b17a08C21c71A29
+3365A24b96C96a83L7D02d01H7K48e01C27I7d87D56a27j03D81c46a7C33c89A92
+3387A38b59C11a66CJ16b76B92a53K6C77c94A40J44d99C96D0c80D93b49N3E57d70
+3410f3E08d96G2L01d49A41K2b66A93a4p4H9a47B34a81M5D34d68I4K48f39D61C3
+3434e68G18c23J8G00e78A4M21e68B21j2c64B12E6a52G2d2A05b6o4B24a44O0B21
+3458b31A19Q5c72C56b8l59D82b40R2E08e17A31K35e23C19E9c15C82b08b9B10b56
+3481A44b8j03A73a51DJ18a64A63c7q9C22b77c0C73d14D2L08e17C17A09e16E20
+3504a79j72E20c47c5C07c86B06B7b49B08a16A19f0j08C43b78a35D36d25C6L17
+3525C53d73B22K5d32B98A19c75D34a52p5E14c95h6D51d89H5J54b79A52g1C6lb30
+3549C66b91a22E53e58F6M16e99B64k3d20B79gj49B91b38BK21b87E8J03b28F1j8
+3572D3h6d0A9R5a20d5B67b51b8C73d49A35K23e53B97A48d90D13a3k73C58b41A0
+3596B58b56A30m8b15A15d6G2k1a63B99b21a07D01d06I1K29e48C49A58e40E23d4
+3619d50E57b14n6D35b03P4B33h0K2E6ra9o8A07a00l0B22a91Q5C27c54b6C79d55
+3644B31L0e64E16en18F48b49p0E46c33b4B05a66C2a03A34d0j94C65b14M7D23c21
+3668H3J60c63A84D6b41B56Ib02B32c0j99B23e1j01B73a55g0A76a75A02a7o1A87
+3692b68A68p4c78C91a42qC20c40B03j00c49D67b16N5D27d28A91lc62C23a28n0
+3714a78C62b24c0B19b32C5J15a62FJ40a23dA31i4d0D1j5d5kA68a61c5C38c60A03
+3740B81e50C29A21d88E15a67j44E51c49i3D27c21C9Q6a10N2hB00b00b0B99d15
+3763I6J80e43B55p0d99D11A4c59C96d0l08C45c1k77C98c3k82C56d1k71B94Bb51
+3787A45E7b20c8C08c22AM39e38A57K59g42D39A74g10F39i0l71F23b42L4C55a04
+3810h6H5O2b15a5C83d15iD48d99A70J71e17B30nd29A61Q4d54B06O4d93B62m5e83
+3835D04A00d85D12g0j75B42b6dj07A72c5k86E13b86O5F50e77F5M11f15C31j61
+3857A70d44C75hk18A87e0rA1J34a11m2B74a46N7B80a92e8B00a17J2A82c4j61B27
+3882e6j19C13b03e2C17c67A92q2c34C18a70e7A17b32B14a50L7D03d14A29J62d75
+3905C26C5c56C18a24J3A37a23A07i7E7K7b06A85hj70B19e9p2A83d7r4A68e3j27
+3929a80C20f7j62C89a99L0D12c25d8B57a75F5j4e2NrB16b72I1K62e86C37j61f42
+3954E90A0e16E89b01r2D13a33K5A46G2a82F3K16c54A19J56d41B44m0c89B47j22
+3976A25c03B03o4c41A88O0d83C02J3f93C96A84g19E48Id30C97c3j79G2R1a79k0
+3999a99D74b86N7F35e32aE87f17B36Q9f24C90G2d01C25B2b75A59J7c73F3K52d27
+4023H4K53d90A16J52c44C2K43b06Q8C95a65q3E61c63J71F02d92C0L83e41B25m7
+4045A78c91B28b1p4E1rj6b37B24a2k87D41a95j0D88c47b5D13c50F1J77b41A2J77
+4069A89a54L4B26d7p1B87a40k4B09a12d5A25Cg9a5A50a56D4K00c11A64o5c21C06
+4094h9p5B89b57H1K3b25B30a11a1A24b12B58a10l0C68c12BK28c08I5L0b08C2K1
+4118E3A6a10A38E6a79A84d1p5A96h9J1I8A7d2b1A48b16I0J28c80B68G9d59D05
+4143a19j89D80b22R1A84a33a7j8H7a28O1C19c28C7L13d98B50J8d68C95E7c52B65
+4167A8b47A63n5b82A47O0d49A57M0d34B28p0c55A89H3b01B7J99b13R3C39b90b9
+4191D93e03I6L36f45C17o5e16C27A18b69A63E2b19d3B60a42p3D12b41Q5D48c93
+4214g4D00c93F0K02b98H8J61b99A3K83b96h6C88c95A6L84d32G8K00b68C7J63a28
+4238a26B01a7k96C24Fd29D37a56j19D87c23c7C22c17A47J5b38A01D1c8KI1bj60
+4262a62B79e6j89C25a77l4C36a80K8B38e9j34A99B9b31A95F5b14B48b0j57B24
+4285a24b0F5e5I9a46D3Kb05A82h9K3A60b14A22n9b42B62a34K1B05a73F2L3h7A9
+4311g9A19a5j12B31a40f0B11a16L9A29c3o9G3Jb21A10K6b64A25o2a92A33a3Ea4
+4337B2N4a17A46A1a66B10a73a2B25c48B26E9c42C10b2k29B49b9j42G6k7a80EK58
+4361B63b66e4C18c69a4C07c13A6K52b61a5A96a54f5B04a64e7B32b51C8K15c02
+4384A12R2c38A88q3a70H3Ka44f1B23a62j8C66b58J27D12c86a5C97d13C6K40c25
+4408H4Q6a79dA90g3j7B29a05l6B98b05Q5B38b17f3A98a55P7A47a19L2B09a32o
+4432a38C48b18f3C50b58b8C01b77B4J16a47A7P8@a17G8k1b04A79B1b53B96a29
+4456a37C12a76d8A97a72AJ11g7@G5e8j9I1d7q7A87e4l7A65d6l1D0Lg5B3L4a13
+4484F9ra34A10iq4A33g1OA30a30A04A2g2H4a09B9J2e7H6h1c1I3g2A2O3d7A2f8
+4513E2@d5H7f9b2F7h3D0pf0aA7e9J3G0h5K9A40a32B4R7a79I7La42A23C5i4D3@
+4544c1m0E9a5n7A41d3o9A85a48c4B20a93C6R7b04H7j4a54C5O0a12e0A52i3c3B02
+4571a25e6A72a44f9A02a06L8A14d3o8A70g2l6B05a13d0B42b11b9B21b20D9Q2a95
+4596b2G5h3a0A10Ia08A38d0j13B00a29J0B05a46c1A89a88d7A40a06b7A04a06c3
+4621A46h5J8A79a14N5A69a13d2A30f0K0A06b0m8I8a5p4A65f1K1B28a03L0A95a16
+4647a5A20i5D4K0h6a2B6Lg9I6a3o5A00e7j8A03d6l1H5h0L0G3d7J4A00a9k0H8i4
+4677d2A20h2A0N5e9E2A1f4D0c7LCOJ4e7B1gnF0c5gI3a03b2C6a41D8fo9H4e3b1
+4710F9Eb4E6c1a5KGc1E2If1E8a2o1D6d7k0F6B0h7D4j6a13E5oa05G9a7o7A36a9
+4742e0A24f1EP4e8b4G8h7LC2b4l4I7B7i8A23A1i9A06a4o6A08g1MI8a5o3A20e8
+4772e2A20e0a4A04b3k6H6d4k7E9If8A03b4n9H6dj27A33d5o5A47h1rA27g5K7A11
+4801f0J1A16e4b2F8d2nH8e0J9A11b7m6F1b0o4H5c5k6A04c3a6A25g0K7H5b7n2I6
+4831g8CO7g4HM8e4eD5b1AN6c9a3G1aj1H8f1K4A08f9L3H4a06A3R9i9gI3e8gA16
+4864a28B2Od3HK6d9A9L6f2c1C5c7lG5h6b4H3a34CJ19i4E2L8a39H6Qa16G7j2h4
+4895C5Na00B6M4g5E2Pd6C1K4h3C1Ha16A0R0a09D8M7a54D0O9a03C6M7a00C4Of2
+4925B4M9h8A3a6p2@F1c9GQ8i9B3Q4a26D0j7f4C6Qf8A2Ma58A5L3a14C4J9h0D6e
+4957g7E5B6d9C0J0e3A3J2f7B1M4h6B6M2a11C6j6a06G0A6f8G9b7J0C5Da2C9J4g7
+4988B8A2b0gbm0A4K8b3D6a6B0J3Ic7B6CdE3Ca7A09c9l9F1h7c3I4c8a2B5e1a1B1
+5022hj4A8a1k2C8c8k7A9f6B3L2i2B3M9h2D3J3h3D9jf6L0G9f9EQ2e7K7A07g9a8
+5054E3d2B3J0c9GL9e1@G7g6GP7a26B1O2a00B9P6a56G0J9a09I0l9a04DO1g6a6A00
+5085a49c2A59a36B2J11a10a4A55h8FR0d8a6A00a16gA26a25a1A25a08B4N8a17C9
+5111F1a26B2Q0f7b9A31e5l4A63g8L6A62a10a4A37a09b0F0h5B3M5b6QF5a9p2A05
+5139h1K1I8g5gA11a16C1qd9B0M4e4qF9d8K0A03f2L0A35f4b4I8i8A1K2e9BJ0cD
+5171bj4m0B3Bb6I7f1PE9d8FO5f3C5caA4LJ2@C8a3dB9c2D2al8F0b6OC1a8j2C3a1
+5208A7J3J0ELOb1B2Ad2C6c3fF8d9D5J4h5D3K8b7A9Ka6@C2Ac8B7e3QI1f4B5O8a02
+5244C2M5h1F4nd6fE8h6a2G3d4a5A10h9a5C7i5C5M4i9aF0c8aE5d3m0A09g2J1H9
+5276i5C1J09a60E6J2a29@F1e9K7I4b7j0A60f6K8A24a07BJ30i7FQ1h1eE3e1j0A10
+5306d3qA16h7c8A44a35b1A23i6c2A01f0eI7c7eI1b1n7A10e3pA47e4oA16a08d2
+5335I5g0a1E8c4j9I3a9n9H7A5i6G4b0j7A10b8a2I5g1b9C7b9jF2b1n7E4a1n5A13
+5366b9n0H6g8J4D3c8B2Ba0j6j0B9b1E4j4g5C3Eb7I5a4GL2bA1L9eA7a7C8b5AOd7
+5401D4ra4C5b3B5DAL1g6D8J8f9I2B6e0K2B7IKbFd1A9pd9F6f4eI9f0D7J8f6C6j7
+5436A9a2mA0Af7G5b3l1A21e9b0I8i0BL8f1GL0f4J7G4d9j4A17c4mA18h2a0A27a18
+5468c4G0g3AJ18g8K3A10c1m6A13a0q2A15b9l9A60g0K8A06d9NA18f1JH1c1j5A22
+5497b0r3A51d0n4A68i4M5A39g9a9A11d0l6F4d0k3G7ep4A28c1m1A23g2PA50g1J1
+5525f0E5b9l3C6A5a16G7aj07A01Ea05A27c4J2A19c7k1G9c3j1H6Fg6C1A5a10F5
+5554Ea01E8d4l0E0d1rHK3a4oA1a1A3N7g6D1K8f9A05Gb8F6d4dB7el8LB2a6oE0f9
+5589gB1a9D9gjC8g8C7rFM1b7cIc3IcqA2d6B8c6A3e9HP1b2jF6e7B3J7a4OB0qc1
+5627E1fk7G0cm6A04b9jF3d6QF1h5gF5f9a4I4Bb4I0d9k0A37d7MA21c1l7I0e0jF4
+5661b8l0C7cp4I9c9l6H8c9m8A33b8m1A37h2K3A14c6lA00B4h3D7jf9A14hj05A21
+5691A7a16A22i4J6H3c0k0D1k0i1G0A4a05A09ej10A28b8n5H7e1l4F8Hd5A4K0g2
+5720A3M4a28G4A6i7A40a0r8H8b1m9C1BLJ5qc8B3M4i5F6mh3H5a2o2I0b0qB1mg2
+5753D1A6i4C4Ng8GNa10C7j7hG1cAL3fqfC9a3AN3e2C7Jg6F0d5%a2Nl8E2b7fk5j5
+5790d6C0b6C8d0BQAJ9PEK5kIa4m@a1BL5c3a3G2b5a1EL4bHNc9Fa7j1D2a9k5F1e2
+5829d2F0c0j5B4c5J6C0a1p8B6M8g9H6d9JA22b2j2F6b9hB4b6KD2j1i9F9A1h3E1
+5861b1m0G8c1k9F7apA9Ic2@Ia12H0A1a32E3A1i2A10b8n1E9e0K0B4hm0A9L9a01
+5893C4Ja26I1A4a11D2ep4G6B2h2D7Eg4F2C0a28G6k1g4I9A0h2C4A3i1a1A7g2a5
+5924E2d4C0Dh4F8k2f1G7k8e5D1j5g6C5Gc2EOf8A7Jd5B9J3g2D1j9g4HM4e8D0j9
+5957B1a2E5A5c9A7J8d1D2A4i2A8Ic8B2nc3B3qfDa4HK1j1pmK1eD9A2d2D0b8NE1
+5993Ee3C3a5J@c7E2b4C2c6B3b0k7dj0C1A5f3C1b5KF6gm1Bgm2bF2a2cE3h0B8Ga16
+6030E5A4c4B5Cb4Cbl0CN1d7a1E1i1BL0a06F0A8f6D0j1Ec7a4l8A6Hg4B1dm1D7j7
+6064C0a25C5rh1G1hp5A3J0g3a5G5g1D9jc3A6K3h4C0Pd4A8J6f4A4M2b0B3oc5B5
+6097Id0E5b1k9GL6f7HL5f9DL0d1C0He5GJ5c5A3Ee6D9hm1aA3b7B6Jf4A4a0o0a0
+6133ho9b0eJC5A5h5C5Kh5E3b6m7C7b9j4C5a5k3D2k0g5A9ma9D3rf8A2eo2B4a6P
+6167iA0L3A3a8C6a6D4cm7C0Jc6D3a9PD5d4J7A8Pf0bB8e9F6a0l1E3gj8F4gk6E1
+6202e8K2E5a3k4B4ke2C4a1k0E4hm5Bb6k7C9b5KBhj1G3B1c3I3hj4I7flB6a7k2A3
+6238c6a6D9d4J1D7a7NB4a2jG3d0J0B4b2PD5c6l0B9d3m3H7Fc3D6a3B8j3hGa0m2
+6271e2J9C0LaC6c1B1jd8gC3hpB1c8arA6BK7A1mM3@fA5c5A7K0b8OA6c4GJ0c6HK1
+6309B9e1K4B6c7IRb5B4Ea4B8GNJ3nb1B0He4D4a9n0D9j4b6E6A1h6hJKF1a2m7B4
+6345De3F3a9j9B0a1A7J0jd5DJf6B7er4C9a8k1E5a4l2D4fm4B7A2e2B4Ie2D3A4f4
+6380E2dl1A4b2j7C1a3k0a0C9a03A1M9f6F8b9l9E7j7g1C9bk7iA0e5A5K2h1A9L9
+6411E8f7F3A8h9H2b8J3C0A3d8C2pe5A6J0g5F6A9e5C5ph2B7J4e2E1Ca1A9O5d6b0
+6444E6f5C2M3i5A3le1F0GAJ4L3B0a1C5b7E0j7e5B9qh8C2j0c4C4J5a7HL2a9gG0
+6478c3A3M6e8b8B0d1J5A2f1Gd0J0C@b5A6g%A6nKBK2AK4gaA6J6NGb4B8j0b6C4B
+6516eC1a8Cdl2CLa5qIM0d8G7fm3F7d0J4C5b4Kbj9HJ3J6e9B3J3e4F5A7b6H0b5f
+6553E5e1b0D5Dd2A3lg2A1L5a15A14a8r7G7c4j4E0c2j4A5K2h9B3O2g6E0j9a30A04
+6584Df8E6B1f2A5J0c2A9L0g5F8J1a13C1K5a09G5k1f1H7A1c3D5le4eG8f1eG5a18
+6616dD7a11C6j6i0A8L5f5A7Qf1B3N0f2@H8f8@A00i3FK7a00A6M0f0D8j2e3C0jb4
+6649d0F5f6FP7h0K0A10f1A2O9e6a7D0d6OdA0c0G1c4%F4@a2H4c8cD3cCa3B2b9F
+6684D9d7C3Kf6D5b0k6G1a8A3b9gA8h0B1Ba3I6e2C8K3h3G9c9a4A9c9A5a0A2Lg0
+6717I8cl1I5h3aD0e1B7bA0a6C9j1g2C0Nh2A08a8o9H6a8B3L9c3NeD8c7J7E3a09
+6750A4P9a09I2b0l8I3d4J4C8Ce0C5Od9A3L6i2D4k1h7F1k9i3A00D4c0D9B4i9IO7
+6781G6e8fI1a26A9L2a20IM1a04D0La24eD3f4a0F4a15B2M5h5c0G1a29CQ7i3A4Q7
+6811A01a14a6F6g6GM7a8cB5d4l1A00f8eA12h6C6N1g2cC8h0b8D7d7JI8e5m5A63
+6842f2c1A24a31eD8c3IO3a2cA0Rg0D9k3f8H4b2k7A08g1K7E6e6Da3C0a6ME1h4D9
+6875C7a00A16d5b1I0a0mD9HBe7C3d7a2A04h6D1B0i7H1Gc1G8b2A9b7iDh3I5e6b4
+6908G6d4a3D4h1ek5a0A0BdrC6rf0G6alD6b5MC2a5m0C2a1pC3K5f6C4ji5C4Qh3D4
+6945B4h3C6nh1B1Mg0C6L5f7C0L2g7E0A0i0F2K2i5B6K4d4A8oa4rD2f0gH4a08A5
+6978A09g0bD3a41E1j5i6a1A7g5a7H9b2m2A18e2b5A00a28CQ0h8F0K0g6E2K2c3l2
+7007f5I1b1m9A09h0L5A13a23bF4i3CJ6a3l3D4j8f2H9Ff4A39e8%A58g6B0O3e9B4
+7038C7a9k5C7j3i7G2a5j04I9d6l1A00d9RD7a9NB2Ic9E6Qh5G3C2a01F9b3l6F2c4
+7070d2C8cj2aG0a7gD2c7B5M5b1D7j8e5CPb4j1B7lgB6c8J2E2c0JE2c6a7B1e2Cb3
+7106DJ5MAa8E3kd8FL2f3D8Ae4C1b6nD4A0DNJ1a6DL7f8dC4e2B9dn0D2Gc9GK1e8
+7144B7J3g0b7H9e7D1J2i2A2Ke4D2iBeA6a3k4G5e0eI4a27a1G0h6A4L1f5A8HRe5
+7178F0Ci0A43e5QA00h8a6F8i3B7He8GJ0a4n2A04b3n6A00f4K0I4h0C5K0g6@G9F
+7210c5GNf4G2bp3A38b5l8A03d9a9E2g2iHBe7D4jg5F1A3h4I0Ff3A1a3NB3nb1D4
+7245a4n0A2cm1E4b6j3D1J5b1F1gn7B4a2l2B1J7d6D1nFBAf2B3J8d5CJ2d7bHc7C3
+7281E6a5C3ENa8D4f0K2C6e9A9a7lC3Nj6qa3@c6A5Nd3A4b8BN3a5fB0b9E5a7A2D
+7317a6Bb3A4dq5a7j4J4B7a9D2j6a2C1FK7a0m0C8d8EM1f6D8c4OD7bDf6C7b1n7D9
+7352BMM2f9B6Mc8B1hINoJ7d2C6an3G9c5NC0i6CM5b4B0J0b3m0B5A1f0E3j0f8I2
+7388hk0D4c2C0j1Ie8B2Re2C4a6m1E9A3f6A9e2LD8AMM1A5h0G9dm1A10c3lA9Bc5
+7423D4B2f8B8j1c7A4od4F0B6a8F2@a0B3fkj8B1b9dAd3B3ma6A6d0a7F4c7CK5cj9
+7458b2A6go2C7Hf0G0Bc0C6a8@C3iA1a5MkAL9b1A0a5m9Ia1oCc0jA5Na6cB4A0L1
+7495D1J6a02C0Fb4F9b3GJ6b1A1e6Bd0iB5e1B8nb2F1d6bA5d5C0A2DdAK3EAb5j5
+7530d0B5a3jE6d5A3me8fl7A7C@a1qeJj6D6a3A9Hb8F4ij0@a2aj9C9A8oL7a1C5j3
+7567B2e5B6Ba8C1M@a8lA0d0F9b5rC7f9A1Ea5CejAaB9h@c9a5B9d0%B6g1B9Lb3P
+7605a6k7A5a8j2H9e3C4Ea3B4c1B7j0c7B5a5PC8f0cnj3J0j5A2c5B5qg6D4a1nD2
+7639GML2b9A3al6J3Kam9B7do0C8c0J0D1b7Ba1lBQK4j4J6b0QF5B2d3A3e6a5LkA3
+7677B4c2J3G8d1CO1c0cH0c6bE6c8a0ChnB8kb4F5c6m0C6h3J6B4g6B1J7b8B4K4a7
+7712e8D9c2nG2b7j9D9a01a2C4d4a1D5Ab1EK3c6B3A0b6G8f7b8D7c2dE7a9C0iDd3
+7746C1Of9F5f0j0H7d5b0E4e1GM9a8j1I%c9gj7j2E7am5D2b5gC9f0a0eC6d3B6pd6
+7782E2j2f6C3a3k2B9Jd3A9MOeB7c3a4D9a0D4Gb9C1j1b7Cb8GhD3a9jB4A1mM1a0
+7818Ga3Fd7A5mKK5A1fA3aB2bC6@C%OAL9f5B5Cd5HJ1a2A0Aa6l0A7a6k9G7d7A1J9
+7856C0d2C2j5dj5dA7BJ9c9j4H0d4J3F2i3c5C2a00C7A3a4B6a5Pl2F5c5J4I2e1Q
+7888d3A15h5D5J9f3fHb2B2Rfp2A02b9m9H0b3BN4i2a9B1b0B3q@a1FL6d9I5Gh8A04
+7923e9LF4fk4Ec4cBJ1g3D3A7a18F7b2r2I9ij0D9b2EK6a3l7C7j2f6D3j2f3C6an9
+7957f0I1A3c9C1j5h5Gb6j6F7Hb7a1Jm7C3Ic3F7B5h2hE3i0B7gl7hFb4B6Lc6B5O0
+7992H5f3B0K3d2eB2f6A3a1k7A3Llb2B6il7E3c1a0G9c7A9ld9H@gA1K4a0o4C3a4
+8027h3F1a1EO0d2fB2qLd0F8d2A1P5f0D9j4e7G7d3j6A3c4A4b2A9a8l7D8g7B1O0
+8059H1h2A0Lg1D3emj%A6f3F9c3k1A17h1c6A21g7D7Rh2B5J4EcC6a1k9A05d5k6A11
+8093f7A0O6g9a2B4e5K7D1c5k2E0A9h5H3ir9A30d4%I1a2n5G8il3A19B3g3F8b2k2
+8124d4F8k1a00A04Ai3I3C0a03F5A3h8E6A9g7E3A0d7D8Df2H0B1e3F5B0g6G9c0m2
+8154g2E3Ib4C6Je1D2M5g3B6K5h1C3ar5F3hm3B9%d6DL4f7b8E8a12hF6a08G1@h3
+8188ICRf
+$$ Imaginary data points
+##PAGE= N=2
+##DATA TABLE= (X++(I..I)), XYDATA
+0@@@@@@@@@@@@@@@hHhHa2A6a6B4b4C2c7D4e2F0f9H1i3A08a24A41a59A81b03B31
+39b58B90c26C62d04D48d98E53f11F74g44H20i04I96a096A209a332A467a621A792
+59a987B210b468B770c129C563d106D801e727G025h991A2339a9507E6964g2581
+74f4539A00115h5215C1037j0197a9510D0089d7523a1699C7388a8721A5993a2544
+87E97J2555a8003A07J7525a4572O54C6518i421j4506C6270d4267E896L5868c8412
+102D3480b6247k5961G7146c4886a4395F1116c5713J1955B46K4254j2099b9553
+115B1365h149l496A0171a2641C2328a3017j6966B9312A471d144j0656E287J6623
+128B1910b9716A3723P598c0489d302A2893A549J258J0320b3620i239B5216b8363
+142C2695A2459e7911E0253b3845k706G2251d9736E200J5660e0913E6497a7227
+155b7658D8746c8446F859Q924b1691B9406b6213J1087D7999a8260r151C7570a5364
+169c1055E4084b3095P719D9887g1175B4064K5016g1433E5509a0939l3799F0967
+182d9165B3374O437f4479D7972a4345l894D1867c8528A8230B479b4524C5033a6758
+196i164A3765d635m43E491J0729c0932A0142M877b9689C9430a9388J52C9024d0075
+211A7224J551b5697A8085b2745A4299o959b1317B9141b4204H349l503b4837D5507
+225c4852d826C6843d2275B8816g603o838C3962d5804C0274A4034d5814D2060a9286
+239a0198C1966c1484A6649q316c1099A9972p688b3362H070R221c1379A6085k639
+252A3446c5815D3451b1112o301F2118e2474E993L5193e6979D0521h882j6279E1067
+266e0954A5052J6900e2054C5887a614k3949C2161b2780A615K2992c0922E397K1481
+279B6878c2575C664K8362c8335A3314N751c9877C6986i709j6634D6799c3298a029
+293B4791b8719B1758a0938c012B1073c0308A7242C813a4323A5919a4069I388B10
+307a2644A5822e595a226l186F821m93b2707B2741b506j7919B4876a1766b099A0276
+322a2551D684o27a45j0412A3970G3b7499C7715a4601l417C8903d1007A9109l984
+336A5125d2783E0945b6703Q298D6752d3893B2722G051c3833D2712b9666b970C6872
+350c9273A0140N508b1276A1746E120a4419H574k742b3637B7478A933c9733D5879
+364a9509n83E0019d8416B0486l363e3514F0537b3460j790E3252e1315A9762L73
+377B0135d1564D0279a7690J308C1261a8655B737J753d289e98k112A1468h462A599
+392a892p00A2512a7175A4722C05b0979B4108a3825E567L415b6021B6681a2635
+406h660B6808b3808H297D29h401A6572a4189I767g646c320A8792b8019B5237A4
+421c3707D0518a9400h021C0504c2942A2551l706b1314B2933f045p948A5429d650
+435h217A6341e558q457A9858a4473G42K1115c2890B1225B780c0657D4199b5784
+449h344C5204d5922B8653A0276c8767D1768b3045a0969C5797c2972A3252p77c1226
+463B2063E044b1031A8503c20k1844B3806b377j7679C1885b2995h754C5164c5670
+477A6763l639c6251C3275a3196N070B6209b9702A6368i60j2518B6198b4244H677
+491H970b3474B2981e316k417H311f678D542e384I733d627m521A7628a8790I707
+506A0974b4885A9556d555o413A6946f927b355a050F244e933b289A8375b5462A1833
+521A0699b9200C3682a5233J790C0652c2465A9940D143b5308C4816b9787D670K2383
+534B7053c9633B8127a951k3906C4871a9298e658B4194b3219D58J9470a6402c110
+548B0845b1925A040K2431c0437A8523F106c0408C5942b0059e753C0935d0799B5590
+562D115c1341D2810b7720e232C1634c7277B0578H196b6354B3089g640q52A4885
+576f517J119G482c17q868A2384c036o899A4740a2147D229K809a4716A6239a1408
+591a786A6316b0821A4072e60j2713A8067a2690D309m53i876A0978a0336H327d36
+606a0803A8803a8776F615O459b5572B2100d814j0956B4192a4577a644A1891a2161
+620D245m62d914I08L065f130A998L960a1990A3048e853m361B5090b5332G945J0310
+635A8255c6488C2667g989j5779D3900c6168C451K7188d2618B6604D236b7794B9835
+649a3387N817A8650a4148A303O595h633B181M949a1111E024K469a7749A6778c058
+664a5207B6665b2896C198J8145c3650B5058a768k0579C3458b4815A611J9623b8481
+678A7015F77a1547A3499a0540E200G40d387E095e638G466g008D30Q453a3134I868
+694b174l683A0862a0302D866A473e034E841f030E729c471i89F048a0134A1318
+709f936b614A3218a8983A5409b320j2630B5906b1827D715J0245b6601B4950i918
+723a2943C0230b7467E156J3664b6004A4297C767a5034A3768b699o860A2645b911
+737a1225A6698h648J190B1200b2725H453O572c1919B8075d426j7948C4189b5166
+751B721J6816c0055B4357e651j0524B7908b1652B263J3458a9735I855B912h798
+765F509e77l579C878A856h261H855a390p988A5521a2806A661J1416b2085A7024
+780C13a7145B0974a1611g80H225a0511A0748h437B440L228a2327A3915i209c51
+795A1211a7149A3654b818o010A5215a4242F832k738a3224A4761g147L215I904
+809h167B692r67c079B131D36c135B025K734a1776I989C118a8685B3264a0608j337
+824a1945B8656b7190G434J0188c0689B4072d218j1194B4578b0993G412L017b3126
+838B1132d104j0719B0147h988K116A3635g775c571A1719a0790B25J3088a8864
+852A0129k011b2558B2295g200n766B5478b2311E233Q668b2673A7756e015k283
+865g298A4798a6340A0404A915a3455A5629g000L005H021d380i6k13C573d413G87
+881E150i112H010a873m298A0401g908A725J299d524D870e560D990a573k084H289
+897a0325H284g72q971A6452a3864C172N925a6683A7152i713d143A8443b3564A3787
+912E414b0984B2677a0247K952A8462a6456C338O738a2907C967L282i394A198P629
+926H827a1693E315K62a4188A5267f976p7A8696b0570A0481l912b2018B6438a4958
+941g676B7366b9631A1873R25b6907B2272d511q279A8970a1888a516A0317h338
+955d76F299c427m34G547d382a962F547g662E896a301l704A0263a0782E464j752
+970C712a2370A5216i018c644A4479a5620F982l075i819I194e275A284M04c766
+985E521f817E936i12o414A3122a0367d85A1303a3313E696j404i063F247C19d860
+1001D166A087e972E371H60g841I928e373K428A0648a3579H970B005a3888A8574
+1016a2081b319A6092b0889A3454B460a7397B1591a1786e237A7671a7256E348L171
+1029H519a4499H916C126a1446I012B466a2504A1610a15j2399A6169h824d272A5246
+1044a8010A0382D296a7456B0347a0963d286A6341a8888A1221A939a2999A5832
+1057a0158G36O587a1186I780c302j293H038d804d74A430O40c964a42G053i653
+1073D916j876h418H873e545E76M236h628H226c695J461F051f732E713c554B16
+1089D000h675A1497h621b106A5719b0656A0637l012a9665A7815f440O62A3576
+1103a4766H429C034a2143A2226d312J08G170d501B09K140b211a91B696c340A103
+1119C388g507H045b785m209A5795a5748B963J3078b6158A6857F358b4586B3720
+1133f874m546A9181a4549B727O139a3183H123A418g029E408f20j624B207h88O9
+1148h19B512b891G87J845d893E058b548l0H756a1142E073K090a5919A2700E68
+1164a2460A3313d721O54F327c512A173a291B109a039j169E831f845C059R56h794
+1180G391i74l804F095c716G4K482b543a1B522a350j965F417c765Q12G920g673
+1197C574A578f340A0008i941C452M369a6704A5674c769p885B0168a5890A631J1436
+1211A3067a8791A2330A050a1594A3104f424b446G254f214A202K261c832a43D711
+1226e273F73M914i161G252c81p840A3888a1890A394J0550a9112A4352A4a4604
+1241A9950a2977a350A3517a6522I740A187i034A0351f127G82J947d037D017c334
+1256B049I8b398C690c577B204d86q22C007d317D241a799n00E896f702C695A286
+1273e269F383d480A176P54d072E305e288C062j402g113I922f918a126I494a2612
+1289G659B237a0302A1531e573K614H374h138C400q89e988E499a411j981E555c257
+1305b249F487e864H2P256a0393E714j387a2949A2951c392n913A6001a1602d79
+1320A1574a4233G558B814i736I693c950J385F126e735B225k66d544C912i1m081
+1335d172E405a819k476H143f076a597I619a1610E179N69a3300A1608b159n855
+1349h014A1708g772F02M110f073D916c143A296Q6d777G092e646A11N977h478E271
+1366D93d550D963c030A024A28g38A807c376D085b312O40E359e474A963M0c031
+1383A357c92B368d933C488j97a0867A1970c877m854A6944a4160A477J1183a8201
+1398A1512A732a1688A2954g349a39E941h277F757b239m98E450e358B798A201d334
+1414C931C21d381C363o71g826F147B508a1325A2417c693n398A6284a2223c77A2633
+1430a5941H605C321a1088A0425d448a294D469e896E736b759O14E400e052B315
+1445F90b994C959b207Q41C029i00j311B316G08c484C581i29j711D837d048B73
+1462C509d231B147A3f28C43a228C329d246A544K263g127E170B93d666E599d270
+1479A432J439f339E436a82m443E166b139Q10C757c857E88L666e987A807K855g625
+1496D973A083f893I449f085b362A0408a1630D739K75a0861I743c241p12H010h030
+1512D546A130f946I004d744J778G573e757A38M119d551A130K665e886A775M090
+1527E865i206D176O73i979H271a778l766A0028h548A713L898h417F368b445a155
+1543D416f880F615b657r43H553h471C036J042g743E871a396o41C057b477A575
+1559a374A552e02k407E847d555i00E497e156A373K70b041H14B37A10a984C811
+1576b376n41H109g722I88O164a0737G474D39g701I926f415f7E487g759F433b262
+1593c026G048g532C561o69g796G367a278m387G456b714j242F566c217J69G085
+1609e357a103G500h523B877K056i083F861e98m565G157e279A155J868e611E508
+1625b580P73E407e821B534p7e683D671B2d244D475g78k476D168a392j281D509
+1642b822a101D089c784A182K32b609B210a453G89A36a721C456c731A398J407e691
+1659D737h04k398E129d222A325O11d027C741a835c71B307c477B874c22k054C134
+1676a439M59B114i98m15C048a596j108E819d288a068F382g813D144j768g940H841
+1693d248J497G783h494E151A077g287I345e821a227G226h273D518A503f306F294
+1709a675j615D305a385p31B976e88k144D063b116m6E407d644A052J676e016D978
+1726b713a173E130f584D502A37e085G827e935h3E957g511D282H87d325D488b312
+1743b00A315i53H21b000B593g66j627D033b702d22B705b662H18L85a621i5A910
+1761a394L57C196c070D56K440d558C403C1c397D424b929F14R29c407D255c220
+1778a15D493f619D189A560f580F848a752k686F551c564a743E201d161A6L850d784
+1795B002M96e192D216c47l552E703c795c59D237e631C805A30c683E510d655G96
+1812C906f321D668C87d942E309a890k20C772b161h31B479a570g19B379a973a45
+1829A987b633B091a29k197C728b884A72K400c662B852a108L6C033c791B835c86
+1846b896D868c942F76K195d422C423a113n0B869c432B476c21j826C755c159C53
+1863B491c234A310k61a438B37L44f28A77O36a935B121c63k356D752c460d85D669
+1881f444D199A177e966G016c766a397E338f323D174C38e015F612c997a202E264
+1897e246A454J070c619A803G00a892A319c3j252B105a264J2C347c126D54K254
+1913B708d458C545c51l154E463c659d16C731d646C072a71k489D166c117A14K364
+1929B478b828A447a12l44G67a108A365f78LA502a156HR07g64a37H76h06b56A576
+1949a876D42J066b345A694b24p88A793b265A795c2k181C579b931D34K214d545
+1966C864d66l163E363c240a082D234d078A069J087c297A948G97b705B211C04b499
+1983B562f94q27B747b547A074L19c703D072a739m09E087e039A747J184e994E241
+2000a030k743E723c859a25C496d138B031I36b563A972i0j028A015E2i45G76Ih62
+2019A214i89B96M81a833B057i91O9B490b877A759F05c006C842b227h40C066c336
+2037A980A29b027B812b093D47M81a597A934a841F37Q75b949B259g9j840B392a228
+2055e74A783a463c21A874a660c82B488b672E10J769c570B434B17b733C669b617
+2072G9K613c960B886c81j822C801c554A192J098d606C729a14l108C899a989i36
+2089C026b766B83K131c064G09J672c265A407J3c114B752g34r97C369c092G86J250
+2106B036c433B855g71o45B773b844A576F94b703C047a613f41B252b383A252D44
+2123a765A754d18n20I94a84m63F68A52h05I60e15J63A368a390D94J92a109H29
+2142d74E68d07m12B182b424H39R94c704C201e39k283D513c073d69C557c862A694
+2160A350b861B154c88o60A369g31c7C56d57D99b68j57A120i90d39B164b410D63
+2179B412d014B519A115d152D412a629o52D707c866E89K346d232B571D40b574B710
+2196a134M67A407a093E12A41f12H01e62K36A172i42c25A557a610C30J012b202
+2214A660a9j774B478a664a8A608b427A977c76j141B566a970A30J233a660A168
+2231d66a82G06a204A297e30p8A384a328D45K55a263H95B39a117H75D08a415A085
+2250C30a752B123i10l35B883b769D84J746c275B215d1j630B395b263A295E44b656
+2268C471a967h85C483c719A220P67c602B352E82b656B127A51a872A641d8j412
+2284a460A799g91j7A948a869E00O01a925A630g31c57A520b422B092a98k200C725
+2302b457f96C367c594A301L59c006A920B17a493A141d4k67a14C91f2n69G27a93
+2321c93F59b44j71F95b53n42A367e74m44B017a401d49A961a987G51L2a647A482
+2340f46b93I58a197A111e34j1A692a938E99O97b247A523C11a834A952f48n24B153
+2359a447e93B111a937B53J246b105A427b8j474B245a713c2A783b584A807A26b015
+2377B655a672c62B121b440A137l62a955A657b83o90A331f16J97A094g95a96A020
+2395a111B77M67a286A212d90l35A941a959E38R21b413A887c56q96B230a992F26
+2413I85a935A795h19c53A298a705A169a82o45A456a426E62Q0a501A208a58n90
+2430g48H84b59n3D18A41g00D77p7i36G46b11L3E29i24A145e77R5A509a962A338
+2451D25b452C057a528K74C154c068I59P31c267B447B5b144B323h18J49A146g10
+2469A39o1a02A66d14E10Di22I92A94a617A627E8b070B511g66j145C295b008i78
+2489C093b629B95J513b364A264D40a541A219a21m74C17n0d8o49H18B8a164A492
+2508c92r82B253i89m53B800a469K00B730a558e90A912a439F0P25g01I9a8D12e44
+2528i2I90a235E49J05a522A435a94j169A873h32l7A766a065N10A674a220d09A777
+2547a459a65A505a491D65n7g77A042a247F59Q3b049B122g54n76B672b316C36J450
+2565A786b514A770a52j191A989a568B20Q82a629A069d2p82I29c92J24E20b04p6
+2583b80E09b68NH81i79C50N08a738A358Ca393A911a279a10A225a648A174c35k78
+2602f13A209a540A172E5a493B129a366c00A697a878I34D67a328A152d38J92D93
+2620e41D16b04g1B76c57B41B8b34B64a8k58B87B7e52H04b80m79A539a087d18A817
+2642a854D55P46b023A365G2a291A569i04a81I49a178H12c3o87A105i15A70N88
+2660G58a330A088c1j225A773i77K10A996a709a3A682b046G20K88a728A078A94
+2678a085I05a42k97E23a39M3B2R6d1j88D47h7m46G50a29p57A233d07o97A895i96
+2700h52B123a740b4A680a884H22k89a206H70c34A46f1j49H40a277I00m44a851
+2719B031f21p64B402a514d29A772a562A01Q59h29i2F39b76k01H06b28k78G70d03
+2739a61B84a1k5k57H18h27b09A532b022I21L02b685B227a26k054B770a438f02
+2758A892a701F77C19g72I20h36E49B06i70A265f57K64A204a035G3P36i22A46N80
+2777G26h67E5Q44a135B66N98a349G19l35a033H98c43J49D63f28F35e00h5I21a327
+2798G36l43a379A395d05l26A300i49G2O79i24E18D3c55C99b97B82a21k25H05g25
+2819g3A019a219B80O15a387F53p4a238H52A57i17G46d1m13E26a81f3A99a41A54
+2840a59D3J73d63C65A71h68I95b42q48A742i48J62B052a780C0J665b118I37k70
+2859F67a570A299c09j54G01e99D62c63AO33a133H99F8a195A422e69j83A392g81
+2879d13A108f13P9A086d82k44A332g20J72A433a132H9P67a077E43A05c31A67a02
+2899E42h54D24L31a808A534C1a815B270a059O9B031a455A0R93i89C69F6d4o2j7
+2919a23E79g40B53L53a041G57B80a017H60A02i13G81B72a189I23C96a522A315
+2938H1a468A677e34k97A326h85D1M45e41D68d74C10o6i44A117e67k3A492a351
+2958A14J124a644G65j38a486A010A62a031H60d3m89D69b9q3D6LJ4c08B23o4e11
+2980D46A43f14F30f1n99H16c06j52H74e01a92G39f15F9L67e29B63a8p5A21c71
+3002E48c65k1A089i91C8J002a372F27j37a205I99b13k76G68e73B22E8b74D46e82
+3023D13A52g80H90c04k64A019f01K43I34f09K25I87e35M2A135g61c18A124i80
+3043A76M74h91F43a15j21D70e85F07c78J31A020a331F72Oa702A567a83j135A761
+3063h45K64A238h66d5E62c97f8B24E0c13B95j46d66C79Ic58C15C5b71A39J65e74
+3086B78K65a057G11k92a295A172a03q82A250e71K37G64e86B34G2a52B55c59D23
+3106b05p1G28g99B30M11a093G35B25a079A043a01p15A050c55k49H61c75K4F22
+3126c47a48C12b17D3K7h2C8a24B19a56J7E24d78bF54h45C54K00a156H04B56a133
+3149A101a99o75A173e99b89H87g97B01J75e30C71a80F9R9c66E24c54a33F71g91
+3170C29J50i79E70A72f34E18d2k50C39a45O6B18a75b5B49b78A02J59d21B61A04
+3192c09C39b06I3l8c55E96d61a35F97h77C96l5h09F60b52Q7D32g16F66a49n57
+3213g06A147f69L33A022h10h3F03d88C1K37a17J8A24E1i2b2A24C1b18A91G3c05
+3236B96a27l6D00e27C65A58h41I96c65l91A344h61c48A297a011C5O89g11A61J10
+3256B71a62g7dC04d52E1N03g06A84L61g25B98M3g05D46A41e53E00a55k19E97c69
+3279a83F12e35B5M46e12I0K26c04f5B35H0c46B51J49g83C90J83i96E15j1a037
+3301F33B75h04F22d7l15D71c29A09N6d38D19a54l4D02b97F3j7a31B77d29B18J53
+3323C71h37F21B78a010H26A47i10G56D8f74E66f0l58D27a21k6B43b57A74gk13
+3344b20C42b66B0K17c25C50a63j0E04f47B84J31i37G52E8h26I07b63k10F69c08
+3366e0C07b22E6Ma3ap1A13a07cA99a48a4B07b28C2L03c79A23J76e03C54A00d85
+3391E49b54L7E64d63A55Q9d84C77a37o0C43b67A46C3b64C55b87e8D02d64A46P5
+3413B21d35C04a0k28C80b19g6C88d03A20K10e70C92A75e42E42f4k81D46c00cB22
+3436c27A83g2k3B04b67A61E6c61C74a53qD24c73G4L33f05B85M9f41C73j08e91
+3459D46Cc94C79a42%A87a25G8a36D1Q0c32B98i1j52D92d14a02E62f18A14L36f40
+3483C10r1e61C34A05c84B45E0b24A15C3Ee3B6K3a59A75C6b48D36a93j12F14d54
+3507a19F09f22A61L17f73C33j36e19C55f5j13B55b78E5Q1b49A65a6q1H9a14G5
+3530ej56B43b60e4D39e12F7L78f09B36Q1e74D50Hc42D72b61a04C90c82A31R2c56
+3554A93p1c18A02O6a60N2A85ek60B58r8d61C42A66e89D77I1e85F07a59k76F67
+3577d38h4E29e15A42J46d03B03r5a29B1O6m0b64B79C5d59E20e7m91F59a49l23
+3599d72F68a99j90F55b89j9E85c40J37E37c96e7C71c84D5R2a31E3d4A12a68f0
+3622B83d28B14Pf12E70g2m64G58c73L4F81d69g7D55d68C2J87b14A1J47h2n5A21
+3646D6b19A02M5b32C7J39b27E9J07c00B45G5c43C37a24j57E20c06h6D31d22H3
+3669A88b91A53b0C4K9a72B36a25mC22b78B9K71c96B01F3c09C09a86N4C74b90F9
+3693A98b96A87E8a91A36g1b8A06a52F9J7a83A41F0b04A83a0j35B23h6A9J02b03
+3717A71ij52C43c07F7K02d64C50A8d51E35b77a36D62e20A54N9d04B70bk14A60
+3740b5B5a01I8J4b53B46D3b67C54a07q6B81b8k10C32g5k60C99a93j22E43c32J61
+3763a71E50e31D1L36c77I5P8h6M2C3K11c67A92R7f17D52A16f47F71b18k45F81
+3786c68a71E24c80a07C54b27a09C01e3k43C02a8l46C24B6b79B66G4c43B10pd31
+3809B48l3e38D71A37f02F27a02l78G08c19L5E56c02g4B45h8K8DJ66b16b9D08d78
+3833H2K98f38C32j23e79D36D2d13C62c8k86C09c0k56B70A8c19A92F3b70B02F1
+3856a85A02k9a39b1A76a69L4C61c14f7D22d81A25J35d94C92C4c42D26b15e0A82
+3879b40A41i5A1R2b59C01d9j77D10b68a30C18b86E5L2a61A09b1NB3b4Ae4C3h1
+3905E3A1f8A09a47C3M4a78B85a75N8C41d35A07J31d63C66a8k19C00a94I9A1a17
+3929B63b59A40Od04D11a02j83D70c05a22C71c00gB16a83f8B06f5j02B66f6o3C65
+3953a79h2B57a58a8A25e2r1A11K5c49B52A02e13E25e8m42G39b92n3F75d18a32
+3976D41b80e0A39C3b17G5J71d07B05J02e39C40A34e35D60d1l64D79a22j62C60
+3998g3k62D06c0l75D89b3m37D71e6l05D49e9k33B23I3b93B9L03d06a7D84e64B01
+4022D33g17D23A77e75E57a51j88D40a83M7A83f2j13A2J62b84D9L26d65A63J52
+4043C15e21B33k6d34B06l5b97E7K38c36A6L70c85A19J65d51B69A00c46B13Ba03
+4066G8d7E9a79A56A2b97D53b36O4D44d30G3K32d37B35D8c00A83a26b6a1%A17a72
+4091A78bk18B74e7o7A92d5l9F3K8a25A8J59b41I0M0b61B02f5k0A32a47H5d5k5
+4116g0A61b13A27E1b58C95b40R8D29d05C1K12c81A96q3a67I5BLi7F4J2b19B15
+4141Gb99B99a25p2B71a16m1B46e1j33B20a3k78C41b7l18D64a59j05D34b15P0B90
+4165a47O1E2O0a95E5K10c60A72O3e33D18H3e54E52a26k66D78a79oC20i6q4A65
+4189A02c09A36R9d26B37k9d84B90A08c55B76A16c13A50J6c36A82N1d66B74l8e93
+4212C89A08e51D74a7l40B87fj45G1O9a62M1C85c16i5E09d93A05K40e04B61q9d25
+4236B81B9b25B00F2b15A11L9b82E4J99c68A00J75c59A31N2b55C6J28a19lB31i4
+4260b08C21a97Q4C53b87F6J08b77B24e1q4A64a08E1B5c1I0a23A33Fa46B14a68
+4284g1B82b55A8J81a91C4L1d6KH3C8a00A45B1a64A00m3g4B1O4b9j01B02b8j43
+4309a71B40a26j8A75a55D4K1a44A05h6cA10a77A19c3p6A35a41A36D3a59C02b00
+4333a13C05b75b5B63b09h5A93i9r6B01E8b68B32F0c54A94D4b27A32D1a52GJ02
+4356A09a42a7A79b20A16Qc24B76Hc32C43a33r3C25a35MB14a3j06H8N7b38E2K39
+4380B91d04A81J01d77A97Qd13B51H5b70A78n4b02G0Q6b76H2J28b70A31N1c03B13
+4404G6b30A36pa77I3J02a92d0C17c41@C41d22A19J55d38B37j14c30B39I3b19G6
+4428I1g4DJ62i9lB89b05f1B70b39B6J18b46E6P5b10A02N0a87D4J53a96A0K00b11
+4454F3J46b50H5L2a59C5J7d7LH0Da37A64e6r9B27a76c4B17b01G2O7a74A36D0g9
+4481G1b5Ea7mG4h6G2hp6A22d2a3G4d9B5j2Jb0lD9d4A5an7H2a02C2J5i2H7c5J3
+4513b2A13a08E7j0a05A39d2l0A15a10a9F9g1b7l3Ic9J6A46i9a0A05a27D3O6a41
+4540I6B5g8I4C4a22C7L7a24F2L3a96H5J0b23A23Ia14I8D9h9BM4a33a2A60a69g1
+4568B38b36B0J85b30A24La93A45G2a40I0D1a58A5J08i0L4B04a44A4J74b31A3J65
+4592A78a94IJ44a63A1J33a61C8J20a81A3J54b00E9R8b43H7L4a72F4K3i4D8L0f5
+4618b6A61i0c1B02a65f0B16b23E7J33b06A00K5a92D5O8a16G9J3e9a2A26a02M9
+4642e3A32a29B1J13a35CR4a13A1J09f1a3A46a12c7A03a07B9J20a68H2A3a16G8
+4667A3g8F9B4f6IRa8l3C2b3k2I4h9F3k1a25E4ma28F8B2f7A7J1a6A0@d0G0gn5F4
+4700B1g4E0c4GO2d0a8IMd6A8L2d8E2b2q5G7@a08A21d0l0G1a06a6I8g4a2D2g0b5
+4732C2c5MG9a9OA21a4o4A19c2oH9b6l9I1d0l6G5c5j5A04c5BJ05g5a4C3g0a1E8
+4763g0A8M2h5a1A24b2j6G1b3m9A18il6A23f7b0A54h3B8Q9g2B9Q3a14B8K9g0cI5
+4793g2FQ6g9iA06f5b5H8e4K6E7g6c0A01f0AP6a41b3A21i5bH9a08D7L5h1B0O6d6
+4824A0N8e8bG2g7K9F0e7@E7a09C0L0f8C3L5a28D9L8a36B5L8a09D6M8d3@C7d9D4
+4855E5d8B1L5h0A7O0h7B2K5g9D7K1i5G2A8a08G1l4h0E6oi3D1j8f9G7a1m6D0A1
+4886b9A9od1B4L3e5F0Ma25E8A2a20F7l2a26A14B2h8G2l3e7D0c8p5F1bo2E0oa20
+4917D7Ci3D1Ma06G5k8f2G6k7a10I9A5a23I3l5f0I1a9j03G5b3m5I8c6J2C8Hg3C2
+4948io7F3B1i1E9K4a02I1b2m8F9eo1F0A1e0H2hn6D2B0h3F5cp1I0Ad3B0Lb5iB7
+4982d3E2A8g8D5b0m2H4c0jF2d1AR0e8A6K9f6A4J9i4Ec2A6d2E7Ie8C3Hb3D5a3B
+5016E5e2dA1a6F4B3f9A7Af7D1Na32A4L2a22E6kh4C7kb7B5lb5JB4f1K5F0f6D6j4
+5049C2a30F2k5a08G2A7a43D5c7l5F5B7f1F1na14C5J9a30H3nh4D1j8a03E9pe8C5
+5079A8a10F9j5a09G4l0a34I1B0a09H0Ba27F8Bi3E1mg4bG8a05D3O2a43C8K6a27
+5108H4Oa32F9oa04C4Ni7E5J6a22F0qa14D4J3a27A14C0h1F3k0a02a2H2g4C2M0a17
+5138dA16a33C7O2a44A5Oh2C7Og8D0A4d5a4E1c3GO6h3cE9g8E4B6a18E2A8f2D2G
+5170h6c1E3e1b4F9g9gF1h0B4jb5E7k6a4E0gB7fB5d2a3B2c3A4J4e5F1B9c1E8d3
+5203a8Nn0D7gk1E7b3j4B4dB6a1C7d6A2L5h7B6Cf9B2@c4@d1k7A1Be0C2j2e3eF8
+5238g6I5C0g6G4Ef2H1a4q4C8%e2A5Qi6DR7a64EO7a48G7cj23H8l6a26G4l0a14C7
+5270A14a27A7O1a16D0O7a44H8qa39E0j9f6C7J6g4C5N8a04AJ19a40B9N2a60A00
+5297A39a41F4j7a18G3K6g4GR3h0L0A29g0a1A43a57E3M1a19B4L4a03B0L2g5dA12
+5325h4b2A33a39c4A55a34D1M3a20D5J6f5IJ8d5a3F3f6J1A01i0a1A32a04bA13h8
+5353D8A5g6A5Kma9D5b3oF5c1eE2c6A2K5i4A9Md3a1B0c3MG1A9a6F7c3BO7d1B4J2
+5387C6a5B1d7C8j8c2E5B1c2C3c8a1Ha5B4e6B4LJkc9aD4e0F7A2b3D9e2a5B1b8P
+5420b1B9j1gAL7a09aF5a01B3J9g4C0Qf8D7a5j3A7Rd3A3K2c4gI3i9D3J5a08C1N
+5452C6a08G2j7h9A0L2d1b0H8a07B9N1a25C3O3a15F1J3i7E8B8g2GR8a01b9A18a08
+5481c2A00a55A2J11a13C6K3i5B4K3f6J6A05d2j0A25a25c0A34a20C7Q3a43A0M2
+5506E2f6A3M2d9J8A17g9RA15d0j8A25a31AR4i4eI5h2E1L9e4K4G1d4qA33f1J9G3
+5537g0A8J27a22BQ6d0a0D5Fb6D2a4n6D9d4m0I6e6J3H3i9iD9c4hA0a0k9B4io2E0
+5570A8g9F4im8Fc6B5L1d6A5a4@A1J1c0hA4fqD4c8J8A3jPJ0rJ2b9B4K5e3D8a9k8
+5605d7D7d5A1mb9A8c6G4a2fC4c6A6L1cD7c0k0D9a5j0%D3el4G7c3j1I2i1@E8e4
+5639HM7g2D0E@c6B8am7A18h9a9A01a03B6M7a34E3K2i8HK8d5D2P4el0A14d2j0A07
+5671a06d1E2e6K5I7c5bH1b7iA13f3OA04g3j5A63h6c3A47a34HR2d8j0A16c8k7F8
+5701b0n8I4e3m1A11g4J6A18i3b2A11i2c2D7a9k9A02Gd1G6a02K1A01c2pA09f7c1
+5730H7g0b8H4d7K1D5ip8D3a4n8I0A7i2H1g6c2A04c5J3I2d0a2B3K7f4A3%h1D4D
+5762e6G4b1A4R9d0GL3a5OnA5hA3J7f6D4j9b0F0A2a8@c2J1k6A3K3aC7a8B4Ja0D9
+5797C0a9Dd0A8L0b0F7a3A9M6d7C4c1%E3c1Ga6A8J2a6B5Df6D1f7IN9d7A5K2b5B0
+5831HPa1B5A2d5C5c0%D6d8b3G0h3a7H1d1J7B0Ed2A0J0g0D6A1i5I0b8j5F7e6a8
+5864H5c9CQ9e9K6H4b0m6G0a2j1G0d0n7G4hm9A30a4EL9A2b5G5do3G2k9i7G6Ai5
+5897A39b4%I0c5rA22@c5G0cl9D7k0i6H9m3i9A03Hg0A09b8@G6a5nF7hJF0ej4E7
+5931hl0F9C1a9E4A2d2C0a4bC1Cb8B4Ig3C6rd5A03f9b0H6c1rD9b2HJ@c4iF0c1B8
+5967ej3A6b8KC8dkB4c8J5A2nb8D7io0C1DAL3b4mB8b8J0B3@A5a7A6K4EAL9foA3
+6005A9c0C0a7pD5je3C2A0c7A9Ka1D1k0c8B3a3m9F9fk7F0a0l3A2K0d5B1Gg4B4F
+6039c9E4Ge6D3A8d7D4Ef0D7Gc2F5@e1F1cn0B5a3j9A0c1l8A2L3g0F7C3i4E6c1k6
+6072e7I9A7a0A6Gb3B8hm4C6b2o2A24f5MH5b4l2F2dl2A5L1c6HK5g6E3Cf0E2a6r
+6105b5G6Ib9A9c0A9J9@d6D6j9c9B3Ni7D5a2m3D7gJB1Ge5G5gl2D1Ed9C7A4e2F4
+6140GfC5gj6DNc9Hb6KC3cm0E2bkD1a9p2D9b2oF1Ed5E9A3d4D9e3K1E6Bb5A7c0i
+6178C1DiC5a4bE4c8hH7e2B3O4a1AL0b9lF5a9k6A9b9%D2a7k1A0d2J3E9c7cC4j2
+6212B2fE7g4HO3d3QG3a9MA7c7CL5a8k7A6c8d%jqG3b3DL7d8F8B9i2A4Bfl1D0b8
+6249bB0c8PD0A7cBc4C0j3f3idoj2G1f1A7L7e5aB0e4A6Mb4A0gj1Fa4rJ1dm3A6K7
+6286D3b4A2K8b2BJb1QB5im8E8c1B5NiC5Ig0D6b4cB2e5a3cA5b7A0am3G6B1e0H4
+6322A3aA2c0J3C6EkOc6flC1b5C3j0b5F5b1fF4d2a0B5j2a9j4A4b9A0cl6G4e0RF5
+6358c4a6A5d8iF7AcCd9k2E4B5f4H7c6j7F9f3J9A04A2hC1b2m3D8Id1A10b1o9H4
+6391b7RD3i0K4E8c8l3G8b2PF5Fe0I4Eg3G1Hf7C4d8rG0b3rD7a0l4F4bk2E6b0k1
+6425d1E9A0g1C0M0a5G7a5m0F9d6K1A5ak1C3hoC2Dd9F0A5e3A01a5k9F7d5KF1a1
+6458c0B3Od6AM9e8F3j9e6A3Cd2D0b5J1BgEb1D1b4EJ6e7dpl1H0gIJ8d0D7bqA6e9
+6496B7g0iC2ej1Ea8F5c0C7b7l3F2g9b7F6f1B7b9lbkC0CgB3c5H7a4o2E6d4CK1b4
+6532B9qe1aD0Ce4E6e2j7G4Fa7F8h4c2C5e4A1K7b8iG5Ec4G6If7F2Ie0H4b1%H0b0
+6568e1G0a3NB2Cc1D4b4l8F6b9p5G4a3p9A18a9o7A03Hd9E5b4m1A9hl6C5j2a21E8
+6600B3a24A07d9l4A33Eg8E4a6j5D8If2b8A7a04E9rf7F0a7j17A18b8nH9A0c8HL0
+6630C8h0C3L0a22E4pa41A18A5i7D0Bc5D1%b3B6N1f9A9N4i3C2A4i3G7A4e2E0j4
+6660C6b1k0in8K7G7a11B3N0a10A7K7d7A5al0B7j3J9dB7Me1C9d4gD2a6eB4a7C0
+6693d4A2aoC5a8D8Le9Ec8gC1a5j0B7a7k5a6A8c5fE4d3a2B4c8B4%d5EA@a0B6al7
+6729c8B4ao1E3d5KF1b8a3I5b7dG2Aa8H8Ac1D4io8H3Ca38A06a1m8A00c1k9C4e3
+6762a7C1j3c4G0dj20D9pi7H5a1m0A01b3k2H8EbaEd2D3L0a27G6l4a45A14A4a32
+6793H2A8g3E5k7h0a2E7a22B6Q5a40F7Pa35F5j5i5A10Aa6C9je2FQ7f0B3O8a63D2
+6824A04a19F3j7a16C4A5d3B1L4e1J9A07d7J9G1a23A5O8i6C5pf4B5M1d3@E2a6j1
+6853b7A07h0c1A12h7a5A10i1C2O1g8K9D6am1C4d6fE5d9j3H3e0a1F7b0mLPNC2f
+6886h4gj6k8A1ap5F3A2h9D9a0dF2b8HJ9cl6J6D1b2A9L8d6i@d5a8B9f7@bBb1B2
+6922A1h8H3a7l7H9g0L3I4f3B3b4R%fB1e9D9na10A04c0p0I8a7l9E2a3j0A0J1d1
+6954H3k4i3F5j9a23I1B9f9G4b4m2F9Fe7A3K3e5B9J7a06D8L6a22A03B2h6A06A3
+6983b1B4al0A1O3i5B9O2a18D6Qa62E1k1i5F8C3f4GP2i8gH5a03fH7a41A7Q8i6B8
+7015C4b5C6lg8A0M1e1gG4b2jE5h4aE4i1A3P3f3fG0h6A6O1b6j3E0a7k0G2@d1H6
+7049d6QH6e9b4F2a6B7J5A0a5E3j9h7B6A1a19E3c1j8A31d9cD7e9B2J2A0c8C4j4
+7079B0a12D8a4n6G9c6l0A00g3D3Ha1rj7D3a4mD2h7C8j8i2D6dA3KaC1a5E0bl4I0
+7113GiG9e5C9K5d6C4F@B6JOg5F7A8h2G7b9m3H1c0cD6aA6a4C0d2B5L5e5D1j1a01
+7148F5Gg4G5c0fG6B0f1a9kk4C7N0e9D4J5f6E2k3b8C3Mb0B2M6e9BN9d6C1K0i0a0
+7182A23h5D3J8a07D8nh6dG5d1B2Nd8QB5c8j3G8d3PI3g1K6I4h2C9jg7FN3a9gG0
+7216a7rH8c5oE9d1A2L8e1A6ik1B1DK1e8E2ip4G0c8k8E4h1AP8e5A4Lpc9dCa00G0
+7252B1e6A15f3a6A05d0OB2c1B9nj1c2F0j8a01C3Ce3H2a3m2C6a6j8D1hkmC2a5C0
+7285E0g8G4A0e7C0f7hB9b3A4Plc8j6B2c2@C0d0F4A1a1BKN3b7B5QfB9a5Eb4n%A3
+7322B2na2pJEJc4A6b3kC3A2JJ0L4c7Ca6noA4e9A5Lf6F9dj2D7FJ6a2D2e3dA8f7
+7360F2k5g5B9j3c0LB2ikD4b3k5D6e7b1F9dD4j7e6DK7FBK0a8j1I9a3m2D4c1A7L7
+7394E4d6C2A4e5B9K8a3%D5gl2A05d2a6C0c5LF4c6a1B6b2m8GJ1c8E9He0A12a6r
+7426b5E8d1HJ2c4A2L0a1m6F0j6a4B6a1k6F1f0J4D7f1dE0A0g5B5Nd0D3fk8F2a2
+7459A9Rb0RN@aA2ik1cA5f0B4a0j0G7a6j7gk4A7J2K1b5A1jc6B0a7l6C6c7doj3c
+7496c9a8B2a2B3jiA0a2EK7j5J1HgAgA5Rd6Pa6BJK5a9CK9g6FgmG6a5o0A0c1Fa2
+7535eCg@d3A9Rh0E0cn2D6a3bB0a7@A7L0c9J7Ib0E0jd2F1a0qj3@A8b7a3B2b1On
+7572b0FN6b9E6b7cD1a6KC8A9j@C2a6%F9a7BKc9F5A8Db9j1a1k7B8AK0b3A4lcqH2
+7610A3a6B2c8eB0Ba2B8iDRdj8C6H%M1a1A6L7c6J2C7Fc2B2b2QC6A6a8C4c1NG1d4
+7647CJ5a2Aa1qdA6la6D1a1n3E4e4D1nf3a9B5e2C0j1qc7A8a8l3A4d1A7Hh1a8@e1
+7683D9A9d0GK7A1d8E0d1J5I7i4c5Ff5D2ik1B8ik3A6%c6A3J1d8gC0c4A4bl4cA4
+7718d6B1Re2QHb7J2B9c8A8M2a4D2le8B0J9e4a7B1b7j0E2a9B3J5e6bE3c8eD1a6
+7752g2C1b0HK5e6a8C4d0aC3c6B2Fkb0Gil7G0e2J3F9a07a8D1GAJ9M3A8b0Hf2C1
+7787b5n3F5a9GO5a2B6Jd6B5j2K8a1j9D6e1E3b6j3F3b0GJ7e0C3c4B0ij6F5b5J0
+7819a5B3i4fC1a0D9g2B0b3D6od0F5ho3E0bl5E5b9B9oa1j1j4C6j7%me2cCd8E9A
+7855a9D0b2j8A5J5gj0C5h5A0K0h1C0kf3B7hk2A3a2k0j4D4c8J6D2d9hF3f6A8N9
+7887G7a5FM6g4a8C8e0DO5f0FM2g5IL0e1B2N2g4c3D5f0b3E4f8a8C2f5a4D4d5J0
+7919c5E5b4%G8c1J0I3i9fG6g1fD6a9A9L6b5j5G8c4oA16b7j2A07f7C7M6g6a3B9
+7951bq6aj6n1C2cq4A42b6k4H2e0DMd6bB9Oc2a5Ff6G4io4A15d6LH8B5A2bA8f3A8
+7987D2g3D3K3i5E6A3d5G6b5fC9A9@c6Ba3qG9d2aAc4I1c6k0D0Fa4A2JDb2A5a0j5
+8022b5G4c5a7E2d4A5J2a9bHJ8d9E7He0A9b2rNB3g7C7in3INiHJ0b9C3J5c5D1Ae2
+8059A5K4c3gB5g9A8J0d1a0A4f1A7Ld9GO7e8GM4c2A5K7g9b8D7b9A6%CJ2M5c5CN6
+8093E9f3A7L5g8B7L9h7D2Cc1a4D3bl4I7c4o2A48g0fA28e7B3M1i3A8BgHK9bq5A44
+8127e6n1A03h6b7A10i5E2KDb3D2an2B7c1j10I3b3o4A71c0NH6a4j5D2a9k3E7j4
+8157D3i6F4A9a08G9cj17I8fm1I8dl6BJ8c4B5K3f1D0ph3G1b3o2C1al3E7A1d0GM0
+8190D7c6
+##END NTUPLES=NMR FID
+##END=
