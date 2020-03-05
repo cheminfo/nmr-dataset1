@@ -25,3 +25,5 @@ In this folder we will find the corresponding jcamps as well as a file `structur
 In order to export property the data from topspin the following settings should be used:
 
 Select 'save data set in a JCAMP-DX file'. The most space-saving option ('type of archive file') is JCAMP DIFF/DUP. To only store the FID, change the content of the field 'Include these data types' to FID (default 'rspec + ispec'). For 2D experiments, JCAMP DIFF/DUP and the selection ('Include these data types') for real part, 'RSPEC', needs to be selected for processed spectra, or 'FID' for unprocessed serial files.
+
+A list of currently available datasets can be found here: https://github.com/cheminfo/nmr-dataset1/blob/master/data/table-of-structures.pdf
