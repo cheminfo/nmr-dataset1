@@ -8,7 +8,7 @@
                 "jcampURL": "./620-71-3/13c.dx"
             },
             "display": {
-                "name": "test",
+                "name": "13c",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -23,7 +23,7 @@
                 "jcampURL": "./620-71-3/1h.dx"
             },
             "display": {
-                "name": "test",
+                "name": "1h",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -38,7 +38,7 @@
                 "jcampURL": "./620-71-3/coxy.dx"
             },
             "display": {
-                "name": "test",
+                "name": "coxy",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -53,7 +53,7 @@
                 "jcampURL": "./620-71-3/hmbc.dx"
             },
             "display": {
-                "name": "test",
+                "name": "hmbc",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -68,7 +68,7 @@
                 "jcampURL": "./620-71-3/hsqc.dx"
             },
             "display": {
-                "name": "test",
+                "name": "hsqc",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -83,7 +83,7 @@
                 "jcampURL": "./620-71-3/1dnoe.dx"
             },
             "display": {
-                "name": "test",
+                "name": "1dnoe",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
@@ -93,7 +93,7 @@
     ],
     "molecules": [
         {
-            "molfile": "structure.mol ChemDraw02052015152D 11 11 0 0 0 0 0 0 0 0999 V2000 -2.1437 0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 -2.1437 -0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 -1.4287 -0.8250 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 -0.7137 -0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 -0.7137 0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 -1.4287 0.8250 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 0.0001 0.8250 0.0000 N 0 0 0 0 0 0 0 0 0 0 0 0 0.7151 0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 0.7151 -0.4125 0.0000 O 0 0 0 0 0 0 0 0 0 0 0 0 1.4301 0.8250 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 2.1437 0.4125 0.0000 C 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 0 2 3 1 0 3 4 2 0 4 5 1 0 5 6 2 0 1 6 1 0 5 7 1 0 7 8 1 0 8 9 2 0 8 10 1 0 10 11 1 0 M END"
+            "molfile": "structure.mol\nActelion Java MolfileCreator 2.0\n\n  0  0  0  0  0  0              0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 11 11 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C -3.897 0.7498 0 0\nM  V30 2 C -3.897 -0.7498 0 0\nM  V30 3 C -2.5972 -1.4997 0 0\nM  V30 4 C -1.2974 -0.7498 0 0\nM  V30 5 C -1.2974 0.7498 0 0\nM  V30 6 C -2.5972 1.4997 0 0\nM  V30 7 N 0.0001 1.4997 0 0\nM  V30 8 C 1.2999 0.7498 0 0\nM  V30 9 O 1.2999 -0.7498 0 0\nM  V30 10 C 2.5997 1.4997 0 0\nM  V30 11 C 3.897 0.7498 0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 2 1 2\nM  V30 2 1 2 3\nM  V30 3 2 3 4\nM  V30 4 1 4 5\nM  V30 5 2 5 6\nM  V30 6 1 1 6\nM  V30 7 1 5 7\nM  V30 8 1 7 8\nM  V30 9 2 8 9\nM  V30 10 1 8 10\nM  V30 11 1 10 11\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
         }
     ]
 }
