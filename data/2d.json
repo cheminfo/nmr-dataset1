@@ -3,12 +3,12 @@
         "groupName": "List of Exercise",
         "children": [
             {
-                "file": "./108-98-5/exercise.json",
+                "file": "./620-71-3/ex.json",
                 "title": "Exercise 1",
                 "view": "Exercise"
             },
             {
-                "file": "./121-69-7/exercise.json.json",
+                "file": "./620-71-3/ex.json",
                 "title": "Exercise 2",
                 "view": "Exercise"
             }
