@@ -35,10 +35,10 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./620-71-3/coxy.dx"
+                "jcampURL": "./620-71-3/cosy.dx"
             },
             "display": {
-                "name": "coxy",
+                "name": "cosy",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
