@@ -65,7 +65,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./620-71-3/hsqc.dx"
+                "jcampURL": "./620-71-3/hmqc.dx"
             },
             "display": {
                 "name": "hmqc",
