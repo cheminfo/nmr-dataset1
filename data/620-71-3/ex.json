@@ -68,7 +68,7 @@
                 "jcampURL": "./620-71-3/hsqc.dx"
             },
             "display": {
-                "name": "hsqc",
+                "name": "hmqc",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
