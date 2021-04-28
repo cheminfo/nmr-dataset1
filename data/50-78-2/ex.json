@@ -65,25 +65,10 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./620-71-3/hmqc.dx"
+                "jcampURL": "./50-78-2/teaching/hmqc.dx"
             },
             "display": {
                 "name": "hmqc",
-                "color": "#C10020",
-                "isVisible": true,
-                "isPeaksMarkersVisible": true,
-                "isRealSpectrumVisible": true
-            }
-        },
-        {
-            "data": {},
-            "source": {
-                "original": [],
-                "jcamp": null,
-                "jcampURL": "./620-71-3/1dnoe.dx"
-            },
-            "display": {
-                "name": "1dnoe",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
