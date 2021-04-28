@@ -20,7 +20,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-78-2/1h.dx"
+                "jcampURL": "./50-78-2/teaching/1h.dx"
             },
             "display": {
                 "name": "1h",
@@ -35,7 +35,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./620-71-3/cosy.dx"
+                "jcampURL": "./50-78-2/teaching/cosy.dx"
             },
             "display": {
                 "name": "cosy",
@@ -50,7 +50,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./620-71-3/hmbc.dx"
+                "jcampURL": "./50-78-2/teaching/hmbc.dx"
             },
             "display": {
                 "name": "hmbc",
