@@ -3,7 +3,7 @@
         "groupName": "List of Exercise",
         "children": [
             {
-                "file": "./50-78-3/ex.json",
+                "file": "./50-78-2/ex.json",
                 "title": "Exercise 1",
                 "view": "Exercise"
             }
