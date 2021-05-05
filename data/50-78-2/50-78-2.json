@@ -17,12 +17,12 @@
     },
     {
       "source": {
-        "jcampURL": "./data/50-78-2/hmqc.dx"
+        "jcampURL": "./data/50-78-2/teaching/hmqc.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./data/50-78-2/hmbc.jdx"
+        "jcampURL": "./data/50-78-2/teaching/hmbc.jdx"
       }
     },
   ]
