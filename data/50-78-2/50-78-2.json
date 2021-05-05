@@ -2,17 +2,17 @@
   "spectra": [
     {
       "source": {
-        "jcampURL": "./data/50-78-2/1h.dx"
+        "jcampURL": "./data/50-78-2/teaching/1h.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./data/50-78-2/13c.dx"
+        "jcampURL": "./data/50-78-2/teaching/13c.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./data/50-78-2/cosy.dx"
+        "jcampURL": "./data/50-78-2/teaching/cosy.dx"
       }
     },
     {
