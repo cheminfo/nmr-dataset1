@@ -2,27 +2,27 @@
   "spectra": [
     {
       "source": {
-        "jcampURL": "./teaching/1h.dx"
+        "jcampURL": "./50-78-2/1h.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./teaching/13c.dx"
+        "jcampURL": "./50-78-2/13c.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./50-78-2/teaching/cosy.dx"
+        "jcampURL": "./50-78-2/cosy.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./50-78-2/teaching/hmqc.dx"
+        "jcampURL": "./50-78-2/hmqc.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./50-78-2/teaching/hmbc.jdx"
+        "jcampURL": "./50-78-2/hmbc.jdx"
       }
     },
   ]
