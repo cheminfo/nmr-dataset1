@@ -7,7 +7,22 @@
     },
     {
       "source": {
+        "jcampURL": "./91-64-5/teaching/1D_NOE.dx"
+      }
+    },
+    {
+      "source": {
         "jcampURL": "./91-64-5/teaching/13c.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./91-64-5/teaching/apt.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./91-64-5/teaching/dept135.dx"
       }
     },
     {
