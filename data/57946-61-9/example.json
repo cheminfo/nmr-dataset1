@@ -2,7 +2,22 @@
   "spectra": [
     {
       "source": {
-        "jcampURL": "./57946-61-9/teaching/1h.dx"
+        "jcampURL": "./57946-61-9/teaching/1h-400MHz.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./57946-61-9/teaching/1h-600MHz.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./57946-61-9/teaching/19f-400MHz.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./57946-61-9/teaching/deptq.dx"
       }
     },
     {
@@ -12,7 +27,17 @@
     },
     {
       "source": {
-        "jcampURL": "./57946-61-9/teaching/hsqc.dx"
+        "jcampURL": "./57946-61-9/teaching/noesy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./57946-61-9/teaching/hf-hoesy-400MHz.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./57946-61-9/teaching/hmqc.dx"
       }
     },
     {
