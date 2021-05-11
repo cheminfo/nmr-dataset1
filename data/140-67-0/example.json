@@ -7,32 +7,12 @@
     },
     {
       "source": {
-        "jcampURL": "./140-67-0/teaching/1D_NOE.dx"
-      }
-    },
-    {
-      "source": {
-        "jcampURL": "./140-67-0/teaching/13c.dx"
-      }
-    },
-    {
-      "source": {
-        "jcampURL": "./140-67-0/teaching/apt.dx"
-      }
-    },
-    {
-      "source": {
-        "jcampURL": "./140-67-0/teaching/dept135.dx"
-      }
-    },
-    {
-      "source": {
         "jcampURL": "./140-67-0/teaching/cosy.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./140-67-0/teaching/hmqc.dx"
+        "jcampURL": "./140-67-0/teaching/hsqc.dx"
       }
     },
     {
