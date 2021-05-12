@@ -7,7 +7,17 @@
     },
     {
       "source": {
-        "jcampURL": "./16485-10-2/teaching/13c.dx"
+        "jcampURL": "./16485-10-2/teaching/1D-noe_3-71.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./16485-10-2/teaching/1D-noe_7-75.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./16485-10-2/teaching/apt.dx"
       }
     },
     {
@@ -17,12 +27,17 @@
     },
     {
       "source": {
-        "jcampURL": "./16485-10-2/teaching/hsqced.dx"
+        "jcampURL": "./16485-10-2/teaching/hmqc.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./16485-10-2/teaching/13c_gd.dx"
+        "jcampURL": "./16485-10-2/teaching/hmbc.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./16485-10-2/teaching/hn-hsqc.dx"
       }
     }
   ]
