@@ -1,0 +1,29 @@
+{
+  "spectra": [
+    {
+      "source": {
+        "jcampURL": "./14434-41-4/teaching/1h.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./14434-41-4/teaching/1D-noe_6-36.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./14434-41-4/teaching/cosy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./14434-41-4/teaching/hmqc.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./14434-41-4/teaching/hmbc.dx"
+      }
+    }
+  ]
+}
