@@ -1,0 +1,34 @@
+{
+  "spectra": [
+    {
+      "source": {
+        "jcampURL": "./16485-10-2/teaching/1h.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./2591-86-8/teaching/apt.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./2591-86-8/teaching/cosy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./2591-86-8/teaching/noesy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./2591-86-8/teaching/hmqc.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./2591-86-8/teaching/hmbc.dx"
+      }
+    }
+  ]
+}
