@@ -3,7 +3,7 @@
         "groupName": "List of Exercise",
         "children": [
             {
-                "file": "./623-47-2/example.json",
+                "file": "./623-47-2/example_solved.json",
                 "title": "Exercise 1",
                 "view": "Teaching"
             }
