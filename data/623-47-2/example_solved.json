@@ -11,7 +11,7 @@
         "isVisible": true,
         "isPeaksMarkersVisible": true,
         "isRealSpectrumVisible": true,
-        "isVisibleInDomain": false
+        "isVisibleInDomain": true
       },
       "peaks": {
         "values": [],
@@ -100,7 +100,7 @@
         "isVisible": true,
         "isPeaksMarkersVisible": true,
         "isRealSpectrumVisible": true,
-        "isVisibleInDomain": true
+        "isVisibleInDomain": false
       },
       "peaks": {
         "values": [],
@@ -411,191 +411,6 @@
       }
     },
     {
-      "id": "vA49Unqa",
-      "source": {
-        "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/623-47-2/teaching/hsqc.dx"
-      },
-      "zones": {
-        "values": [
-          {
-            "id": "sDhNRUPd",
-            "x": {
-              "from": 1.2151680352326129,
-              "to": 1.3279682209597432,
-              "pubIntegral": 3
-            },
-            "y": {
-              "from": 13.390662240176761,
-              "to": 14.565647180612627,
-              "pubIntegral": 1
-            },
-            "signal": [
-              {
-                "id": "Efjo1Ucp",
-                "peak": [
-                  {
-                    "x": 1.276695409265593,
-                    "y": 13.98925187016624,
-                    "z": 68892548.28317861,
-                    "minX": 1.2151680352326129,
-                    "maxX": 1.3279682209597432,
-                    "minY": 13.390662240176761,
-                    "maxY": 14.565647180612627
-                  }
-                ],
-                "x": {
-                  "originDelta": 1.276695409265593,
-                  "delta": 1.276695409265593,
-                  "diaID": [
-                    "daxD`LhIeIUnj[@GzP`HeT",
-                    "daxD`LhIeIUnj[@GzP`HeT",
-                    "daxD`LhIeIUnj[@GzP`HeT"
-                  ]
-                },
-                "y": {
-                  "originDelta": 13.98925187016624,
-                  "delta": 13.98925187016624,
-                  "diaID": [
-                    "gNp`@dfUZn@XchOtbMpj`"
-                  ]
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          },
-          {
-            "id": "Qok1s7kO",
-            "x": {
-              "from": 4.194118394662736,
-              "to": 4.276154893373376,
-              "pubIntegral": 2
-            },
-            "y": {
-              "from": 61.982766123903495,
-              "to": 62.92091456949612,
-              "pubIntegral": 1
-            },
-            "signal": [
-              {
-                "id": "mTyCY9a9",
-                "peak": [
-                  {
-                    "x": 4.25086356726116,
-                    "y": 62.63019341670923,
-                    "z": 554426632.7987053,
-                    "minX": 4.240263925187471,
-                    "maxX": 4.276154893373376,
-                    "minY": 61.982766123903495,
-                    "maxY": 62.92091456949612
-                  },
-                  {
-                    "x": 4.22763929674156,
-                    "y": 62.59936817907516,
-                    "z": 440835755.6794516,
-                    "minX": 4.194118394662736,
-                    "maxX": 4.235136644018056,
-                    "minY": 61.982766123903495,
-                    "maxY": 62.92091456949612
-                  }
-                ],
-                "x": {
-                  "originDelta": 4.240576743441497,
-                  "delta": 4.240576743441497,
-                  "diaID": [
-                    "daxD`DhIeIgnj[bJ@_iB@bUP",
-                    "daxD`DhIeIgnj[bJ@_iB@bUP"
-                  ]
-                },
-                "y": {
-                  "originDelta": 62.61653986455682,
-                  "delta": 62.61653986455682,
-                  "diaID": [
-                    "gNp`@dfUZn@XahOtbEpj`"
-                  ]
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          },
-          {
-            "id": "hYRjjrne",
-            "x": {
-              "from": 2.8866616964619074,
-              "to": 2.9122981023089825,
-              "pubIntegral": 1
-            },
-            "y": {
-              "from": 72.7714732482187,
-              "to": 75.11684436220031,
-              "pubIntegral": 1
-            },
-            "signal": [
-              {
-                "id": "4ix95VDn",
-                "peak": [
-                  {
-                    "x": 2.899135533928676,
-                    "y": 74.33492047584998,
-                    "z": 22989017.098187793,
-                    "minX": 2.8866616964619074,
-                    "maxX": 2.9122981023089825,
-                    "minY": 72.7714732482187,
-                    "maxY": 75.11684436220031
-                  }
-                ],
-                "x": {
-                  "originDelta": 2.899135533928676,
-                  "delta": 2.899135533928676,
-                  "diaID": [
-                    "daxD`BhIeIVvyj@GzP`HeT"
-                  ]
-                },
-                "y": {
-                  "originDelta": 74.33492047584998,
-                  "delta": 74.33492047584998,
-                  "diaID": [
-                    "gNp`@dfUZn@XehOtbUpj`"
-                  ]
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          }
-        ],
-        "options": {}
-      },
-      "filters": [],
-      "display": {
-        "name": "5nngVSKZ",
-        "positiveColor": "#f8153aff",
-        "negativeColor": "#0056ffff",
-        "isPositiveVisible": true,
-        "isNegativeVisible": false,
-        "isVisible": true,
-        "contourOptions": {
-          "positive": {
-            "contourLevels": [
-              0,
-              21
-            ],
-            "numberOfLayers": 10
-          },
-          "negative": {
-            "contourLevels": [
-              0,
-              21
-            ],
-            "numberOfLayers": 10
-          }
-        },
-        "dimension": 2,
-        "isVisibleInDomain": false
-      }
-    },
-    {
       "id": "hqeLYf8k",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/623-47-2/teaching/hmbc.dx"
@@ -822,6 +637,191 @@
         "negativeColor": "#ffff0029",
         "isPositiveVisible": true,
         "isNegativeVisible": true,
+        "isVisible": true,
+        "contourOptions": {
+          "positive": {
+            "contourLevels": [
+              0,
+              21
+            ],
+            "numberOfLayers": 10
+          },
+          "negative": {
+            "contourLevels": [
+              0,
+              21
+            ],
+            "numberOfLayers": 10
+          }
+        },
+        "dimension": 2,
+        "isVisibleInDomain": false
+      }
+    },
+    {
+      "id": "vA49Unqa",
+      "source": {
+        "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/623-47-2/teaching/hsqc.dx"
+      },
+      "zones": {
+        "values": [
+          {
+            "id": "sDhNRUPd",
+            "x": {
+              "from": 1.2151680352326129,
+              "to": 1.3279682209597432,
+              "pubIntegral": 3
+            },
+            "y": {
+              "from": 13.390662240176761,
+              "to": 14.565647180612627,
+              "pubIntegral": 1
+            },
+            "signal": [
+              {
+                "id": "Efjo1Ucp",
+                "peak": [
+                  {
+                    "x": 1.276695409265593,
+                    "y": 13.98925187016624,
+                    "z": 68892548.28317861,
+                    "minX": 1.2151680352326129,
+                    "maxX": 1.3279682209597432,
+                    "minY": 13.390662240176761,
+                    "maxY": 14.565647180612627
+                  }
+                ],
+                "x": {
+                  "originDelta": 1.276695409265593,
+                  "delta": 1.276695409265593,
+                  "diaID": [
+                    "daxD`LhIeIUnj[@GzP`HeT",
+                    "daxD`LhIeIUnj[@GzP`HeT",
+                    "daxD`LhIeIUnj[@GzP`HeT"
+                  ]
+                },
+                "y": {
+                  "originDelta": 13.98925187016624,
+                  "delta": 13.98925187016624,
+                  "diaID": [
+                    "gNp`@dfUZn@XchOtbMpj`"
+                  ]
+                },
+                "kind": "signal"
+              }
+            ],
+            "kind": "signal"
+          },
+          {
+            "id": "Qok1s7kO",
+            "x": {
+              "from": 4.194118394662736,
+              "to": 4.276154893373376,
+              "pubIntegral": 2
+            },
+            "y": {
+              "from": 61.982766123903495,
+              "to": 62.92091456949612,
+              "pubIntegral": 1
+            },
+            "signal": [
+              {
+                "id": "mTyCY9a9",
+                "peak": [
+                  {
+                    "x": 4.25086356726116,
+                    "y": 62.63019341670923,
+                    "z": 554426632.7987053,
+                    "minX": 4.240263925187471,
+                    "maxX": 4.276154893373376,
+                    "minY": 61.982766123903495,
+                    "maxY": 62.92091456949612
+                  },
+                  {
+                    "x": 4.22763929674156,
+                    "y": 62.59936817907516,
+                    "z": 440835755.6794516,
+                    "minX": 4.194118394662736,
+                    "maxX": 4.235136644018056,
+                    "minY": 61.982766123903495,
+                    "maxY": 62.92091456949612
+                  }
+                ],
+                "x": {
+                  "originDelta": 4.240576743441497,
+                  "delta": 4.240576743441497,
+                  "diaID": [
+                    "daxD`DhIeIgnj[bJ@_iB@bUP",
+                    "daxD`DhIeIgnj[bJ@_iB@bUP"
+                  ]
+                },
+                "y": {
+                  "originDelta": 62.61653986455682,
+                  "delta": 62.61653986455682,
+                  "diaID": [
+                    "gNp`@dfUZn@XahOtbEpj`"
+                  ]
+                },
+                "kind": "signal"
+              }
+            ],
+            "kind": "signal"
+          },
+          {
+            "id": "hYRjjrne",
+            "x": {
+              "from": 2.8866616964619074,
+              "to": 2.9122981023089825,
+              "pubIntegral": 1
+            },
+            "y": {
+              "from": 72.7714732482187,
+              "to": 75.11684436220031,
+              "pubIntegral": 1
+            },
+            "signal": [
+              {
+                "id": "4ix95VDn",
+                "peak": [
+                  {
+                    "x": 2.899135533928676,
+                    "y": 74.33492047584998,
+                    "z": 22989017.098187793,
+                    "minX": 2.8866616964619074,
+                    "maxX": 2.9122981023089825,
+                    "minY": 72.7714732482187,
+                    "maxY": 75.11684436220031
+                  }
+                ],
+                "x": {
+                  "originDelta": 2.899135533928676,
+                  "delta": 2.899135533928676,
+                  "diaID": [
+                    "daxD`BhIeIVvyj@GzP`HeT"
+                  ]
+                },
+                "y": {
+                  "originDelta": 74.33492047584998,
+                  "delta": 74.33492047584998,
+                  "diaID": [
+                    "gNp`@dfUZn@XehOtbUpj`"
+                  ]
+                },
+                "kind": "signal"
+              }
+            ],
+            "kind": "signal"
+          }
+        ],
+        "options": {}
+      },
+      "filters": [],
+      "display": {
+        "name": "5nngVSKZ",
+        "positiveColor": "#f8153aff",
+        "negativeColor": "#0056ffff",
+        "isPositiveVisible": true,
+        "isNegativeVisible": false,
         "isVisible": true,
         "contourOptions": {
           "positive": {
