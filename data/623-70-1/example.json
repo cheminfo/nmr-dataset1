@@ -7,7 +7,7 @@
     },
     {
       "source": {
-        "jcampURL": "./623-70-1/teaching/deptQ.dx"
+        "jcampURL": "./623-70-1/teaching/deptq.dx"
       }
     },
     {
@@ -17,7 +17,12 @@
     },
     {
       "source": {
-        "jcampURL": "./623-70-1/teaching/hsqc.dx"
+        "jcampURL": "./623-70-1/teaching/noesy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./623-70-1/teaching/hsqced.dx"
       }
     },
     {
