@@ -1,12 +1,12 @@
 {
   "spectra": [
     {
-      "id": "Wh41xVj9",
+      "id": "eBMdrwfh",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/2759-55-9/teaching/1h.dx"
       },
       "display": {
-        "name": "oirckucT",
+        "name": "i6xmxMZK",
         "color": "#232c16ff",
         "isVisible": true,
         "isPeaksMarkersVisible": true,
@@ -31,11 +31,11 @@
             "originTo": 1.2459963901855131,
             "from": 1.1904316853210883,
             "to": 1.2459963901855131,
-            "integral": 3,
+            "integral": 2.657114725531108,
             "signal": [
               {
                 "kind": "signal",
-                "id": "9MmFgryS",
+                "id": "o8LqTn9M",
                 "originDelta": 1.2182140377533008,
                 "multiplicity": "t",
                 "j": [
@@ -47,8 +47,27 @@
                 "delta": 1.2182140377533008
               }
             ],
-            "id": "6J98og0z",
+            "id": "AKz8czB6",
             "absolute": 2832736.6777758347
+          },
+          {
+            "kind": "mixed",
+            "originFrom": 1.6051621575283537,
+            "originTo": 1.6161455805251197,
+            "from": 1.6051621575283537,
+            "to": 1.6161455805251197,
+            "integral": 0.35362873974683356,
+            "signal": [
+              {
+                "kind": "impurity",
+                "id": "e8U8bol3",
+                "originDelta": 1.6106538690267367,
+                "multiplicity": "s",
+                "delta": 1.6106538690267367
+              }
+            ],
+            "id": "RXkzsuJd",
+            "absolute": 377001.8252396956
           },
           {
             "kind": "signal",
@@ -56,17 +75,17 @@
             "originTo": 2.2991211204879365,
             "from": 2.2734931334954798,
             "to": 2.2991211204879365,
-            "integral": 3.4822382887119154,
+            "integral": 3.0842355449148924,
             "signal": [
               {
                 "kind": "signal",
-                "id": "0sG0wFuR",
+                "id": "bOESCFvP",
                 "originDelta": 2.286307126991708,
                 "multiplicity": "s",
                 "delta": 2.286307126991708
               }
             ],
-            "id": "dlf9NRor",
+            "id": "3dsHgXzd",
             "absolute": 3288088.040396533
           },
           {
@@ -75,11 +94,11 @@
             "originTo": 2.3803877213598024,
             "from": 2.30982374414781,
             "to": 2.3803877213598024,
-            "integral": 2.261123718562422,
+            "integral": 2.002688376279956,
             "signal": [
               {
                 "kind": "signal",
-                "id": "MexZa3tn",
+                "id": "U1qfi0cp",
                 "originDelta": 2.3451057327538063,
                 "multiplicity": "q",
                 "j": [
@@ -91,7 +110,7 @@
                 "delta": 2.3451057327538063
               }
             ],
-            "id": "pDpXR77v",
+            "id": "JKzebbs6",
             "absolute": 2135056.0301868855
           },
           {
@@ -100,11 +119,11 @@
             "originTo": 7.109881373799508,
             "from": 7.064496755104589,
             "to": 7.109881373799508,
-            "integral": 2.1272427643698206,
+            "integral": 1.8841093579955175,
             "signal": [
               {
                 "kind": "signal",
-                "id": "qvWkSIKt",
+                "id": "vf1sIJxE",
                 "originDelta": 7.0871890644520485,
                 "multiplicity": "d",
                 "j": [
@@ -116,8 +135,27 @@
                 "delta": 7.0871890644520485
               }
             ],
-            "id": "ewn5CttK",
+            "id": "mzhtObHo",
             "absolute": 2008639.5337212163
+          },
+          {
+            "kind": "mixed",
+            "originFrom": 7.232207051868549,
+            "originTo": 7.246851615864237,
+            "from": 7.232207051868549,
+            "to": 7.246851615864237,
+            "integral": 0.7895201877374137,
+            "signal": [
+              {
+                "kind": "solvent",
+                "id": "M6vfybLW",
+                "originDelta": 7.239529333866393,
+                "multiplicity": "s",
+                "delta": 7.239529333866393
+              }
+            ],
+            "id": "z2qCuhLo",
+            "absolute": 841703.5110146397
           },
           {
             "kind": "signal",
@@ -125,11 +163,11 @@
             "originTo": 7.390684517368936,
             "from": 7.33838413790818,
             "to": 7.390684517368936,
-            "integral": 1.8093038661207923,
+            "integral": 1.602509315209974,
             "signal": [
               {
                 "kind": "signal",
-                "id": "pqTJJhQG",
+                "id": "w4sYv80l",
                 "originDelta": 7.364534327638558,
                 "multiplicity": "d",
                 "j": [
@@ -141,56 +179,64 @@
                 "delta": 7.364534327638558
               }
             ],
-            "id": "ZGtXBOxO",
+            "id": "P37Npc8i",
             "absolute": 1708427.1409339956
           },
           {
             "kind": "signal",
-            "originFrom": 7.113514896341609,
-            "originTo": 7.209066288620469,
-            "id": "GV9ajSkG",
-            "from": 7.113514896341609,
-            "to": 7.209066288620469,
-            "absolute": 940819.4919873638,
+            "originFrom": 7.095283696770112,
+            "originTo": 7.212959632018261,
+            "id": "2TjrU5iP",
+            "from": 7.095283696770112,
+            "to": 7.212959632018261,
+            "absolute": 1453753.583808707,
             "signal": [
               {
                 "kind": "signal",
-                "id": "ifRxL39P",
-                "originDelta": 7.153155889974271,
-                "multiplicity": "ddd",
-                "delta": 7.153155889974271,
+                "id": "LmWXdxuc",
+                "originDelta": 7.132180603001233,
+                "multiplicity": "dddd",
+                "delta": 7.132180603001233,
                 "j": [
                   {
                     "multiplicity": "d",
-                    "coupling": 6.103515625106207
+                    "coupling": 1.53541564944078
                   },
                   {
                     "multiplicity": "d",
-                    "coupling": 5.149841308683362
+                    "coupling": 2.0408630371448875
                   },
                   {
                     "multiplicity": "d",
-                    "coupling": 3.5858154297498963
+                    "coupling": 2.3365020752359698
+                  },
+                  {
+                    "multiplicity": "d",
+                    "coupling": 2.622604370162823
                   }
+                ],
+                "diaID": [
+                  "dknH`HXIgHhhhedYvhFBH@GzP`HeT"
                 ]
               }
             ],
-            "integral": 0.996371635283159
+            "integral": 1.363624824409964,
+            "pubIntegral": 1
           }
         ],
         "options": {
-          "sum": 13.67628027304811
+          "sum": 12.594282144341413
         }
       },
       "filters": []
     },
     {
-      "id": "xTUlSBs1",
+      "id": "jaByFdOa",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/2759-55-9/teaching/1D_noe.dx"
       },
       "display": {
-        "name": "EQuiu8kf",
+        "name": "vGHBlXjC",
         "color": "#007D34",
         "isVisible": true,
         "isPeaksMarkersVisible": true,
@@ -216,14 +262,14 @@
       "filters": []
     },
     {
-      "id": "CavwclzM",
+      "id": "B7BTb1nI",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/2759-55-9/teaching/cosy.dx"
       },
       "zones": {
         "values": [
           {
-            "id": "JKEIF0Xg",
+            "id": "OU4XPUJB",
             "x": {
               "from": 2.2631135994485967,
               "to": 2.3021657701037674
@@ -234,7 +280,7 @@
             },
             "signal": [
               {
-                "id": "CmXjFDJa",
+                "id": "msJVa4dI",
                 "peak": [
                   {
                     "x": 2.2823669632338177,
@@ -262,7 +308,7 @@
             "kind": "signal"
           },
           {
-            "id": "i6LFC0oE",
+            "id": "ixhxMdYz",
             "x": {
               "from": 7.2227392726552715,
               "to": 7.252028400646649
@@ -273,7 +319,7 @@
             },
             "signal": [
               {
-                "id": "fIMJQVAu",
+                "id": "qfwIFE4l",
                 "peak": [
                   {
                     "x": 7.235710245018101,
@@ -301,7 +347,46 @@
             "kind": "mixed"
           },
           {
-            "id": "aPjxX4CL",
+            "id": "6IG1CRkq",
+            "x": {
+              "from": 1.5894636556469028,
+              "to": 1.6285158263020736
+            },
+            "y": {
+              "from": 1.583793804603881,
+              "to": 1.6424869199120902
+            },
+            "signal": [
+              {
+                "id": "G21UIYEl",
+                "peak": [
+                  {
+                    "x": 1.6088741812981562,
+                    "y": 1.6134878384402394,
+                    "z": 53519379.00327797,
+                    "minX": 1.5894636556469028,
+                    "maxX": 1.6285158263020736,
+                    "minY": 1.583793804603881,
+                    "maxY": 1.6424869199120902
+                  }
+                ],
+                "x": {
+                  "originDelta": 1.6088741812981562,
+                  "delta": 1.6088741812981562,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 1.6134878384402394,
+                  "delta": 1.6134878384402394,
+                  "diaID": []
+                },
+                "kind": "impurity"
+              }
+            ],
+            "kind": "mixed"
+          },
+          {
+            "id": "gV5B4mBN",
             "x": {
               "from": 7.056767547370796,
               "to": 7.105582760689759
@@ -312,7 +397,7 @@
             },
             "signal": [
               {
-                "id": "YxLuO5ph",
+                "id": "tFQZ3dNN",
                 "peak": [
                   {
                     "x": 7.086056675362173,
@@ -340,7 +425,7 @@
             "kind": "signal"
           },
           {
-            "id": "xNEjYjdi",
+            "id": "D7ugNggM",
             "x": {
               "from": 7.339895784620783,
               "to": 7.378947955275954
@@ -351,7 +436,7 @@
             },
             "signal": [
               {
-                "id": "ZzeCnvSR",
+                "id": "XUTOMBki",
                 "peak": [
                   {
                     "x": 7.361860951676904,
@@ -379,7 +464,7 @@
             "kind": "signal"
           },
           {
-            "id": "DQpwwisX",
+            "id": "HAu0fyBW",
             "x": {
               "from": 7.056767547370796,
               "to": 7.105582760689759
@@ -390,7 +475,7 @@
             },
             "signal": [
               {
-                "id": "aZAZRsYr",
+                "id": "HBHyerQs",
                 "peak": [
                   {
                     "x": 7.080340804993115,
@@ -418,7 +503,7 @@
             "kind": "signal"
           },
           {
-            "id": "Lc65MCUV",
+            "id": "NQWt5jOf",
             "x": {
               "from": 1.1891789064314033,
               "to": 1.2379941197503668
@@ -429,7 +514,7 @@
             },
             "signal": [
               {
-                "id": "ldoaLzOq",
+                "id": "meGGRL9H",
                 "peak": [
                   {
                     "x": 1.2150446144238913,
@@ -457,7 +542,7 @@
             "kind": "signal"
           },
           {
-            "id": "KeNrFKZZ",
+            "id": "OgNRsQku",
             "x": {
               "from": 7.339895784620783,
               "to": 7.378947955275954
@@ -468,7 +553,7 @@
             },
             "signal": [
               {
-                "id": "ktTnl07V",
+                "id": "JaJJKlEb",
                 "peak": [
                   {
                     "x": 7.35362694519142,
@@ -496,7 +581,7 @@
             "kind": "signal"
           },
           {
-            "id": "YaSbhdu7",
+            "id": "8dJT49rQ",
             "x": {
               "from": 1.1891789064314033,
               "to": 1.2477571624141595
@@ -507,7 +592,7 @@
             },
             "signal": [
               {
-                "id": "rIdY21QQ",
+                "id": "8kyrAq5V",
                 "peak": [
                   {
                     "x": 1.2299419358948704,
@@ -544,7 +629,7 @@
             "kind": "signal"
           },
           {
-            "id": "NHRN3Gbj",
+            "id": "vJ79TV0n",
             "x": {
               "from": 2.31192881276756,
               "to": 2.370507068750316
@@ -555,7 +640,7 @@
             },
             "signal": [
               {
-                "id": "z9StTwwx",
+                "id": "PGDLmIWB",
                 "peak": [
                   {
                     "x": 2.3415816597461214,
@@ -583,7 +668,7 @@
             "kind": "signal"
           },
           {
-            "id": "DCjTsDeF",
+            "id": "db4v3lpP",
             "x": {
               "from": 2.3314548980951453,
               "to": 2.3607440260865236
@@ -594,7 +679,7 @@
             },
             "signal": [
               {
-                "id": "0DBogL3i",
+                "id": "T3Fr0WLO",
                 "peak": [
                   {
                     "x": 2.3352263646654086,
@@ -620,95 +705,17 @@
               }
             ],
             "kind": "signal"
-          },
-          {
-            "id": "Mizm7LMp",
-            "x": {
-              "from": 7.0567675473707965,
-              "to": 7.105582760689759
-            },
-            "y": {
-              "from": 2.243545770025313,
-              "to": 2.3314131539994425
-            },
-            "signal": [
-              {
-                "id": "nF3hPJ4c",
-                "peak": [
-                  {
-                    "x": 7.086032510326923,
-                    "y": 2.2966668929221887,
-                    "z": 4006565.937113349,
-                    "minX": 7.0567675473707965,
-                    "maxX": 7.105582760689759,
-                    "minY": 2.243545770025313,
-                    "maxY": 2.3314131539994425
-                  }
-                ],
-                "x": {
-                  "originDelta": 7.086032510326923,
-                  "delta": 7.086032510326923,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 2.2966668929221887,
-                  "delta": 2.2966668929221887,
-                  "diaID": []
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          },
-          {
-            "id": "sZeiTspK",
-            "x": {
-              "from": 2.272876642112389,
-              "to": 2.2924027274399745
-            },
-            "y": {
-              "from": 7.051844281942912,
-              "to": 7.149474708580833
-            },
-            "signal": [
-              {
-                "id": "ywBHlS32",
-                "peak": [
-                  {
-                    "x": 2.282098776615515,
-                    "y": 7.115677176803667,
-                    "z": 3119029.5,
-                    "minX": 2.272876642112389,
-                    "maxX": 2.2924027274399745,
-                    "minY": 7.051844281942912,
-                    "maxY": 7.149474708580833
-                  }
-                ],
-                "x": {
-                  "originDelta": 2.282098776615515,
-                  "delta": 2.282098776615515,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 7.115677176803667,
-                  "delta": 7.115677176803667,
-                  "diaID": []
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
           }
         ],
         "options": {}
       },
       "filters": [],
       "display": {
-        "name": "m8ph40jA",
+        "name": "xg0vBaiP",
         "positiveColor": "darkblue",
         "negativeColor": "blue",
         "isPositiveVisible": true,
-        "isNegativeVisible": true,
+        "isNegativeVisible": false,
         "isVisible": true,
         "contourOptions": {
           "positive": {
@@ -727,19 +734,18 @@
           }
         },
         "dimension": 2,
-        "isVisibleInDomain": false,
-        "isPeaksMarkersVisible": false
+        "isVisibleInDomain": false
       }
     },
     {
-      "id": "iRtkZNFq",
+      "id": "SAY0vK0z",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/2759-55-9/teaching/hmqc.dx"
       },
       "zones": {
         "values": [
           {
-            "id": "Mf0qyUhD",
+            "id": "uuGxdEfJ",
             "x": {
               "from": 2.224061428793426,
               "to": 2.341217940758938,
@@ -752,7 +758,7 @@
             },
             "signal": [
               {
-                "id": "6voBiwWO",
+                "id": "l04C9fXh",
                 "peak": [
                   {
                     "x": 2.282218367530412,
@@ -786,7 +792,7 @@
             "kind": "signal"
           },
           {
-            "id": "Gg7GmdDU",
+            "id": "LMiDjyw1",
             "x": {
               "from": 6.890795822086321,
               "to": 7.349658827284576,
@@ -799,7 +805,7 @@
             },
             "signal": [
               {
-                "id": "zShdiZtR",
+                "id": "Ttr893Sw",
                 "peak": [
                   {
                     "x": 7.079772716572671,
@@ -833,7 +839,7 @@
             "kind": "signal"
           },
           {
-            "id": "EYJjO82P",
+            "id": "D3orjLP0",
             "x": {
               "from": 7.164161016672515,
               "to": 7.652313149862149,
@@ -846,7 +852,7 @@
             },
             "signal": [
               {
-                "id": "4w4KOS23",
+                "id": "G46ddFzi",
                 "peak": [
                   {
                     "x": 7.36529136167363,
@@ -880,7 +886,46 @@
             "kind": "signal"
           },
           {
-            "id": "LZbyL66n",
+            "id": "F0vv9AlH",
+            "x": {
+              "from": 7.193450144663893,
+              "to": 7.281317528638027
+            },
+            "y": {
+              "from": 77.17048014601336,
+              "to": 78.3446624108927
+            },
+            "signal": [
+              {
+                "id": "5S3O1VrY",
+                "peak": [
+                  {
+                    "x": 7.233617119135119,
+                    "y": 77.78053946896348,
+                    "z": 66598991.44326948,
+                    "minX": 7.193450144663893,
+                    "maxX": 7.281317528638027,
+                    "minY": 77.17048014601336,
+                    "maxY": 78.3446624108927
+                  }
+                ],
+                "x": {
+                  "originDelta": 7.233617119135119,
+                  "delta": 7.233617119135119,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 77.78053946896348,
+                  "delta": 77.78053946896348,
+                  "diaID": []
+                },
+                "kind": "solvent"
+              }
+            ],
+            "kind": "mixed"
+          },
+          {
+            "id": "kEoqsMas",
             "x": {
               "from": 1.1501267357762328,
               "to": 1.2770462904055375,
@@ -893,7 +938,7 @@
             },
             "signal": [
               {
-                "id": "QlVXqNdZ",
+                "id": "A0OilT5D",
                 "peak": [
                   {
                     "x": 1.2138916894367247,
@@ -927,42 +972,42 @@
             "kind": "signal"
           },
           {
-            "id": "6Qzzglo6",
+            "id": "48PXJn7G",
             "x": {
-              "from": 2.282639684776182,
-              "to": 2.4193222820692792,
+              "from": 2.3021657701037674,
+              "to": 2.3802701114141085,
               "pubIntegral": 2
             },
             "y": {
-              "from": 30.594583639133347,
-              "to": 31.377371815719563,
+              "from": 30.525649259590523,
+              "to": 32.088161862561066,
               "pubIntegral": 1
             },
             "signal": [
               {
-                "id": "P7jteE4x",
+                "id": "q46ut0xY",
                 "peak": [
                   {
-                    "x": 2.33989134834902,
-                    "y": 31.106640883910657,
-                    "z": 51070065.45980618,
-                    "minX": 2.282639684776182,
-                    "maxX": 2.4193222820692792,
-                    "minY": 30.594583639133347,
-                    "maxY": 31.377371815719563
+                    "x": 2.343496034559588,
+                    "y": 31.306885163729614,
+                    "z": 47348185.791831866,
+                    "minX": 2.3021657701037674,
+                    "maxX": 2.3802701114141085,
+                    "minY": 30.525649259590523,
+                    "maxY": 32.088161862561066
                   }
                 ],
                 "x": {
-                  "originDelta": 2.33989134834902,
-                  "delta": 2.33989134834902,
+                  "originDelta": 2.343496034559588,
+                  "delta": 2.343496034559588,
                   "diaID": [
                     "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP",
                     "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP"
                   ]
                 },
                 "y": {
-                  "originDelta": 31.10664088391066,
-                  "delta": 31.10664088391066,
+                  "originDelta": 31.306885163729614,
+                  "delta": 31.306885163729614,
                   "diaID": [
                     "dcNH@DAIe[WeVj@B@AbLhOtaL\\Jh"
                   ]
@@ -977,9 +1022,9 @@
       },
       "filters": [],
       "display": {
-        "name": "n8QnIMum",
-        "positiveColor": "#f8163cff",
-        "negativeColor": "#111fffff",
+        "name": "BSs78D3w",
+        "positiveColor": "#f31a3eff",
+        "negativeColor": "#002affff",
         "isPositiveVisible": true,
         "isNegativeVisible": true,
         "isVisible": true,
@@ -1000,19 +1045,18 @@
           }
         },
         "dimension": 2,
-        "isVisibleInDomain": false,
-        "isPeaksMarkersVisible": false
+        "isVisibleInDomain": false
       }
     },
     {
-      "id": "wlLLL2nL",
+      "id": "BIqo6g2M",
       "source": {
         "jcampURL": "https://cheminfo.github.io/nmr-dataset1/data/2759-55-9/teaching/hmbc.dx"
       },
       "zones": {
         "values": [
           {
-            "id": "PM7tGY1a",
+            "id": "PV3Eyde4",
             "x": {
               "from": 2.2631135994485967,
               "to": 2.3021657701037674
@@ -1023,7 +1067,7 @@
             },
             "signal": [
               {
-                "id": "eOalLh8W",
+                "id": "lWNN4vTj",
                 "peak": [
                   {
                     "x": 2.2818003199803596,
@@ -1051,19 +1095,18 @@
             "kind": "signal"
           },
           {
-            "id": "NJij7QkS",
+            "id": "LHoD7Xkp",
             "x": {
               "from": 2.2631135994485967,
               "to": 2.3021657701037674
             },
             "y": {
               "from": 133.9226229485142,
-              "to": 135.09680521339354,
-              "pubIntegral": 1
+              "to": 135.09680521339354
             },
             "signal": [
               {
-                "id": "B3nIp4U8",
+                "id": "kGfFWSUY",
                 "peak": [
                   {
                     "x": 2.2814446465853964,
@@ -1083,9 +1126,7 @@
                 "y": {
                   "originDelta": 134.44426460508092,
                   "delta": 134.44426460508092,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal"
               }
@@ -1093,7 +1134,7 @@
             "kind": "signal"
           },
           {
-            "id": "YUN9RZDp",
+            "id": "G9baDK45",
             "x": {
               "from": 1.1891789064314033,
               "to": 1.2379941197503668
@@ -1104,7 +1145,7 @@
             },
             "signal": [
               {
-                "id": "p9gpPQbB",
+                "id": "Ml2fMZgG",
                 "peak": [
                   {
                     "x": 1.2184611595690726,
@@ -1132,7 +1173,7 @@
             "kind": "signal"
           },
           {
-            "id": "xNUBA9WK",
+            "id": "Ikhl3nFp",
             "x": {
               "from": 7.056767547370796,
               "to": 7.105582760689759
@@ -1144,7 +1185,7 @@
             },
             "signal": [
               {
-                "id": "IsHPjLkF",
+                "id": "hn6dOoSd",
                 "peak": [
                   {
                     "x": 7.084173779415502,
@@ -1174,49 +1215,7 @@
             "kind": "signal"
           },
           {
-            "id": "igI9410J",
-            "x": {
-              "from": 1.1891789064314033,
-              "to": 1.228231077086574
-            },
-            "y": {
-              "from": 171.4964554246527,
-              "to": 174.62760813099757,
-              "pubIntegral": 1
-            },
-            "signal": [
-              {
-                "id": "OOa33gRR",
-                "peak": [
-                  {
-                    "x": 1.2150253535118116,
-                    "y": 172.98551620467072,
-                    "z": 26438155.448599834,
-                    "minX": 1.1891789064314033,
-                    "maxX": 1.228231077086574,
-                    "minY": 171.4964554246527,
-                    "maxY": 174.62760813099757
-                  }
-                ],
-                "x": {
-                  "originDelta": 1.2150253535118116,
-                  "delta": 1.2150253535118116,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 172.98551620467072,
-                  "delta": 172.98551620467072,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
-                  ]
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          },
-          {
-            "id": "l5Tnxxpj",
+            "id": "WHqXuhwr",
             "x": {
               "from": 7.056767547370796,
               "to": 7.105582760689759
@@ -1227,7 +1226,7 @@
             },
             "signal": [
               {
-                "id": "p1Yxga9d",
+                "id": "me23GYAO",
                 "peak": [
                   {
                     "x": 7.083277250051527,
@@ -1255,7 +1254,7 @@
             "kind": "signal"
           },
           {
-            "id": "X2n0UNdo",
+            "id": "IrYdCv5i",
             "x": {
               "from": 2.321691855431353,
               "to": 2.370507068750316
@@ -1266,7 +1265,7 @@
             },
             "signal": [
               {
-                "id": "8KXBnouC",
+                "id": "4tA51a4W",
                 "peak": [
                   {
                     "x": 2.342557771411563,
@@ -1294,18 +1293,19 @@
             "kind": "signal"
           },
           {
-            "id": "HlJ8Usi9",
+            "id": "8q3hD57V",
             "x": {
               "from": 7.339895784620783,
               "to": 7.3887109979397465
             },
             "y": {
               "from": 133.9226229485142,
-              "to": 135.48819930168665
+              "to": 135.48819930168665,
+              "pubIntegral": 1
             },
             "signal": [
               {
-                "id": "pSIOKnxc",
+                "id": "bSNduU8g",
                 "peak": [
                   {
                     "x": 7.365227421717802,
@@ -1325,7 +1325,9 @@
                 "y": {
                   "originDelta": 134.60407598232834,
                   "delta": 134.60407598232834,
-                  "diaID": []
+                  "diaID": [
+                    "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
+                  ]
                 },
                 "kind": "signal"
               }
@@ -1333,46 +1335,7 @@
             "kind": "signal"
           },
           {
-            "id": "YpwVkCmb",
-            "x": {
-              "from": 2.321691855431353,
-              "to": 2.3607440260865236
-            },
-            "y": {
-              "from": 171.88784951294582,
-              "to": 175.01900221929068
-            },
-            "signal": [
-              {
-                "id": "K5Sff75W",
-                "peak": [
-                  {
-                    "x": 2.342336203930318,
-                    "y": 172.32868271589518,
-                    "z": 24388849.01868093,
-                    "minX": 2.321691855431353,
-                    "maxX": 2.3607440260865236,
-                    "minY": 171.88784951294582,
-                    "maxY": 175.01900221929068
-                  }
-                ],
-                "x": {
-                  "originDelta": 2.342336203930318,
-                  "delta": 2.342336203930318,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 172.32868271589518,
-                  "delta": 172.32868271589518,
-                  "diaID": []
-                },
-                "kind": "signal"
-              }
-            ],
-            "kind": "signal"
-          },
-          {
-            "id": "F0Y52o3L",
+            "id": "6ip2llzs",
             "x": {
               "from": 7.0665305900345885,
               "to": 7.105582760689759
@@ -1383,7 +1346,7 @@
             },
             "signal": [
               {
-                "id": "SK2v2Eir",
+                "id": "EOnr0EHJ",
                 "peak": [
                   {
                     "x": 7.086055570170155,
@@ -1411,7 +1374,7 @@
             "kind": "signal"
           },
           {
-            "id": "PNuT5oD3",
+            "id": "Z3huRJR7",
             "x": {
               "from": 7.339895784620783,
               "to": 7.3887109979397465
@@ -1422,7 +1385,7 @@
             },
             "signal": [
               {
-                "id": "mq5Eddl4",
+                "id": "f52EMP13",
                 "peak": [
                   {
                     "x": 7.359421869948369,
@@ -1448,15 +1411,96 @@
               }
             ],
             "kind": "signal"
+          },
+          {
+            "id": "CR0WdBuI",
+            "x": {
+              "from": 2.321691855431353,
+              "to": 2.370507068750316
+            },
+            "y": {
+              "from": 171.64006871536688,
+              "to": 173.10492428065177
+            },
+            "signal": [
+              {
+                "id": "LFQnhVdQ",
+                "peak": [
+                  {
+                    "x": 2.343607566292289,
+                    "y": 172.12843158365777,
+                    "z": 21998662.994451176,
+                    "minX": 2.321691855431353,
+                    "maxX": 2.370507068750316,
+                    "minY": 171.64006871536688,
+                    "maxY": 173.10492428065177
+                  }
+                ],
+                "x": {
+                  "originDelta": 2.343607566292289,
+                  "delta": 2.343607566292289,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 172.12843158365777,
+                  "delta": 172.12843158365777,
+                  "diaID": []
+                },
+                "kind": "signal"
+              }
+            ],
+            "kind": "signal"
+          },
+          {
+            "id": "ejvNsxOL",
+            "x": {
+              "from": 1.1891789064314036,
+              "to": 1.2379941197503668
+            },
+            "y": {
+              "from": 170.76115537619594,
+              "to": 173.1049242806518,
+              "pubIntegral": 1
+            },
+            "signal": [
+              {
+                "id": "nDHcIUIC",
+                "peak": [
+                  {
+                    "x": 1.2130759393209767,
+                    "y": 172.32505414906305,
+                    "z": 21587496.519679014,
+                    "minX": 1.1891789064314036,
+                    "maxX": 1.2379941197503668,
+                    "minY": 170.76115537619594,
+                    "maxY": 173.1049242806518
+                  }
+                ],
+                "x": {
+                  "originDelta": 1.2130759393209767,
+                  "delta": 1.2130759393209767,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 172.32505414906305,
+                  "delta": 172.32505414906305,
+                  "diaID": [
+                    "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
+                  ]
+                },
+                "kind": "signal"
+              }
+            ],
+            "kind": "signal"
           }
         ],
         "options": {}
       },
       "filters": [],
       "display": {
-        "name": "DeLrQKUB",
+        "name": "xnXYK27v",
         "positiveColor": "#007d34ff",
-        "negativeColor": "#ffff0012",
+        "negativeColor": "#ffff003b",
         "isPositiveVisible": true,
         "isNegativeVisible": true,
         "isVisible": true,
@@ -1477,8 +1521,7 @@
           }
         },
         "dimension": 2,
-        "isVisibleInDomain": false,
-        "isPeaksMarkersVisible": false
+        "isVisibleInDomain": false
       }
     }
   ],
@@ -1490,12 +1533,12 @@
   "correlations": {
     "values": [
       {
-        "id": "R0DNIZTE",
+        "id": "40lFa2YI",
         "experimentType": "hsqc",
-        "experimentID": "iRtkZNFq",
+        "experimentID": "SAY0vK0z",
         "atomType": "C",
         "signal": {
-          "id": "QlVXqNdZ",
+          "id": "A0OilT5D",
           "delta": 10.114915330803674,
           "sign": 0
         },
@@ -1504,15 +1547,15 @@
         },
         "link": [
           {
-            "id": "GGwBbKQd",
+            "id": "S8wja6wq",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "QlVXqNdZ",
+              "id": "A0OilT5D",
               "peak": [
                 {
                   "x": 1.2138916894367247,
@@ -1527,39 +1570,33 @@
               "x": {
                 "originDelta": 1.2138916894367247,
                 "delta": 1.2138916894367247,
-                "diaID": [
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 10.114915330803674,
                 "delta": 10.114915330803674,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbJhOtaJ\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              9
+              8
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "mCgbceBr",
+            "id": "wZfNWeR2",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "8KXBnouC",
+              "id": "4tA51a4W",
               "peak": [
                 {
                   "x": 2.342557771411563,
@@ -1586,7 +1623,7 @@
             },
             "axis": "y",
             "match": [
-              11
+              10
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -1595,7 +1632,7 @@
         "equivalence": 1,
         "attachment": {
           "H": [
-            9
+            8
           ]
         },
         "protonsCount": [],
@@ -1604,12 +1641,12 @@
         "edited": {}
       },
       {
-        "id": "rVCtVvbf",
+        "id": "IKtj88g4",
         "experimentType": "hsqc",
-        "experimentID": "iRtkZNFq",
+        "experimentID": "SAY0vK0z",
         "atomType": "C",
         "signal": {
-          "id": "6voBiwWO",
+          "id": "l04C9fXh",
           "delta": 21.3187318082406,
           "sign": 0
         },
@@ -1618,15 +1655,15 @@
         },
         "link": [
           {
-            "id": "UZs6wWlh",
+            "id": "pbO3DUUn",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "6voBiwWO",
+              "id": "l04C9fXh",
               "peak": [
                 {
                   "x": 2.282218367530412,
@@ -1641,39 +1678,33 @@
               "x": {
                 "originDelta": 2.282218367530412,
                 "delta": 2.282218367530412,
-                "diaID": [
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 21.3187318082406,
                 "delta": 21.3187318082406,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbMhOtaM\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              10
+              9
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "H38PNicw",
+            "id": "6AxLe3vl",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "SK2v2Eir",
+              "id": "EOnr0EHJ",
               "peak": [
                 {
                   "x": 7.086055570170155,
@@ -1700,7 +1731,7 @@
             },
             "axis": "y",
             "match": [
-              12
+              11
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -1709,7 +1740,7 @@
         "equivalence": 1,
         "attachment": {
           "H": [
-            10
+            9
           ]
         },
         "protonsCount": [],
@@ -1718,13 +1749,13 @@
         "edited": {}
       },
       {
-        "id": "3R9JY51A",
+        "id": "KWH7XqTw",
         "experimentType": "hsqc",
-        "experimentID": "iRtkZNFq",
+        "experimentID": "SAY0vK0z",
         "atomType": "C",
         "signal": {
-          "id": "P7jteE4x",
-          "delta": 31.10664088391066,
+          "id": "q46ut0xY",
+          "delta": 31.306885163729614,
           "sign": 0
         },
         "label": {
@@ -1732,61 +1763,56 @@
         },
         "link": [
           {
-            "id": "SB4TbFXo",
+            "id": "YrciZDzu",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "P7jteE4x",
+              "id": "q46ut0xY",
               "peak": [
                 {
-                  "x": 2.33989134834902,
-                  "y": 31.106640883910657,
-                  "z": 51070065.45980618,
-                  "minX": 2.282639684776182,
-                  "maxX": 2.4193222820692792,
-                  "minY": 30.594583639133347,
-                  "maxY": 31.377371815719563
+                  "x": 2.343496034559588,
+                  "y": 31.306885163729614,
+                  "z": 47348185.791831866,
+                  "minX": 2.3021657701037674,
+                  "maxX": 2.3802701114141085,
+                  "minY": 30.525649259590523,
+                  "maxY": 32.088161862561066
                 }
               ],
               "x": {
-                "originDelta": 2.33989134834902,
-                "delta": 2.33989134834902,
-                "diaID": [
-                  "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP",
-                  "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP"
-                ]
+                "originDelta": 2.343496034559588,
+                "delta": 2.343496034559588,
+                "diaID": []
               },
               "y": {
-                "originDelta": 31.10664088391066,
-                "delta": 31.10664088391066,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbLhOtaL\\Jh"
-                ]
+                "originDelta": 31.306885163729614,
+                "delta": 31.306885163729614,
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              11
+              10
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "CPJsnoxL",
+            "id": "4sYQDuS9",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "p9gpPQbB",
+              "id": "Ml2fMZgG",
               "peak": [
                 {
                   "x": 1.2184611595690726,
@@ -1813,7 +1839,7 @@
             },
             "axis": "y",
             "match": [
-              9
+              8
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -1822,7 +1848,7 @@
         "equivalence": 1,
         "attachment": {
           "H": [
-            11
+            10
           ]
         },
         "protonsCount": [],
@@ -1831,12 +1857,12 @@
         "edited": {}
       },
       {
-        "id": "PjdpKW6G",
+        "id": "Nwen3NgW",
         "experimentType": "hsqc",
-        "experimentID": "iRtkZNFq",
+        "experimentID": "SAY0vK0z",
         "atomType": "C",
         "signal": {
-          "id": "4w4KOS23",
+          "id": "G46ddFzi",
           "delta": 120.52800290942649,
           "sign": 0
         },
@@ -1845,15 +1871,15 @@
         },
         "link": [
           {
-            "id": "smJh40tx",
+            "id": "Mr52StPf",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "4w4KOS23",
+              "id": "G46ddFzi",
               "peak": [
                 {
                   "x": 7.36529136167363,
@@ -1868,39 +1894,33 @@
               "x": {
                 "originDelta": 7.36529136167363,
                 "delta": 7.36529136167363,
-                "diaID": [
-                  "dknH`BTIgHhhddiVFBBIh@GzP`HeT",
-                  "dknH`BTIgHhhddiVFBBIh@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 120.52800290942649,
                 "delta": 120.52800290942649,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh",
-                  "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              14
+              12
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "6w7clgnx",
+            "id": "iFqC5PAf",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "mq5Eddl4",
+              "id": "f52EMP13",
               "peak": [
                 {
                   "x": 7.359421869948369,
@@ -1927,7 +1947,7 @@
             },
             "axis": "y",
             "match": [
-              14
+              12
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -1936,7 +1956,7 @@
         "equivalence": 1,
         "attachment": {
           "H": [
-            14
+            12
           ]
         },
         "protonsCount": [],
@@ -1945,12 +1965,12 @@
         "edited": {}
       },
       {
-        "id": "eF59N1wJ",
+        "id": "rI8K3CuJ",
         "experimentType": "hsqc",
-        "experimentID": "iRtkZNFq",
+        "experimentID": "SAY0vK0z",
         "atomType": "C",
         "signal": {
-          "id": "zShdiZtR",
+          "id": "Ttr893Sw",
           "delta": 130.07738053383108,
           "sign": 0
         },
@@ -1959,15 +1979,15 @@
         },
         "link": [
           {
-            "id": "uSzOFhWO",
+            "id": "Eb7EiEHD",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "zShdiZtR",
+              "id": "Ttr893Sw",
               "peak": [
                 {
                   "x": 7.079772716572671,
@@ -1982,39 +2002,33 @@
               "x": {
                 "originDelta": 7.079772716572671,
                 "delta": 7.079772716572671,
-                "diaID": [
-                  "dknH`ATIeIfWvvz@`ih@GzP`HeT",
-                  "dknH`ATIeIfWvvz@`ih@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 130.07738053383108,
                 "delta": 130.07738053383108,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh",
-                  "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              12
+              11
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "yLAXxnnp",
+            "id": "F7LfWP33",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "eOalLh8W",
+              "id": "lWNN4vTj",
               "peak": [
                 {
                   "x": 2.2818003199803596,
@@ -2041,21 +2055,21 @@
             },
             "axis": "y",
             "match": [
-              10
+              9
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "U5dBX22L",
+            "id": "0mwoQhHa",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "p1Yxga9d",
+              "id": "me23GYAO",
               "peak": [
                 {
                   "x": 7.083277250051527,
@@ -2082,7 +2096,7 @@
             },
             "axis": "y",
             "match": [
-              12
+              11
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -2091,7 +2105,7 @@
         "equivalence": 1,
         "attachment": {
           "H": [
-            12
+            11
           ]
         },
         "protonsCount": [],
@@ -2100,12 +2114,12 @@
         "edited": {}
       },
       {
-        "id": "qU9N1Jne",
+        "id": "qfOT8cKZ",
         "experimentType": "hmbc",
-        "experimentID": "wlLLL2nL",
+        "experimentID": "BIqo6g2M",
         "atomType": "C",
         "signal": {
-          "id": "B3nIp4U8",
+          "id": "kGfFWSUY",
           "delta": 134.44426460508092,
           "sign": 0
         },
@@ -2114,15 +2128,15 @@
         },
         "link": [
           {
-            "id": "F7G3GdvI",
+            "id": "CWa6Ypvb",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "B3nIp4U8",
+              "id": "kGfFWSUY",
               "peak": [
                 {
                   "x": 2.2814446465853964,
@@ -2142,30 +2156,28 @@
               "y": {
                 "originDelta": 134.44426460508092,
                 "delta": 134.44426460508092,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              10
+              9
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "8XeiHsTa",
+            "id": "dNtnt6Yz",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "pSIOKnxc",
+              "id": "bSNduU8g",
               "peak": [
                 {
                   "x": 7.365227421717802,
@@ -2192,7 +2204,7 @@
             },
             "axis": "y",
             "match": [
-              14
+              12
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -2206,12 +2218,12 @@
         "edited": {}
       },
       {
-        "id": "ZE1viDoJ",
+        "id": "aXwMf8Ux",
         "experimentType": "hmbc",
-        "experimentID": "wlLLL2nL",
+        "experimentID": "BIqo6g2M",
         "atomType": "C",
         "signal": {
-          "id": "IsHPjLkF",
+          "id": "hn6dOoSd",
           "delta": 136.01858289309246,
           "sign": 0
         },
@@ -2220,15 +2232,15 @@
         },
         "link": [
           {
-            "id": "E0Zn7YIK",
+            "id": "UV7OmMe2",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "IsHPjLkF",
+              "id": "hn6dOoSd",
               "peak": [
                 {
                   "x": 7.084173779415502,
@@ -2248,71 +2260,6 @@
               "y": {
                 "originDelta": 136.01858289309246,
                 "delta": 136.01858289309246,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbBhOtaB\\Jh"
-                ]
-              },
-              "kind": "signal",
-              "sign": 0
-            },
-            "axis": "y",
-            "match": [
-              12
-            ],
-            "experimentLabel": "",
-            "pseudo": false
-          }
-        ],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": false,
-        "edited": {}
-      },
-      {
-        "id": "OtpuB2Av",
-        "experimentType": "hmbc",
-        "experimentID": "wlLLL2nL",
-        "atomType": "C",
-        "signal": {
-          "id": "K5Sff75W",
-          "delta": 172.32868271589518,
-          "sign": 0
-        },
-        "label": {
-          "origin": "C8"
-        },
-        "link": [
-          {
-            "id": "NxdUdCqv",
-            "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
-            "atomType": [
-              "H",
-              "C"
-            ],
-            "signal": {
-              "id": "K5Sff75W",
-              "peak": [
-                {
-                  "x": 2.342336203930318,
-                  "y": 172.32868271589518,
-                  "z": 24388849.01868093,
-                  "minX": 2.321691855431353,
-                  "maxX": 2.3607440260865236,
-                  "minY": 171.88784951294582,
-                  "maxY": 175.01900221929068
-                }
-              ],
-              "x": {
-                "originDelta": 2.342336203930318,
-                "delta": 2.342336203930318,
-                "diaID": []
-              },
-              "y": {
-                "originDelta": 172.32868271589518,
-                "delta": 172.32868271589518,
                 "diaID": []
               },
               "kind": "signal",
@@ -2334,58 +2281,97 @@
         "edited": {}
       },
       {
-        "id": "ckel4J44",
+        "id": "JqsqQMD6",
         "experimentType": "hmbc",
-        "experimentID": "wlLLL2nL",
+        "experimentID": "BIqo6g2M",
         "atomType": "C",
         "signal": {
-          "id": "OOa33gRR",
-          "delta": 172.98551620467072,
+          "id": "LFQnhVdQ",
+          "delta": 172.12843158365777,
           "sign": 0
         },
         "label": {
-          "origin": "C9"
+          "origin": "C8"
         },
         "link": [
           {
-            "id": "qWtOAblr",
+            "id": "A4YyrQyy",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "OOa33gRR",
+              "id": "LFQnhVdQ",
               "peak": [
                 {
-                  "x": 1.2150253535118116,
-                  "y": 172.98551620467072,
-                  "z": 26438155.448599834,
-                  "minX": 1.1891789064314033,
-                  "maxX": 1.228231077086574,
-                  "minY": 171.4964554246527,
-                  "maxY": 174.62760813099757
+                  "x": 2.343607566292289,
+                  "y": 172.12843158365777,
+                  "z": 21998662.994451176,
+                  "minX": 2.321691855431353,
+                  "maxX": 2.370507068750316,
+                  "minY": 171.64006871536688,
+                  "maxY": 173.10492428065177
                 }
               ],
               "x": {
-                "originDelta": 1.2150253535118116,
-                "delta": 1.2150253535118116,
+                "originDelta": 2.343607566292289,
+                "delta": 2.343607566292289,
                 "diaID": []
               },
               "y": {
-                "originDelta": 172.98551620467072,
-                "delta": 172.98551620467072,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
-                ]
+                "originDelta": 172.12843158365777,
+                "delta": 172.12843158365777,
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "y",
             "match": [
-              9
+              10
+            ],
+            "experimentLabel": "",
+            "pseudo": false
+          },
+          {
+            "id": "kH3TgawT",
+            "experimentType": "hmbc",
+            "experimentID": "BIqo6g2M",
+            "atomType": [
+              "H",
+              "C"
+            ],
+            "signal": {
+              "id": "nDHcIUIC",
+              "peak": [
+                {
+                  "x": 1.2130759393209767,
+                  "y": 172.32505414906305,
+                  "z": 21587496.519679014,
+                  "minX": 1.1891789064314036,
+                  "maxX": 1.2379941197503668,
+                  "minY": 170.76115537619594,
+                  "maxY": 173.1049242806518
+                }
+              ],
+              "x": {
+                "originDelta": 1.2130759393209767,
+                "delta": 1.2130759393209767,
+                "diaID": []
+              },
+              "y": {
+                "originDelta": 172.32505414906305,
+                "delta": 172.32505414906305,
+                "diaID": []
+              },
+              "kind": "signal",
+              "sign": 0
+            },
+            "axis": "y",
+            "match": [
+              8
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -2399,12 +2385,12 @@
         "edited": {}
       },
       {
-        "id": "ctZ19bz5",
+        "id": "m1Vkl7ob",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "ldoaLzOq",
+          "id": "meGGRL9H",
           "delta": 1.2150446144238913,
           "sign": 0
         },
@@ -2413,15 +2399,15 @@
         },
         "link": [
           {
-            "id": "cHeaxcvY",
+            "id": "kVOzGmVO",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "rIdY21QQ",
+              "id": "8kyrAq5V",
               "peak": [
                 {
                   "x": 1.2299419358948704,
@@ -2457,21 +2443,21 @@
             },
             "axis": "x",
             "match": [
-              11
+              10
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "lCOHEj3y",
+            "id": "11JxvdQh",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "z9StTwwx",
+              "id": "PGDLmIWB",
               "peak": [
                 {
                   "x": 2.3415816597461214,
@@ -2498,21 +2484,21 @@
             },
             "axis": "y",
             "match": [
-              11
+              10
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "HLbRedXg",
+            "id": "X9b76yuA",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "QlVXqNdZ",
+              "id": "A0OilT5D",
               "peak": [
                 {
                   "x": 1.2138916894367247,
@@ -2527,18 +2513,12 @@
               "x": {
                 "originDelta": 1.2138916894367247,
                 "delta": 1.2138916894367247,
-                "diaID": [
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                  "dknH`JHIeIVvUuvih@H@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 10.114915330803674,
                 "delta": 10.114915330803674,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbJhOtaJ\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -2551,15 +2531,15 @@
             "pseudo": false
           },
           {
-            "id": "Bbn6v3yy",
+            "id": "i5kUj2V9",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "p9gpPQbB",
+              "id": "Ml2fMZgG",
               "peak": [
                 {
                   "x": 1.2184611595690726,
@@ -2592,44 +2572,42 @@
             "pseudo": false
           },
           {
-            "id": "Mqp33wHD",
+            "id": "vuqtL7XN",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "OOa33gRR",
+              "id": "nDHcIUIC",
               "peak": [
                 {
-                  "x": 1.2150253535118116,
-                  "y": 172.98551620467072,
-                  "z": 26438155.448599834,
-                  "minX": 1.1891789064314033,
-                  "maxX": 1.228231077086574,
-                  "minY": 171.4964554246527,
-                  "maxY": 174.62760813099757
+                  "x": 1.2130759393209767,
+                  "y": 172.32505414906305,
+                  "z": 21587496.519679014,
+                  "minX": 1.1891789064314036,
+                  "maxX": 1.2379941197503668,
+                  "minY": 170.76115537619594,
+                  "maxY": 173.1049242806518
                 }
               ],
               "x": {
-                "originDelta": 1.2150253535118116,
-                "delta": 1.2150253535118116,
+                "originDelta": 1.2130759393209767,
+                "delta": 1.2130759393209767,
                 "diaID": []
               },
               "y": {
-                "originDelta": 172.98551620467072,
-                "delta": 172.98551620467072,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
-                ]
+                "originDelta": 172.32505414906305,
+                "delta": 172.32505414906305,
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
             },
             "axis": "x",
             "match": [
-              8
+              7
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -2647,12 +2625,12 @@
         "edited": {}
       },
       {
-        "id": "EwAH6qgX",
+        "id": "RDPDXnmG",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "CmXjFDJa",
+          "id": "msJVa4dI",
           "delta": 2.2823669632338177,
           "sign": 0
         },
@@ -2661,97 +2639,15 @@
         },
         "link": [
           {
-            "id": "aa3Ipkwg",
-            "experimentType": "cosy",
-            "experimentID": "CavwclzM",
-            "atomType": [
-              "H",
-              "H"
-            ],
-            "signal": {
-              "id": "nF3hPJ4c",
-              "peak": [
-                {
-                  "x": 7.086032510326923,
-                  "y": 2.2966668929221887,
-                  "z": 4006565.937113349,
-                  "minX": 7.0567675473707965,
-                  "maxX": 7.105582760689759,
-                  "minY": 2.243545770025313,
-                  "maxY": 2.3314131539994425
-                }
-              ],
-              "x": {
-                "originDelta": 7.086032510326923,
-                "delta": 7.086032510326923,
-                "diaID": []
-              },
-              "y": {
-                "originDelta": 2.2966668929221887,
-                "delta": 2.2966668929221887,
-                "diaID": []
-              },
-              "kind": "signal",
-              "sign": 0
-            },
-            "axis": "y",
-            "match": [
-              12
-            ],
-            "experimentLabel": "",
-            "pseudo": false
-          },
-          {
-            "id": "dABotnsL",
-            "experimentType": "cosy",
-            "experimentID": "CavwclzM",
-            "atomType": [
-              "H",
-              "H"
-            ],
-            "signal": {
-              "id": "ywBHlS32",
-              "peak": [
-                {
-                  "x": 2.282098776615515,
-                  "y": 7.115677176803667,
-                  "z": 3119029.5,
-                  "minX": 2.272876642112389,
-                  "maxX": 2.2924027274399745,
-                  "minY": 7.051844281942912,
-                  "maxY": 7.149474708580833
-                }
-              ],
-              "x": {
-                "originDelta": 2.282098776615515,
-                "delta": 2.282098776615515,
-                "diaID": []
-              },
-              "y": {
-                "originDelta": 7.115677176803667,
-                "delta": 7.115677176803667,
-                "diaID": []
-              },
-              "kind": "signal",
-              "sign": 0
-            },
-            "axis": "x",
-            "match": [
-              13
-            ],
-            "experimentLabel": "",
-            "pseudo": false
-          },
-          {
-            "id": "CVkyYFqe",
+            "id": "N8xj6GjY",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "6voBiwWO",
+              "id": "l04C9fXh",
               "peak": [
                 {
                   "x": 2.282218367530412,
@@ -2766,18 +2662,12 @@
               "x": {
                 "originDelta": 2.282218367530412,
                 "delta": 2.282218367530412,
-                "diaID": [
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                  "dknH`ATIeIYWVvz`@ih@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 21.3187318082406,
                 "delta": 21.3187318082406,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbMhOtaM\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -2790,15 +2680,15 @@
             "pseudo": false
           },
           {
-            "id": "HQmfh2kk",
+            "id": "HXSabT2T",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "eOalLh8W",
+              "id": "lWNN4vTj",
               "peak": [
                 {
                   "x": 2.2818003199803596,
@@ -2831,15 +2721,15 @@
             "pseudo": false
           },
           {
-            "id": "Ta8WyN8j",
+            "id": "VFSkKpy2",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "B3nIp4U8",
+              "id": "kGfFWSUY",
               "peak": [
                 {
                   "x": 2.2814446465853964,
@@ -2859,9 +2749,7 @@
               "y": {
                 "originDelta": 134.44426460508092,
                 "delta": 134.44426460508092,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -2886,12 +2774,12 @@
         "edited": {}
       },
       {
-        "id": "bNnThbT7",
+        "id": "BHtRlDcj",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "rIdY21QQ",
+          "id": "8kyrAq5V",
           "delta": 2.347386174849405,
           "sign": 0
         },
@@ -2900,15 +2788,15 @@
         },
         "link": [
           {
-            "id": "Yms1xdup",
+            "id": "0ZFmD56G",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "rIdY21QQ",
+              "id": "8kyrAq5V",
               "peak": [
                 {
                   "x": 1.2299419358948704,
@@ -2944,21 +2832,21 @@
             },
             "axis": "y",
             "match": [
-              9
+              8
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "OjO7wIid",
+            "id": "aRTMPcmI",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "z9StTwwx",
+              "id": "PGDLmIWB",
               "peak": [
                 {
                   "x": 2.3415816597461214,
@@ -2985,46 +2873,41 @@
             },
             "axis": "x",
             "match": [
-              9
+              8
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "75qd0tdp",
+            "id": "UDP5j7IB",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "P7jteE4x",
+              "id": "q46ut0xY",
               "peak": [
                 {
-                  "x": 2.33989134834902,
-                  "y": 31.106640883910657,
-                  "z": 51070065.45980618,
-                  "minX": 2.282639684776182,
-                  "maxX": 2.4193222820692792,
-                  "minY": 30.594583639133347,
-                  "maxY": 31.377371815719563
+                  "x": 2.343496034559588,
+                  "y": 31.306885163729614,
+                  "z": 47348185.791831866,
+                  "minX": 2.3021657701037674,
+                  "maxX": 2.3802701114141085,
+                  "minY": 30.525649259590523,
+                  "maxY": 32.088161862561066
                 }
               ],
               "x": {
-                "originDelta": 2.33989134834902,
-                "delta": 2.33989134834902,
-                "diaID": [
-                  "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP",
-                  "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP"
-                ]
+                "originDelta": 2.343496034559588,
+                "delta": 2.343496034559588,
+                "diaID": []
               },
               "y": {
-                "originDelta": 31.10664088391066,
-                "delta": 31.10664088391066,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbLhOtaL\\Jh"
-                ]
+                "originDelta": 31.306885163729614,
+                "delta": 31.306885163729614,
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -3037,15 +2920,15 @@
             "pseudo": false
           },
           {
-            "id": "HvqOrSyH",
+            "id": "g3EHo4HQ",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "8KXBnouC",
+              "id": "4tA51a4W",
               "peak": [
                 {
                   "x": 2.342557771411563,
@@ -3078,34 +2961,34 @@
             "pseudo": false
           },
           {
-            "id": "lcr3gXai",
+            "id": "zK8f3oJg",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "K5Sff75W",
+              "id": "LFQnhVdQ",
               "peak": [
                 {
-                  "x": 2.342336203930318,
-                  "y": 172.32868271589518,
-                  "z": 24388849.01868093,
+                  "x": 2.343607566292289,
+                  "y": 172.12843158365777,
+                  "z": 21998662.994451176,
                   "minX": 2.321691855431353,
-                  "maxX": 2.3607440260865236,
-                  "minY": 171.88784951294582,
-                  "maxY": 175.01900221929068
+                  "maxX": 2.370507068750316,
+                  "minY": 171.64006871536688,
+                  "maxY": 173.10492428065177
                 }
               ],
               "x": {
-                "originDelta": 2.342336203930318,
-                "delta": 2.342336203930318,
+                "originDelta": 2.343607566292289,
+                "delta": 2.343607566292289,
                 "diaID": []
               },
               "y": {
-                "originDelta": 172.32868271589518,
-                "delta": 172.32868271589518,
+                "originDelta": 172.12843158365777,
+                "delta": 172.12843158365777,
                 "diaID": []
               },
               "kind": "signal",
@@ -3131,12 +3014,12 @@
         "edited": {}
       },
       {
-        "id": "J3HbMEAr",
+        "id": "omsXM5IQ",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "YxLuO5ph",
+          "id": "tFQZ3dNN",
           "delta": 7.086056675362173,
           "sign": 0
         },
@@ -3145,15 +3028,15 @@
         },
         "link": [
           {
-            "id": "13txiTFJ",
+            "id": "wo6E0rlf",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "YxLuO5ph",
+              "id": "tFQZ3dNN",
               "peak": [
                 {
                   "x": 7.086056675362173,
@@ -3180,21 +3063,21 @@
             },
             "axis": "x",
             "match": [
-              15
+              13
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "OIyTUrJx",
+            "id": "3tKvTJEy",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "ZzeCnvSR",
+              "id": "XUTOMBki",
               "peak": [
                 {
                   "x": 7.361860951676904,
@@ -3221,62 +3104,21 @@
             },
             "axis": "y",
             "match": [
-              14
+              12
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "zl9qB8ON",
-            "experimentType": "cosy",
-            "experimentID": "CavwclzM",
-            "atomType": [
-              "H",
-              "H"
-            ],
-            "signal": {
-              "id": "nF3hPJ4c",
-              "peak": [
-                {
-                  "x": 7.086032510326923,
-                  "y": 2.2966668929221887,
-                  "z": 4006565.937113349,
-                  "minX": 7.0567675473707965,
-                  "maxX": 7.105582760689759,
-                  "minY": 2.243545770025313,
-                  "maxY": 2.3314131539994425
-                }
-              ],
-              "x": {
-                "originDelta": 7.086032510326923,
-                "delta": 7.086032510326923,
-                "diaID": []
-              },
-              "y": {
-                "originDelta": 2.2966668929221887,
-                "delta": 2.2966668929221887,
-                "diaID": []
-              },
-              "kind": "signal",
-              "sign": 0
-            },
-            "axis": "x",
-            "match": [
-              10
-            ],
-            "experimentLabel": "",
-            "pseudo": false
-          },
-          {
-            "id": "jolDlVlU",
+            "id": "sQvw4GZK",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "zShdiZtR",
+              "id": "Ttr893Sw",
               "peak": [
                 {
                   "x": 7.079772716572671,
@@ -3291,18 +3133,12 @@
               "x": {
                 "originDelta": 7.079772716572671,
                 "delta": 7.079772716572671,
-                "diaID": [
-                  "dknH`ATIeIfWvvz@`ih@GzP`HeT",
-                  "dknH`ATIeIfWvvz@`ih@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 130.07738053383108,
                 "delta": 130.07738053383108,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh",
-                  "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -3315,15 +3151,15 @@
             "pseudo": false
           },
           {
-            "id": "3HszSy2r",
+            "id": "Mot69vzT",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "IsHPjLkF",
+              "id": "hn6dOoSd",
               "peak": [
                 {
                   "x": 7.084173779415502,
@@ -3343,9 +3179,7 @@
               "y": {
                 "originDelta": 136.01858289309246,
                 "delta": 136.01858289309246,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbBhOtaB\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -3358,15 +3192,15 @@
             "pseudo": false
           },
           {
-            "id": "icugTTrs",
+            "id": "dFT1HOEf",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "p1Yxga9d",
+              "id": "me23GYAO",
               "peak": [
                 {
                   "x": 7.083277250051527,
@@ -3399,15 +3233,15 @@
             "pseudo": false
           },
           {
-            "id": "ZdPx6ZGR",
+            "id": "F97h5esd",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "SK2v2Eir",
+              "id": "EOnr0EHJ",
               "peak": [
                 {
                   "x": 7.086055570170155,
@@ -3452,13 +3286,13 @@
         "edited": {}
       },
       {
-        "id": "sMXhXSiD",
+        "id": "1IHkvIci",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "ywBHlS32",
-          "delta": 7.115677176803667,
+          "id": "JaJJKlEb",
+          "delta": 7.35362694519142,
           "sign": 0
         },
         "label": {
@@ -3466,78 +3300,15 @@
         },
         "link": [
           {
-            "id": "RWYFskwT",
+            "id": "VsF3qQWe",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "ywBHlS32",
-              "peak": [
-                {
-                  "x": 2.282098776615515,
-                  "y": 7.115677176803667,
-                  "z": 3119029.5,
-                  "minX": 2.272876642112389,
-                  "maxX": 2.2924027274399745,
-                  "minY": 7.051844281942912,
-                  "maxY": 7.149474708580833
-                }
-              ],
-              "x": {
-                "originDelta": 2.282098776615515,
-                "delta": 2.282098776615515,
-                "diaID": []
-              },
-              "y": {
-                "originDelta": 7.115677176803667,
-                "delta": 7.115677176803667,
-                "diaID": []
-              },
-              "kind": "signal",
-              "sign": 0
-            },
-            "axis": "y",
-            "match": [
-              10
-            ],
-            "experimentLabel": "",
-            "pseudo": false
-          }
-        ],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": false,
-        "edited": {}
-      },
-      {
-        "id": "4Nrp0rhB",
-        "experimentType": "cosy",
-        "experimentID": "CavwclzM",
-        "atomType": "H",
-        "signal": {
-          "id": "ktTnl07V",
-          "delta": 7.35362694519142,
-          "sign": 0
-        },
-        "label": {
-          "origin": "H6"
-        },
-        "link": [
-          {
-            "id": "HAoxjBVB",
-            "experimentType": "cosy",
-            "experimentID": "CavwclzM",
-            "atomType": [
-              "H",
-              "H"
-            ],
-            "signal": {
-              "id": "ZzeCnvSR",
+              "id": "XUTOMBki",
               "peak": [
                 {
                   "x": 7.361860951676904,
@@ -3564,21 +3335,21 @@
             },
             "axis": "x",
             "match": [
-              12
+              11
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "5L7tHU8M",
+            "id": "piLmRFYs",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "ktTnl07V",
+              "id": "JaJJKlEb",
               "peak": [
                 {
                   "x": 7.35362694519142,
@@ -3605,21 +3376,21 @@
             },
             "axis": "x",
             "match": [
-              15
+              13
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "VGXxlted",
+            "id": "TwKpj0Bg",
             "experimentType": "hsqc",
-            "experimentID": "iRtkZNFq",
+            "experimentID": "SAY0vK0z",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "4w4KOS23",
+              "id": "G46ddFzi",
               "peak": [
                 {
                   "x": 7.36529136167363,
@@ -3634,18 +3405,12 @@
               "x": {
                 "originDelta": 7.36529136167363,
                 "delta": 7.36529136167363,
-                "diaID": [
-                  "dknH`BTIgHhhddiVFBBIh@GzP`HeT",
-                  "dknH`BTIgHhhddiVFBBIh@GzP`HeT"
-                ]
+                "diaID": []
               },
               "y": {
                 "originDelta": 120.52800290942649,
                 "delta": 120.52800290942649,
-                "diaID": [
-                  "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh",
-                  "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh"
-                ]
+                "diaID": []
               },
               "kind": "signal",
               "sign": 0
@@ -3658,15 +3423,15 @@
             "pseudo": false
           },
           {
-            "id": "qYkcRTJM",
+            "id": "YBtfpmBu",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "pSIOKnxc",
+              "id": "bSNduU8g",
               "peak": [
                 {
                   "x": 7.365227421717802,
@@ -3699,15 +3464,15 @@
             "pseudo": false
           },
           {
-            "id": "3TVyTvwM",
+            "id": "9bfF91mK",
             "experimentType": "hmbc",
-            "experimentID": "wlLLL2nL",
+            "experimentID": "BIqo6g2M",
             "atomType": [
               "H",
               "C"
             ],
             "signal": {
-              "id": "mq5Eddl4",
+              "id": "f52EMP13",
               "peak": [
                 {
                   "x": 7.359421869948369,
@@ -3752,29 +3517,29 @@
         "edited": {}
       },
       {
-        "id": "NP1bSOcS",
+        "id": "7eGB47UU",
         "experimentType": "cosy",
-        "experimentID": "CavwclzM",
+        "experimentID": "B7BTb1nI",
         "atomType": "H",
         "signal": {
-          "id": "ktTnl07V",
+          "id": "JaJJKlEb",
           "delta": 7.385400635249916,
           "sign": 0
         },
         "label": {
-          "origin": "H7"
+          "origin": "H6"
         },
         "link": [
           {
-            "id": "SaVPjhFG",
+            "id": "rEDPcbTm",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "YxLuO5ph",
+              "id": "tFQZ3dNN",
               "peak": [
                 {
                   "x": 7.086056675362173,
@@ -3801,21 +3566,21 @@
             },
             "axis": "y",
             "match": [
-              12
+              11
             ],
             "experimentLabel": "",
             "pseudo": false
           },
           {
-            "id": "c3EJ7O0N",
+            "id": "zjd8t4Ff",
             "experimentType": "cosy",
-            "experimentID": "CavwclzM",
+            "experimentID": "B7BTb1nI",
             "atomType": [
               "H",
               "H"
             ],
             "signal": {
-              "id": "ktTnl07V",
+              "id": "JaJJKlEb",
               "peak": [
                 {
                   "x": 7.35362694519142,
@@ -3842,7 +3607,7 @@
             },
             "axis": "y",
             "match": [
-              14
+              12
             ],
             "experimentLabel": "",
             "pseudo": false
@@ -3853,132 +3618,6 @@
         "protonsCount": [],
         "hybridization": "",
         "pseudo": false,
-        "edited": {}
-      },
-      {
-        "id": "MQ0XK6ue",
-        "atomType": "C",
-        "label": {
-          "origin": "C10"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "XqMXXiEn",
-        "atomType": "H",
-        "label": {
-          "origin": "H8"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "DaYRGQFA",
-        "atomType": "H",
-        "label": {
-          "origin": "H9"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "F5EI51qc",
-        "atomType": "H",
-        "label": {
-          "origin": "H10"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "yJZ2jUHb",
-        "atomType": "H",
-        "label": {
-          "origin": "H11"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "TiXcszKW",
-        "atomType": "H",
-        "label": {
-          "origin": "H12"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "9PX39tBY",
-        "atomType": "H",
-        "label": {
-          "origin": "H13"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "LMy0zUMw",
-        "atomType": "N",
-        "label": {
-          "origin": "N1"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
-        "edited": {}
-      },
-      {
-        "id": "DxwrAGK2",
-        "atomType": "O",
-        "label": {
-          "origin": "O1"
-        },
-        "link": [],
-        "equivalence": 1,
-        "attachment": {},
-        "protonsCount": [],
-        "hybridization": "",
-        "pseudo": true,
         "edited": {}
       }
     ],
@@ -3993,12 +3632,12 @@
       },
       "values": [
         {
-          "id": "R0DNIZTE",
+          "id": "40lFa2YI",
           "experimentType": "hsqc",
-          "experimentID": "iRtkZNFq",
+          "experimentID": "SAY0vK0z",
           "atomType": "C",
           "signal": {
-            "id": "QlVXqNdZ",
+            "id": "A0OilT5D",
             "delta": 10.114915330803674,
             "sign": 0
           },
@@ -4007,15 +3646,15 @@
           },
           "link": [
             {
-              "id": "GGwBbKQd",
+              "id": "S8wja6wq",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "QlVXqNdZ",
+                "id": "A0OilT5D",
                 "peak": [
                   {
                     "x": 1.2138916894367247,
@@ -4030,39 +3669,33 @@
                 "x": {
                   "originDelta": 1.2138916894367247,
                   "delta": 1.2138916894367247,
-                  "diaID": [
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 10.114915330803674,
                   "delta": 10.114915330803674,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbJhOtaJ\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                9
+                8
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "mCgbceBr",
+              "id": "wZfNWeR2",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "8KXBnouC",
+                "id": "4tA51a4W",
                 "peak": [
                   {
                     "x": 2.342557771411563,
@@ -4089,7 +3722,7 @@
               },
               "axis": "y",
               "match": [
-                11
+                10
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4098,7 +3731,7 @@
           "equivalence": 1,
           "attachment": {
             "H": [
-              9
+              8
             ]
           },
           "protonsCount": [],
@@ -4107,12 +3740,12 @@
           "edited": {}
         },
         {
-          "id": "rVCtVvbf",
+          "id": "IKtj88g4",
           "experimentType": "hsqc",
-          "experimentID": "iRtkZNFq",
+          "experimentID": "SAY0vK0z",
           "atomType": "C",
           "signal": {
-            "id": "6voBiwWO",
+            "id": "l04C9fXh",
             "delta": 21.3187318082406,
             "sign": 0
           },
@@ -4121,15 +3754,15 @@
           },
           "link": [
             {
-              "id": "UZs6wWlh",
+              "id": "pbO3DUUn",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "6voBiwWO",
+                "id": "l04C9fXh",
                 "peak": [
                   {
                     "x": 2.282218367530412,
@@ -4144,39 +3777,33 @@
                 "x": {
                   "originDelta": 2.282218367530412,
                   "delta": 2.282218367530412,
-                  "diaID": [
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 21.3187318082406,
                   "delta": 21.3187318082406,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbMhOtaM\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                10
+                9
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "H38PNicw",
+              "id": "6AxLe3vl",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "SK2v2Eir",
+                "id": "EOnr0EHJ",
                 "peak": [
                   {
                     "x": 7.086055570170155,
@@ -4203,7 +3830,7 @@
               },
               "axis": "y",
               "match": [
-                12
+                11
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4212,7 +3839,7 @@
           "equivalence": 1,
           "attachment": {
             "H": [
-              10
+              9
             ]
           },
           "protonsCount": [],
@@ -4221,13 +3848,13 @@
           "edited": {}
         },
         {
-          "id": "3R9JY51A",
+          "id": "KWH7XqTw",
           "experimentType": "hsqc",
-          "experimentID": "iRtkZNFq",
+          "experimentID": "SAY0vK0z",
           "atomType": "C",
           "signal": {
-            "id": "P7jteE4x",
-            "delta": 31.10664088391066,
+            "id": "q46ut0xY",
+            "delta": 31.306885163729614,
             "sign": 0
           },
           "label": {
@@ -4235,61 +3862,56 @@
           },
           "link": [
             {
-              "id": "SB4TbFXo",
+              "id": "YrciZDzu",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "P7jteE4x",
+                "id": "q46ut0xY",
                 "peak": [
                   {
-                    "x": 2.33989134834902,
-                    "y": 31.106640883910657,
-                    "z": 51070065.45980618,
-                    "minX": 2.282639684776182,
-                    "maxX": 2.4193222820692792,
-                    "minY": 30.594583639133347,
-                    "maxY": 31.377371815719563
+                    "x": 2.343496034559588,
+                    "y": 31.306885163729614,
+                    "z": 47348185.791831866,
+                    "minX": 2.3021657701037674,
+                    "maxX": 2.3802701114141085,
+                    "minY": 30.525649259590523,
+                    "maxY": 32.088161862561066
                   }
                 ],
                 "x": {
-                  "originDelta": 2.33989134834902,
-                  "delta": 2.33989134834902,
-                  "diaID": [
-                    "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP",
-                    "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP"
-                  ]
+                  "originDelta": 2.343496034559588,
+                  "delta": 2.343496034559588,
+                  "diaID": []
                 },
                 "y": {
-                  "originDelta": 31.10664088391066,
-                  "delta": 31.10664088391066,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbLhOtaL\\Jh"
-                  ]
+                  "originDelta": 31.306885163729614,
+                  "delta": 31.306885163729614,
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                11
+                10
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "CPJsnoxL",
+              "id": "4sYQDuS9",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "p9gpPQbB",
+                "id": "Ml2fMZgG",
                 "peak": [
                   {
                     "x": 1.2184611595690726,
@@ -4316,7 +3938,7 @@
               },
               "axis": "y",
               "match": [
-                9
+                8
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4325,7 +3947,7 @@
           "equivalence": 1,
           "attachment": {
             "H": [
-              11
+              10
             ]
           },
           "protonsCount": [],
@@ -4334,12 +3956,12 @@
           "edited": {}
         },
         {
-          "id": "PjdpKW6G",
+          "id": "Nwen3NgW",
           "experimentType": "hsqc",
-          "experimentID": "iRtkZNFq",
+          "experimentID": "SAY0vK0z",
           "atomType": "C",
           "signal": {
-            "id": "4w4KOS23",
+            "id": "G46ddFzi",
             "delta": 120.52800290942649,
             "sign": 0
           },
@@ -4348,15 +3970,15 @@
           },
           "link": [
             {
-              "id": "smJh40tx",
+              "id": "Mr52StPf",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "4w4KOS23",
+                "id": "G46ddFzi",
                 "peak": [
                   {
                     "x": 7.36529136167363,
@@ -4371,39 +3993,33 @@
                 "x": {
                   "originDelta": 7.36529136167363,
                   "delta": 7.36529136167363,
-                  "diaID": [
-                    "dknH`BTIgHhhddiVFBBIh@GzP`HeT",
-                    "dknH`BTIgHhhddiVFBBIh@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 120.52800290942649,
                   "delta": 120.52800290942649,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh",
-                    "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                14
+                12
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "6w7clgnx",
+              "id": "iFqC5PAf",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "mq5Eddl4",
+                "id": "f52EMP13",
                 "peak": [
                   {
                     "x": 7.359421869948369,
@@ -4430,7 +4046,7 @@
               },
               "axis": "y",
               "match": [
-                14
+                12
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4439,7 +4055,7 @@
           "equivalence": 1,
           "attachment": {
             "H": [
-              14
+              12
             ]
           },
           "protonsCount": [],
@@ -4448,12 +4064,12 @@
           "edited": {}
         },
         {
-          "id": "eF59N1wJ",
+          "id": "rI8K3CuJ",
           "experimentType": "hsqc",
-          "experimentID": "iRtkZNFq",
+          "experimentID": "SAY0vK0z",
           "atomType": "C",
           "signal": {
-            "id": "zShdiZtR",
+            "id": "Ttr893Sw",
             "delta": 130.07738053383108,
             "sign": 0
           },
@@ -4462,15 +4078,15 @@
           },
           "link": [
             {
-              "id": "uSzOFhWO",
+              "id": "Eb7EiEHD",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "zShdiZtR",
+                "id": "Ttr893Sw",
                 "peak": [
                   {
                     "x": 7.079772716572671,
@@ -4485,39 +4101,33 @@
                 "x": {
                   "originDelta": 7.079772716572671,
                   "delta": 7.079772716572671,
-                  "diaID": [
-                    "dknH`ATIeIfWvvz@`ih@GzP`HeT",
-                    "dknH`ATIeIfWvvz@`ih@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 130.07738053383108,
                   "delta": 130.07738053383108,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh",
-                    "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                12
+                11
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "yLAXxnnp",
+              "id": "F7LfWP33",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "eOalLh8W",
+                "id": "lWNN4vTj",
                 "peak": [
                   {
                     "x": 2.2818003199803596,
@@ -4544,21 +4154,21 @@
               },
               "axis": "y",
               "match": [
-                10
+                9
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "U5dBX22L",
+              "id": "0mwoQhHa",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "p1Yxga9d",
+                "id": "me23GYAO",
                 "peak": [
                   {
                     "x": 7.083277250051527,
@@ -4585,7 +4195,7 @@
               },
               "axis": "y",
               "match": [
-                12
+                11
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4594,7 +4204,7 @@
           "equivalence": 1,
           "attachment": {
             "H": [
-              12
+              11
             ]
           },
           "protonsCount": [],
@@ -4603,12 +4213,12 @@
           "edited": {}
         },
         {
-          "id": "qU9N1Jne",
+          "id": "qfOT8cKZ",
           "experimentType": "hmbc",
-          "experimentID": "wlLLL2nL",
+          "experimentID": "BIqo6g2M",
           "atomType": "C",
           "signal": {
-            "id": "B3nIp4U8",
+            "id": "kGfFWSUY",
             "delta": 134.44426460508092,
             "sign": 0
           },
@@ -4617,15 +4227,15 @@
           },
           "link": [
             {
-              "id": "F7G3GdvI",
+              "id": "CWa6Ypvb",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "B3nIp4U8",
+                "id": "kGfFWSUY",
                 "peak": [
                   {
                     "x": 2.2814446465853964,
@@ -4645,30 +4255,28 @@
                 "y": {
                   "originDelta": 134.44426460508092,
                   "delta": 134.44426460508092,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                10
+                9
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "8XeiHsTa",
+              "id": "dNtnt6Yz",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "pSIOKnxc",
+                "id": "bSNduU8g",
                 "peak": [
                   {
                     "x": 7.365227421717802,
@@ -4695,7 +4303,7 @@
               },
               "axis": "y",
               "match": [
-                14
+                12
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4709,12 +4317,12 @@
           "edited": {}
         },
         {
-          "id": "ZE1viDoJ",
+          "id": "aXwMf8Ux",
           "experimentType": "hmbc",
-          "experimentID": "wlLLL2nL",
+          "experimentID": "BIqo6g2M",
           "atomType": "C",
           "signal": {
-            "id": "IsHPjLkF",
+            "id": "hn6dOoSd",
             "delta": 136.01858289309246,
             "sign": 0
           },
@@ -4723,15 +4331,15 @@
           },
           "link": [
             {
-              "id": "E0Zn7YIK",
+              "id": "UV7OmMe2",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "IsHPjLkF",
+                "id": "hn6dOoSd",
                 "peak": [
                   {
                     "x": 7.084173779415502,
@@ -4751,71 +4359,6 @@
                 "y": {
                   "originDelta": 136.01858289309246,
                   "delta": 136.01858289309246,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbBhOtaB\\Jh"
-                  ]
-                },
-                "kind": "signal",
-                "sign": 0
-              },
-              "axis": "y",
-              "match": [
-                12
-              ],
-              "experimentLabel": "",
-              "pseudo": false
-            }
-          ],
-          "equivalence": 1,
-          "attachment": {},
-          "protonsCount": [],
-          "hybridization": "",
-          "pseudo": false,
-          "edited": {}
-        },
-        {
-          "id": "OtpuB2Av",
-          "experimentType": "hmbc",
-          "experimentID": "wlLLL2nL",
-          "atomType": "C",
-          "signal": {
-            "id": "K5Sff75W",
-            "delta": 172.32868271589518,
-            "sign": 0
-          },
-          "label": {
-            "origin": "C8"
-          },
-          "link": [
-            {
-              "id": "NxdUdCqv",
-              "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
-              "atomType": [
-                "H",
-                "C"
-              ],
-              "signal": {
-                "id": "K5Sff75W",
-                "peak": [
-                  {
-                    "x": 2.342336203930318,
-                    "y": 172.32868271589518,
-                    "z": 24388849.01868093,
-                    "minX": 2.321691855431353,
-                    "maxX": 2.3607440260865236,
-                    "minY": 171.88784951294582,
-                    "maxY": 175.01900221929068
-                  }
-                ],
-                "x": {
-                  "originDelta": 2.342336203930318,
-                  "delta": 2.342336203930318,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 172.32868271589518,
-                  "delta": 172.32868271589518,
                   "diaID": []
                 },
                 "kind": "signal",
@@ -4837,58 +4380,97 @@
           "edited": {}
         },
         {
-          "id": "ckel4J44",
+          "id": "JqsqQMD6",
           "experimentType": "hmbc",
-          "experimentID": "wlLLL2nL",
+          "experimentID": "BIqo6g2M",
           "atomType": "C",
           "signal": {
-            "id": "OOa33gRR",
-            "delta": 172.98551620467072,
+            "id": "LFQnhVdQ",
+            "delta": 172.12843158365777,
             "sign": 0
           },
           "label": {
-            "origin": "C9"
+            "origin": "C8"
           },
           "link": [
             {
-              "id": "qWtOAblr",
+              "id": "A4YyrQyy",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "OOa33gRR",
+                "id": "LFQnhVdQ",
                 "peak": [
                   {
-                    "x": 1.2150253535118116,
-                    "y": 172.98551620467072,
-                    "z": 26438155.448599834,
-                    "minX": 1.1891789064314033,
-                    "maxX": 1.228231077086574,
-                    "minY": 171.4964554246527,
-                    "maxY": 174.62760813099757
+                    "x": 2.343607566292289,
+                    "y": 172.12843158365777,
+                    "z": 21998662.994451176,
+                    "minX": 2.321691855431353,
+                    "maxX": 2.370507068750316,
+                    "minY": 171.64006871536688,
+                    "maxY": 173.10492428065177
                   }
                 ],
                 "x": {
-                  "originDelta": 1.2150253535118116,
-                  "delta": 1.2150253535118116,
+                  "originDelta": 2.343607566292289,
+                  "delta": 2.343607566292289,
                   "diaID": []
                 },
                 "y": {
-                  "originDelta": 172.98551620467072,
-                  "delta": 172.98551620467072,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
-                  ]
+                  "originDelta": 172.12843158365777,
+                  "delta": 172.12843158365777,
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "y",
               "match": [
-                9
+                10
+              ],
+              "experimentLabel": "",
+              "pseudo": false
+            },
+            {
+              "id": "kH3TgawT",
+              "experimentType": "hmbc",
+              "experimentID": "BIqo6g2M",
+              "atomType": [
+                "H",
+                "C"
+              ],
+              "signal": {
+                "id": "nDHcIUIC",
+                "peak": [
+                  {
+                    "x": 1.2130759393209767,
+                    "y": 172.32505414906305,
+                    "z": 21587496.519679014,
+                    "minX": 1.1891789064314036,
+                    "maxX": 1.2379941197503668,
+                    "minY": 170.76115537619594,
+                    "maxY": 173.1049242806518
+                  }
+                ],
+                "x": {
+                  "originDelta": 1.2130759393209767,
+                  "delta": 1.2130759393209767,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 172.32505414906305,
+                  "delta": 172.32505414906305,
+                  "diaID": []
+                },
+                "kind": "signal",
+                "sign": 0
+              },
+              "axis": "y",
+              "match": [
+                8
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -4902,12 +4484,12 @@
           "edited": {}
         },
         {
-          "id": "ctZ19bz5",
+          "id": "m1Vkl7ob",
           "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "experimentID": "B7BTb1nI",
           "atomType": "H",
           "signal": {
-            "id": "ldoaLzOq",
+            "id": "meGGRL9H",
             "delta": 1.2150446144238913,
             "sign": 0
           },
@@ -4916,15 +4498,15 @@
           },
           "link": [
             {
-              "id": "cHeaxcvY",
+              "id": "kVOzGmVO",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "rIdY21QQ",
+                "id": "8kyrAq5V",
                 "peak": [
                   {
                     "x": 1.2299419358948704,
@@ -4960,21 +4542,21 @@
               },
               "axis": "x",
               "match": [
-                11
+                10
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "lCOHEj3y",
+              "id": "11JxvdQh",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "z9StTwwx",
+                "id": "PGDLmIWB",
                 "peak": [
                   {
                     "x": 2.3415816597461214,
@@ -5001,21 +4583,21 @@
               },
               "axis": "y",
               "match": [
-                11
+                10
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "HLbRedXg",
+              "id": "X9b76yuA",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "QlVXqNdZ",
+                "id": "A0OilT5D",
                 "peak": [
                   {
                     "x": 1.2138916894367247,
@@ -5030,18 +4612,12 @@
                 "x": {
                   "originDelta": 1.2138916894367247,
                   "delta": 1.2138916894367247,
-                  "diaID": [
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT",
-                    "dknH`JHIeIVvUuvih@H@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 10.114915330803674,
                   "delta": 10.114915330803674,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbJhOtaJ\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5054,15 +4630,15 @@
               "pseudo": false
             },
             {
-              "id": "Bbn6v3yy",
+              "id": "i5kUj2V9",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "p9gpPQbB",
+                "id": "Ml2fMZgG",
                 "peak": [
                   {
                     "x": 1.2184611595690726,
@@ -5095,44 +4671,42 @@
               "pseudo": false
             },
             {
-              "id": "Mqp33wHD",
+              "id": "vuqtL7XN",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "OOa33gRR",
+                "id": "nDHcIUIC",
                 "peak": [
                   {
-                    "x": 1.2150253535118116,
-                    "y": 172.98551620467072,
-                    "z": 26438155.448599834,
-                    "minX": 1.1891789064314033,
-                    "maxX": 1.228231077086574,
-                    "minY": 171.4964554246527,
-                    "maxY": 174.62760813099757
+                    "x": 1.2130759393209767,
+                    "y": 172.32505414906305,
+                    "z": 21587496.519679014,
+                    "minX": 1.1891789064314036,
+                    "maxX": 1.2379941197503668,
+                    "minY": 170.76115537619594,
+                    "maxY": 173.1049242806518
                   }
                 ],
                 "x": {
-                  "originDelta": 1.2150253535118116,
-                  "delta": 1.2150253535118116,
+                  "originDelta": 1.2130759393209767,
+                  "delta": 1.2130759393209767,
                   "diaID": []
                 },
                 "y": {
-                  "originDelta": 172.98551620467072,
-                  "delta": 172.98551620467072,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbHhOtaH\\Jh"
-                  ]
+                  "originDelta": 172.32505414906305,
+                  "delta": 172.32505414906305,
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
               },
               "axis": "x",
               "match": [
-                8
+                7
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -5150,12 +4724,12 @@
           "edited": {}
         },
         {
-          "id": "EwAH6qgX",
+          "id": "RDPDXnmG",
           "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "experimentID": "B7BTb1nI",
           "atomType": "H",
           "signal": {
-            "id": "CmXjFDJa",
+            "id": "msJVa4dI",
             "delta": 2.2823669632338177,
             "sign": 0
           },
@@ -5164,97 +4738,15 @@
           },
           "link": [
             {
-              "id": "aa3Ipkwg",
-              "experimentType": "cosy",
-              "experimentID": "CavwclzM",
-              "atomType": [
-                "H",
-                "H"
-              ],
-              "signal": {
-                "id": "nF3hPJ4c",
-                "peak": [
-                  {
-                    "x": 7.086032510326923,
-                    "y": 2.2966668929221887,
-                    "z": 4006565.937113349,
-                    "minX": 7.0567675473707965,
-                    "maxX": 7.105582760689759,
-                    "minY": 2.243545770025313,
-                    "maxY": 2.3314131539994425
-                  }
-                ],
-                "x": {
-                  "originDelta": 7.086032510326923,
-                  "delta": 7.086032510326923,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 2.2966668929221887,
-                  "delta": 2.2966668929221887,
-                  "diaID": []
-                },
-                "kind": "signal",
-                "sign": 0
-              },
-              "axis": "y",
-              "match": [
-                12
-              ],
-              "experimentLabel": "",
-              "pseudo": false
-            },
-            {
-              "id": "dABotnsL",
-              "experimentType": "cosy",
-              "experimentID": "CavwclzM",
-              "atomType": [
-                "H",
-                "H"
-              ],
-              "signal": {
-                "id": "ywBHlS32",
-                "peak": [
-                  {
-                    "x": 2.282098776615515,
-                    "y": 7.115677176803667,
-                    "z": 3119029.5,
-                    "minX": 2.272876642112389,
-                    "maxX": 2.2924027274399745,
-                    "minY": 7.051844281942912,
-                    "maxY": 7.149474708580833
-                  }
-                ],
-                "x": {
-                  "originDelta": 2.282098776615515,
-                  "delta": 2.282098776615515,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 7.115677176803667,
-                  "delta": 7.115677176803667,
-                  "diaID": []
-                },
-                "kind": "signal",
-                "sign": 0
-              },
-              "axis": "x",
-              "match": [
-                13
-              ],
-              "experimentLabel": "",
-              "pseudo": false
-            },
-            {
-              "id": "CVkyYFqe",
+              "id": "N8xj6GjY",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "6voBiwWO",
+                "id": "l04C9fXh",
                 "peak": [
                   {
                     "x": 2.282218367530412,
@@ -5269,18 +4761,12 @@
                 "x": {
                   "originDelta": 2.282218367530412,
                   "delta": 2.282218367530412,
-                  "diaID": [
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT",
-                    "dknH`ATIeIYWVvz`@ih@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 21.3187318082406,
                   "delta": 21.3187318082406,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbMhOtaM\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5293,15 +4779,15 @@
               "pseudo": false
             },
             {
-              "id": "HQmfh2kk",
+              "id": "HXSabT2T",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "eOalLh8W",
+                "id": "lWNN4vTj",
                 "peak": [
                   {
                     "x": 2.2818003199803596,
@@ -5334,15 +4820,15 @@
               "pseudo": false
             },
             {
-              "id": "Ta8WyN8j",
+              "id": "VFSkKpy2",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "B3nIp4U8",
+                "id": "kGfFWSUY",
                 "peak": [
                   {
                     "x": 2.2814446465853964,
@@ -5362,9 +4848,7 @@
                 "y": {
                   "originDelta": 134.44426460508092,
                   "delta": 134.44426460508092,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbEhOtaE\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5389,12 +4873,12 @@
           "edited": {}
         },
         {
-          "id": "bNnThbT7",
+          "id": "BHtRlDcj",
           "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "experimentID": "B7BTb1nI",
           "atomType": "H",
           "signal": {
-            "id": "rIdY21QQ",
+            "id": "8kyrAq5V",
             "delta": 2.347386174849405,
             "sign": 0
           },
@@ -5403,15 +4887,15 @@
           },
           "link": [
             {
-              "id": "Yms1xdup",
+              "id": "0ZFmD56G",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "rIdY21QQ",
+                "id": "8kyrAq5V",
                 "peak": [
                   {
                     "x": 1.2299419358948704,
@@ -5447,21 +4931,21 @@
               },
               "axis": "y",
               "match": [
-                9
+                8
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "OjO7wIid",
+              "id": "aRTMPcmI",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "z9StTwwx",
+                "id": "PGDLmIWB",
                 "peak": [
                   {
                     "x": 2.3415816597461214,
@@ -5488,46 +4972,41 @@
               },
               "axis": "x",
               "match": [
-                9
+                8
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "75qd0tdp",
+              "id": "UDP5j7IB",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "P7jteE4x",
+                "id": "q46ut0xY",
                 "peak": [
                   {
-                    "x": 2.33989134834902,
-                    "y": 31.106640883910657,
-                    "z": 51070065.45980618,
-                    "minX": 2.282639684776182,
-                    "maxX": 2.4193222820692792,
-                    "minY": 30.594583639133347,
-                    "maxY": 31.377371815719563
+                    "x": 2.343496034559588,
+                    "y": 31.306885163729614,
+                    "z": 47348185.791831866,
+                    "minX": 2.3021657701037674,
+                    "maxX": 2.3802701114141085,
+                    "minY": 30.525649259590523,
+                    "maxY": 32.088161862561066
                   }
                 ],
                 "x": {
-                  "originDelta": 2.33989134834902,
-                  "delta": 2.33989134834902,
-                  "diaID": [
-                    "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP",
-                    "dknH`JHIgHhhUDeevih@HbJ@_iB@bUP"
-                  ]
+                  "originDelta": 2.343496034559588,
+                  "delta": 2.343496034559588,
+                  "diaID": []
                 },
                 "y": {
-                  "originDelta": 31.10664088391066,
-                  "delta": 31.10664088391066,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbLhOtaL\\Jh"
-                  ]
+                  "originDelta": 31.306885163729614,
+                  "delta": 31.306885163729614,
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5540,15 +5019,15 @@
               "pseudo": false
             },
             {
-              "id": "HvqOrSyH",
+              "id": "g3EHo4HQ",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "8KXBnouC",
+                "id": "4tA51a4W",
                 "peak": [
                   {
                     "x": 2.342557771411563,
@@ -5581,34 +5060,34 @@
               "pseudo": false
             },
             {
-              "id": "lcr3gXai",
+              "id": "zK8f3oJg",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "K5Sff75W",
+                "id": "LFQnhVdQ",
                 "peak": [
                   {
-                    "x": 2.342336203930318,
-                    "y": 172.32868271589518,
-                    "z": 24388849.01868093,
+                    "x": 2.343607566292289,
+                    "y": 172.12843158365777,
+                    "z": 21998662.994451176,
                     "minX": 2.321691855431353,
-                    "maxX": 2.3607440260865236,
-                    "minY": 171.88784951294582,
-                    "maxY": 175.01900221929068
+                    "maxX": 2.370507068750316,
+                    "minY": 171.64006871536688,
+                    "maxY": 173.10492428065177
                   }
                 ],
                 "x": {
-                  "originDelta": 2.342336203930318,
-                  "delta": 2.342336203930318,
+                  "originDelta": 2.343607566292289,
+                  "delta": 2.343607566292289,
                   "diaID": []
                 },
                 "y": {
-                  "originDelta": 172.32868271589518,
-                  "delta": 172.32868271589518,
+                  "originDelta": 172.12843158365777,
+                  "delta": 172.12843158365777,
                   "diaID": []
                 },
                 "kind": "signal",
@@ -5634,12 +5113,75 @@
           "edited": {}
         },
         {
-          "id": "J3HbMEAr",
-          "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "id": "p2ZQV31t",
+          "experimentType": "hmbc",
+          "experimentID": "BIqo6g2M",
           "atomType": "H",
           "signal": {
-            "id": "YxLuO5ph",
+            "id": "lxxPDQj9",
+            "delta": 2.4003209622648676,
+            "sign": 0
+          },
+          "label": {
+            "origin": "H4"
+          },
+          "link": [
+            {
+              "id": "DLyHCYMb",
+              "experimentType": "hmbc",
+              "experimentID": "BIqo6g2M",
+              "atomType": [
+                "H",
+                "C"
+              ],
+              "signal": {
+                "id": "lxxPDQj9",
+                "peak": [
+                  {
+                    "x": 2.4003209622648676,
+                    "y": 21.4970892545712,
+                    "z": 8166901.1904052505,
+                    "minX": 2.3900331540779014,
+                    "maxX": 2.4193222820692792,
+                    "minY": 20.80973143180561,
+                    "maxY": 21.983913696684944
+                  }
+                ],
+                "x": {
+                  "originDelta": 2.4003209622648676,
+                  "delta": 2.4003209622648676,
+                  "diaID": []
+                },
+                "y": {
+                  "originDelta": 21.4970892545712,
+                  "delta": 21.4970892545712,
+                  "diaID": []
+                },
+                "kind": "signal",
+                "sign": 0
+              },
+              "axis": "x",
+              "match": [
+                1
+              ],
+              "experimentLabel": "",
+              "pseudo": false
+            }
+          ],
+          "equivalence": 1,
+          "attachment": {},
+          "protonsCount": [],
+          "hybridization": "",
+          "pseudo": false,
+          "edited": {}
+        },
+        {
+          "id": "omsXM5IQ",
+          "experimentType": "cosy",
+          "experimentID": "B7BTb1nI",
+          "atomType": "H",
+          "signal": {
+            "id": "tFQZ3dNN",
             "delta": 7.086056675362173,
             "sign": 0
           },
@@ -5648,15 +5190,15 @@
           },
           "link": [
             {
-              "id": "13txiTFJ",
+              "id": "wo6E0rlf",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "YxLuO5ph",
+                "id": "tFQZ3dNN",
                 "peak": [
                   {
                     "x": 7.086056675362173,
@@ -5683,21 +5225,21 @@
               },
               "axis": "x",
               "match": [
-                15
+                13
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "OIyTUrJx",
+              "id": "3tKvTJEy",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "ZzeCnvSR",
+                "id": "XUTOMBki",
                 "peak": [
                   {
                     "x": 7.361860951676904,
@@ -5724,62 +5266,21 @@
               },
               "axis": "y",
               "match": [
-                14
+                12
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "zl9qB8ON",
-              "experimentType": "cosy",
-              "experimentID": "CavwclzM",
-              "atomType": [
-                "H",
-                "H"
-              ],
-              "signal": {
-                "id": "nF3hPJ4c",
-                "peak": [
-                  {
-                    "x": 7.086032510326923,
-                    "y": 2.2966668929221887,
-                    "z": 4006565.937113349,
-                    "minX": 7.0567675473707965,
-                    "maxX": 7.105582760689759,
-                    "minY": 2.243545770025313,
-                    "maxY": 2.3314131539994425
-                  }
-                ],
-                "x": {
-                  "originDelta": 7.086032510326923,
-                  "delta": 7.086032510326923,
-                  "diaID": []
-                },
-                "y": {
-                  "originDelta": 2.2966668929221887,
-                  "delta": 2.2966668929221887,
-                  "diaID": []
-                },
-                "kind": "signal",
-                "sign": 0
-              },
-              "axis": "x",
-              "match": [
-                10
-              ],
-              "experimentLabel": "",
-              "pseudo": false
-            },
-            {
-              "id": "jolDlVlU",
+              "id": "sQvw4GZK",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "zShdiZtR",
+                "id": "Ttr893Sw",
                 "peak": [
                   {
                     "x": 7.079772716572671,
@@ -5794,18 +5295,12 @@
                 "x": {
                   "originDelta": 7.079772716572671,
                   "delta": 7.079772716572671,
-                  "diaID": [
-                    "dknH`ATIeIfWvvz@`ih@GzP`HeT",
-                    "dknH`ATIeIfWvvz@`ih@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 130.07738053383108,
                   "delta": 130.07738053383108,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh",
-                    "dcNH@DAIe[WeVj@B@AbAhOtaA\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5818,15 +5313,15 @@
               "pseudo": false
             },
             {
-              "id": "3HszSy2r",
+              "id": "Mot69vzT",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "IsHPjLkF",
+                "id": "hn6dOoSd",
                 "peak": [
                   {
                     "x": 7.084173779415502,
@@ -5846,9 +5341,7 @@
                 "y": {
                   "originDelta": 136.01858289309246,
                   "delta": 136.01858289309246,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbBhOtaB\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -5861,15 +5354,15 @@
               "pseudo": false
             },
             {
-              "id": "icugTTrs",
+              "id": "dFT1HOEf",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "p1Yxga9d",
+                "id": "me23GYAO",
                 "peak": [
                   {
                     "x": 7.083277250051527,
@@ -5902,15 +5395,15 @@
               "pseudo": false
             },
             {
-              "id": "ZdPx6ZGR",
+              "id": "F97h5esd",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "SK2v2Eir",
+                "id": "EOnr0EHJ",
                 "peak": [
                   {
                     "x": 7.086055570170155,
@@ -5955,50 +5448,29 @@
           "edited": {}
         },
         {
-          "id": "KEXPADnv",
+          "id": "1IHkvIci",
           "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "experimentID": "B7BTb1nI",
           "atomType": "H",
           "signal": {
-            "id": "ywBHlS32",
-            "delta": 7.115677176803667,
+            "id": "JaJJKlEb",
+            "delta": 7.35362694519142,
             "sign": 0
           },
           "label": {
             "origin": "H5"
           },
-          "link": [],
-          "equivalence": 1,
-          "attachment": {},
-          "protonsCount": [],
-          "hybridization": "",
-          "pseudo": false,
-          "edited": {}
-        },
-        {
-          "id": "4Nrp0rhB",
-          "experimentType": "cosy",
-          "experimentID": "CavwclzM",
-          "atomType": "H",
-          "signal": {
-            "id": "ktTnl07V",
-            "delta": 7.35362694519142,
-            "sign": 0
-          },
-          "label": {
-            "origin": "H6"
-          },
           "link": [
             {
-              "id": "HAoxjBVB",
+              "id": "VsF3qQWe",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "ZzeCnvSR",
+                "id": "XUTOMBki",
                 "peak": [
                   {
                     "x": 7.361860951676904,
@@ -6025,21 +5497,21 @@
               },
               "axis": "x",
               "match": [
-                12
+                11
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "5L7tHU8M",
+              "id": "piLmRFYs",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "ktTnl07V",
+                "id": "JaJJKlEb",
                 "peak": [
                   {
                     "x": 7.35362694519142,
@@ -6066,21 +5538,21 @@
               },
               "axis": "x",
               "match": [
-                15
+                13
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "VGXxlted",
+              "id": "TwKpj0Bg",
               "experimentType": "hsqc",
-              "experimentID": "iRtkZNFq",
+              "experimentID": "SAY0vK0z",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "4w4KOS23",
+                "id": "G46ddFzi",
                 "peak": [
                   {
                     "x": 7.36529136167363,
@@ -6095,18 +5567,12 @@
                 "x": {
                   "originDelta": 7.36529136167363,
                   "delta": 7.36529136167363,
-                  "diaID": [
-                    "dknH`BTIgHhhddiVFBBIh@GzP`HeT",
-                    "dknH`BTIgHhhddiVFBBIh@GzP`HeT"
-                  ]
+                  "diaID": []
                 },
                 "y": {
                   "originDelta": 120.52800290942649,
                   "delta": 120.52800290942649,
-                  "diaID": [
-                    "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh",
-                    "dcNH@DAIe[WeVj@B@AbFhOtaF\\Jh"
-                  ]
+                  "diaID": []
                 },
                 "kind": "signal",
                 "sign": 0
@@ -6119,15 +5585,15 @@
               "pseudo": false
             },
             {
-              "id": "qYkcRTJM",
+              "id": "YBtfpmBu",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "pSIOKnxc",
+                "id": "bSNduU8g",
                 "peak": [
                   {
                     "x": 7.365227421717802,
@@ -6160,15 +5626,15 @@
               "pseudo": false
             },
             {
-              "id": "3TVyTvwM",
+              "id": "9bfF91mK",
               "experimentType": "hmbc",
-              "experimentID": "wlLLL2nL",
+              "experimentID": "BIqo6g2M",
               "atomType": [
                 "H",
                 "C"
               ],
               "signal": {
-                "id": "mq5Eddl4",
+                "id": "f52EMP13",
                 "peak": [
                   {
                     "x": 7.359421869948369,
@@ -6213,29 +5679,29 @@
           "edited": {}
         },
         {
-          "id": "NP1bSOcS",
+          "id": "7eGB47UU",
           "experimentType": "cosy",
-          "experimentID": "CavwclzM",
+          "experimentID": "B7BTb1nI",
           "atomType": "H",
           "signal": {
-            "id": "ktTnl07V",
+            "id": "JaJJKlEb",
             "delta": 7.385400635249916,
             "sign": 0
           },
           "label": {
-            "origin": "H7"
+            "origin": "H6"
           },
           "link": [
             {
-              "id": "SaVPjhFG",
+              "id": "rEDPcbTm",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "YxLuO5ph",
+                "id": "tFQZ3dNN",
                 "peak": [
                   {
                     "x": 7.086056675362173,
@@ -6262,21 +5728,21 @@
               },
               "axis": "y",
               "match": [
-                12
+                11
               ],
               "experimentLabel": "",
               "pseudo": false
             },
             {
-              "id": "c3EJ7O0N",
+              "id": "zjd8t4Ff",
               "experimentType": "cosy",
-              "experimentID": "CavwclzM",
+              "experimentID": "B7BTb1nI",
               "atomType": [
                 "H",
                 "H"
               ],
               "signal": {
-                "id": "ktTnl07V",
+                "id": "JaJJKlEb",
                 "peak": [
                   {
                     "x": 7.35362694519142,
@@ -6303,7 +5769,7 @@
               },
               "axis": "y",
               "match": [
-                14
+                12
               ],
               "experimentLabel": "",
               "pseudo": false
@@ -6316,34 +5782,19 @@
           "pseudo": false,
           "edited": {}
         }
-      ],
-      "mf": "C10H13NO"
+      ]
     },
     "state": {
       "C": {
-        "current": 9,
-        "total": 10,
-        "complete": false,
-        "error": {
-          "incomplete": true
-        }
+        "current": 8,
+        "error": {}
       },
       "H": {
         "current": 5,
-        "total": 13,
-        "complete": false,
         "error": {
           "notAttached": [
-            13,
-            15,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22
-          ],
-          "incomplete": true
+            13
+          ]
         }
       }
     }
