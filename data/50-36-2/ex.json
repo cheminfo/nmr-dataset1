@@ -5,7 +5,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/13c.dx"
+                "jcampURL": "./50-36-2/apt.dx"
             },
             "display": {
                 "name": "13c",
@@ -80,10 +80,10 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/1dnoe.dx"
+                "jcampURL": "./50-36-2/noesy.dx"
             },
             "display": {
-                "name": "1dnoe",
+                "name": "noesy",
                 "color": "#C10020",
                 "isVisible": true,
                 "isPeaksMarkersVisible": true,
