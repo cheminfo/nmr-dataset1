@@ -7,32 +7,42 @@
     },
     {
       "source": {
+        "jcampURL": "./403-40-7/teaching/1h-19f-dec.dx"
+      }
+    },
+    {
+      "source": {
         "jcampURL": "./403-40-7/teaching/13c.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./403-40-7/teaching/dept135.dx"
+        "jcampURL": "./403-40-7/teaching/13c_1h-19f-dec.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./403-40-7/teaching/apt.dx"
+        "jcampURL": "./403-40-7/teaching/13c_1h-dec.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./403-40-7/teaching/cosy.dx"
+        "jcampURL": "./403-40-7/teaching/19f.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./403-40-7/teaching/hmqc.dx"
+        "jcampURL": "./403-40-7/teaching/19f_1h-dec.dx"
       }
     },
     {
       "source": {
-        "jcampURL": "./403-40-7/teaching/hmbc.dx"
+        "jcampURL": "./403-40-7/teaching/hf-hoesy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/fc-dosy.dx"
       }
     }
   ]
