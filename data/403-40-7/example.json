@@ -1,1 +1,39 @@
-
+{
+  "spectra": [
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/1h.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/13c.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/dept135.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/apt.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/cosy.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/hmqc.dx"
+      }
+    },
+    {
+      "source": {
+        "jcampURL": "./403-40-7/teaching/hmbc.dx"
+      }
+    }
+  ]
+}
