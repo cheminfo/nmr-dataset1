@@ -5,7 +5,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/apt.dx"
+                "jcampURL": "./teaching/50-36-2/apt.dx"
             },
             "display": {
                 "name": "13c",
@@ -20,7 +20,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/1h.dx"
+                "jcampURL": "./teaching/50-36-2/1h.dx"
             },
             "display": {
                 "name": "1h",
@@ -35,7 +35,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/cosy.dx"
+                "jcampURL": "./teaching/50-36-2/cosy.dx"
             },
             "display": {
                 "name": "cosy",
@@ -50,7 +50,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/hmbc.dx"
+                "jcampURL": "./teaching/50-36-2/hmbc.dx"
             },
             "display": {
                 "name": "hmbc",
@@ -65,7 +65,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/hmqc.dx"
+                "jcampURL": "./teaching/50-36-2/hsqced.dx"
             },
             "display": {
                 "name": "hmqc",
@@ -80,7 +80,7 @@
             "source": {
                 "original": [],
                 "jcamp": null,
-                "jcampURL": "./50-36-2/noesy.dx"
+                "jcampURL": "./teaching/50-36-2/noesy.dx"
             },
             "display": {
                 "name": "noesy",
