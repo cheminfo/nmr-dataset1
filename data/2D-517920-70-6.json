@@ -1,1 +1,12 @@
-
+[
+    {
+        "groupName": "List of Exercise",
+        "children": [
+            {
+                "file": "./517920-70-6/example.json",
+                "title": "Exercise 1",
+                "view": "Teaching"
+            }
+                    ]
+    }
+]
